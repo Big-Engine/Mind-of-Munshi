@@ -1,0 +1,19 @@
+//Reselect Joint to update world position coords
+dR_paintPress;
+selectPref -paintSelectRefine 1 -paintSelect 1;
+dR_paintRelease;
+selectPref -paintSelectRefine 0 -paintSelect 0;
+
+//Move Joint back to set coords
+move(-29.55,200.00,-42.87);
+rotate 90deg 0deg 90deg -ws;
+
+//Get current Keyframe
+$time = `currentTime -q`;
+
+//Create Keyframe
+setKeyframe -breakdown 0 |Root|Pelvis|Hip|Chest|Shoulders|Neck_Base|Neck_Middle|CameraJoint.translate;
+setKeyframe -breakdown 0 -hierarchy none -controlPoints 0 -shape 0 {"CameraJoint"};
+
+//Advance to the next keyframe so we can spam click!
+currentTime ($time + 1);
