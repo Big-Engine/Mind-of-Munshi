@@ -1,0 +1,190 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/character/urban/subway_bum/subway_bum.dae">
+            <SubMesh ID="0" Name="subway_bum" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="5352" Material="" />
+            <SubMesh ID="1" Name="bum_head" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="2531" Material="" />
+            <SubMesh ID="2" Name="bum_head_hair" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="196" Material="" />
+            <SubMesh ID="3" Name="bum_eye_left" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="81" Material="" />
+            <SubMesh ID="4" Name="bum_eye_right" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="81" Material="" />
+        </Mesh>
+        <Bones>
+            <Bone ID="5" Name="main" />
+            <Bone ID="6" Name="Pelvis_space" />
+            <Bone ID="7" Name="RootCtrl" />
+            <Bone ID="8" Name="root" />
+            <Bone ID="9" Name="R_Thigh" />
+            <Bone ID="10" Name="R_Shin" />
+            <Bone ID="11" Name="R_Ankle" />
+            <Bone ID="12" Name="R_Toes" />
+            <Bone ID="13" Name="Spine_Base" />
+            <Bone ID="14" Name="Spine" />
+            <Bone ID="15" Name="Chest" />
+            <Bone ID="16" Name="Neck_Base" />
+            <Bone ID="17" Name="Neck_Middle" />
+            <Bone ID="18" Name="Head" />
+            <Bone ID="19" Name="Jaw" />
+            <Bone ID="20" Name="Chin" />
+            <Bone ID="21" Name="Lip_Lower" />
+            <Bone ID="22" Name="R_Cheek_Lower" />
+            <Bone ID="23" Name="R_Lip_Lower" />
+            <Bone ID="24" Name="Tounge" />
+            <Bone ID="25" Name="L_Cheek_Lower" />
+            <Bone ID="26" Name="L_Lip_Lower" />
+            <Bone ID="27" Name="Lip_Upper" />
+            <Bone ID="28" Name="R_Mouth_Corner" />
+            <Bone ID="29" Name="R_Lip_Upper" />
+            <Bone ID="30" Name="R_Cheek_Upper" />
+            <Bone ID="31" Name="R_Nose" />
+            <Bone ID="32" Name="R_Eye_Expression" />
+            <Bone ID="33" Name="R_Eye" />
+            <Bone ID="34" Name="R_Eyebrow_Outer" />
+            <Bone ID="35" Name="R_Eyebrow_Inner" />
+            <Bone ID="36" Name="R_Eyelid_Upper" />
+            <Bone ID="37" Name="R_Eyelid_Lower" />
+            <Bone ID="38" Name="L_Mouth_Corner" />
+            <Bone ID="39" Name="L_Lip_Upper" />
+            <Bone ID="40" Name="L_Cheek_Upper" />
+            <Bone ID="41" Name="L_Nose" />
+            <Bone ID="42" Name="L_Eye_Expression" />
+            <Bone ID="43" Name="L_Eye" />
+            <Bone ID="44" Name="L_Eyebrow_Outer" />
+            <Bone ID="45" Name="L_Eyebrow_Inner" />
+            <Bone ID="46" Name="L_Eyelid_Upper" />
+            <Bone ID="47" Name="L_Eyelid_Lower" />
+            <Bone ID="48" Name="Hair_Left" />
+            <Bone ID="49" Name="Hair_Right" />
+            <Bone ID="50" Name="Hair_Back" />
+            <Bone ID="51" Name="R_Clavicle" />
+            <Bone ID="52" Name="R_Arm" />
+            <Bone ID="53" Name="R_Forearm" />
+            <Bone ID="54" Name="R_Wrist" />
+            <Bone ID="55" Name="R_Hand" />
+            <Bone ID="56" Name="R_Finger_Middle1" />
+            <Bone ID="57" Name="R_Finger_Middle2" />
+            <Bone ID="58" Name="R_Finger_Middle3" />
+            <Bone ID="59" Name="R_Finger_Index1" />
+            <Bone ID="60" Name="R_Finger_Index2" />
+            <Bone ID="61" Name="R_Finger_Index3" />
+            <Bone ID="62" Name="R_Finger_Thumb1" />
+            <Bone ID="63" Name="R_Finger_Thumb2" />
+            <Bone ID="64" Name="R_Finger_Thumb3" />
+            <Bone ID="65" Name="R_Finger_Ring1" />
+            <Bone ID="66" Name="R_Finger_Ring2" />
+            <Bone ID="67" Name="R_Finger_Ring3" />
+            <Bone ID="68" Name="R_Finger_Pinky1" />
+            <Bone ID="69" Name="R_Finger_Pinky2" />
+            <Bone ID="70" Name="R_Finger_Pinky3" />
+            <Bone ID="71" Name="L_Clavicle" />
+            <Bone ID="72" Name="L_Arm" />
+            <Bone ID="73" Name="L_Forearm" />
+            <Bone ID="74" Name="L_Wrist" />
+            <Bone ID="75" Name="L_Hand" />
+            <Bone ID="76" Name="L_Finger_Middle1" />
+            <Bone ID="77" Name="L_Finger_Middle2" />
+            <Bone ID="78" Name="L_Finger_Middle3" />
+            <Bone ID="79" Name="L_Finger_Index1" />
+            <Bone ID="80" Name="L_Finger_Index2" />
+            <Bone ID="81" Name="L_Finger_Index3" />
+            <Bone ID="82" Name="L_Finger_Thumb1" />
+            <Bone ID="83" Name="L_Finger_Thumb2" />
+            <Bone ID="84" Name="L_Finger_Thumb3" />
+            <Bone ID="85" Name="L_Finger_Ring1" />
+            <Bone ID="86" Name="L_Finger_Ring2" />
+            <Bone ID="87" Name="L_Finger_Ring3" />
+            <Bone ID="88" Name="L_Finger_Pinky1" />
+            <Bone ID="89" Name="L_Finger_Pinky2" />
+            <Bone ID="90" Name="L_Finger_Pinky3" />
+            <Bone ID="91" Name="L_Thigh" />
+            <Bone ID="92" Name="L_Shin" />
+            <Bone ID="93" Name="L_Ankle" />
+            <Bone ID="94" Name="L_Toes" />
+            <Bone ID="95" Name="subway_bum" />
+            <Bone ID="96" Name="bum_head" />
+            <Bone ID="97" Name="bum_head_hair" />
+            <Bone ID="98" Name="bum_eye_left" />
+            <Bone ID="99" Name="bum_eye_right" />
+        </Bones>
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations>
+            <Animation Name="Rambling" File="entities/character/urban/subway_bum/animations/Rambling.dae_anim" Layer="Default" Speed="1">
+                <Event Name="rambling_1" Time="0" Type="PlaySound" DestSocket="" Value="NPC_Creatures/Foley/InWorld/Urban/subway_bum/rambling_cloth" />
+            </Animation>
+            <Animation Name="Rambling_extra_01" File="entities/character/urban/subway_bum/animations/Rambling_extra_01.dae_anim" Layer="Default" Speed="1">
+                <Event Name="New Event" Time="0" Type="PlaySound" DestSocket="" Value="NPC_Creatures/Foley/InWorld/Urban/subway_bum/rambling_extra_01_footstep" />
+                <Event Name="New Event" Time="0" Type="PlaySound" DestSocket="" Value="NPC_Creatures/Foley/InWorld/Urban/subway_bum/rambling_extra_01_cloth" />
+            </Animation>
+            <Animation Name="Rambling_extra_02" File="entities/character/urban/subway_bum/animations/Rambling_extra_02.dae_anim" Layer="Default" Speed="1">
+                <Event Name="New Event" Time="0" Type="PlaySound" DestSocket="" Value="NPC_Creatures/Foley/InWorld/Urban/subway_bum/rambling_extra_02_cloth" />
+                <Event Name="New Event" Time="0" Type="PlaySound" DestSocket="" Value="NPC_Creatures/Foley/InWorld/Urban/subway_bum/rambling_extra_02_hands" />
+            </Animation>
+            <Animation Name="Rambling_extra_03" File="entities/character/urban/subway_bum/animations/Rambling_extra_03.dae_anim" Layer="Default" Speed="1">
+                <Event Name="New Event" Time="0" Type="PlaySound" DestSocket="" Value="NPC_Creatures/Foley/InWorld/Urban/subway_bum/rambling_extra_03_cloth" />
+                <Event Name="New Event" Time="0.425" Type="PlaySound" DestSocket="" Value="NPC_Creatures/Foley/InWorld/Urban/subway_bum/rambling_extra_03_hands" />
+            </Animation>
+            <Animation Name="Rambling_extra_04" File="entities/character/urban/subway_bum/animations/Rambling_extra_04.dae_anim" Layer="Default" Speed="1">
+                <Event Name="New Event" Time="0" Type="PlaySound" DestSocket="" Value="NPC_Creatures/Foley/InWorld/Urban/subway_bum/rambling_extra_04_cloth" />
+                <Event Name="New Event" Time="0" Type="PlaySound" DestSocket="" Value="NPC_Creatures/Foley/InWorld/Urban/subway_bum/rambling_extra_04_hands" />
+            </Animation>
+            <Animation Name="Visemes_17_1" File="entities/character/urban/subway_bum/animations/visemes/AA_Viseme.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="Visemes_17_2" File="entities/character/urban/subway_bum/animations/visemes/AH_Viseme.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="Visemes_17_3" File="entities/character/urban/subway_bum/animations/visemes/AO_Viseme.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="Visemes_17_4" File="entities/character/urban/subway_bum/animations/visemes/AW_Viseme.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="Visemes_17_5" File="entities/character/urban/subway_bum/animations/visemes/OY_Viseme.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="Visemes_17_6" File="entities/character/urban/subway_bum/animations/visemes/EH_Viseme.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="Visemes_17_7" File="entities/character/urban/subway_bum/animations/visemes/IH_Viseme.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="Visemes_17_8" File="entities/character/urban/subway_bum/animations/visemes/EY_Viseme.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="Visemes_17_9" File="entities/character/urban/subway_bum/animations/visemes/IY_Viseme.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="Visemes_17_10" File="entities/character/urban/subway_bum/animations/visemes/ER_Viseme.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="Visemes_17_11" File="entities/character/urban/subway_bum/animations/visemes/L_Viseme.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="Visemes_17_12" File="entities/character/urban/subway_bum/animations/visemes/W_Viseme.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="Visemes_17_13" File="entities/character/urban/subway_bum/animations/visemes/M_Viseme.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="Visemes_17_14" File="entities/character/urban/subway_bum/animations/visemes/N_Viseme.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="Visemes_17_15" File="entities/character/urban/subway_bum/animations/visemes/CH_Viseme.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="Visemes_17_16" File="entities/character/urban/subway_bum/animations/visemes/FV_Viseme.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="Visemes_17_17" File="entities/character/urban/subway_bum/animations/visemes/X_Viseme.dae_anim" Layer="Default" Speed="1" />
+        </Animations>
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Agent_Humanoid_NPC">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="VoiceSourceBone" Value="" />
+        <Var Name="CastShadows" Value="true" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="CharBodySize" Value="0.7 1.8 0.7" />
+        <Var Name="MeshPositionOffset" Value="0 0 0" />
+        <Var Name="MeshRotationOffset" Value="0 0 0" />
+        <Var Name="MeshScaleOffset" Value="1 1 1" />
+        <Var Name="CharBodyPosBone" Value="" />
+        <Var Name="CharBodyBoneIsFeet" Value="false" />
+        <Var Name="CharBodyBoneYOffset" Value="0" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="Movement_ForwadSpeed" Value="1" />
+        <Var Name="Movement_BackwardSpeed" Value="1" />
+        <Var Name="Movement_SidewaysSpeed" Value="1" />
+        <Var Name="Movement_Acc" Value="1" />
+        <Var Name="Movement_Deacc" Value="1" />
+        <Var Name="HeadBone" Value="Head" />
+        <Var Name="UsePathfinding" Value="true" />
+        <Var Name="CharMover_IdleAnim" Value="" />
+        <Var Name="CharMover_WalkAnim" Value="" />
+        <Var Name="CharMover_RunAnim" Value="" />
+        <Var Name="CharMover_BackwardAnim" Value="" />
+        <Var Name="CharMover_IdleExtraAnim" Value="" />
+        <Var Name="CharMover_IdleExtraMinWait" Value="4" />
+        <Var Name="CharMover_IdleExtraMaxWait" Value="10" />
+        <Var Name="CharMover_IdleExtraPauseProcedural" Value="true" />
+        <Var Name="HeadTracker_Bones" Value="Chest Neck_Base Neck_Middle" />
+        <Var Name="HeadTracker_BoneMuls" Value="0.2 0.5 0.3" />
+        <Var Name="HeadTracker_ChestBone" Value="" />
+        <Var Name="HeadTracker_SpeedMul" Value="1" />
+        <Var Name="HeadTracker_MaxSpeed" Value="1" />
+        <Var Name="HeadTracker_MaxAngle" Value="60" />
+    </UserDefinedVariables>
+</Entity>

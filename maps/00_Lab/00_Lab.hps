@@ -1,0 +1,349 @@
+#include "interfaces/Map_Interface.hps"
+#include "base/InputHandler_Types.hps"
+
+#include "helpers/helper_map.hps"
+#include "helpers/helper_props.hps"
+#include "helpers/helper_effects.hps"
+#include "helpers/helper_audio.hps"
+#include "helpers/helper_imgui.hps"
+#include "helpers/helper_sequences.hps"
+#include "helpers/helper_game.hps"
+#include "helpers/helper_modules.hps"
+#include "helpers/helper_ai.hps"
+#include "helpers/helper_player.hps"
+#include "helpers/helper_areas.hps"
+
+#include "custom/helpers/helper_modules_custom.hps"
+#include "custom/helpers/helper_player_custom.hps"
+
+//--------------------------------------------------
+ 
+/*Place any global values here. These must be const variables as they will not be saved*/
+/*This is also the place for enums and classes, but these should be avoided whenever possible*/
+ 
+//--------------------------------------------------
+ 
+class cScrMap : iScrMap
+{
+	//--------------------------------------------
+ 
+	//////////////////////////////////////////////////////////////////////////////////////////
+	// ==============
+	// MAIN CALLBACKS
+	// ==============
+	//{///////////////////////////////////////////////////////////////////////////////////////
+ 
+	//-------------------------------------------------------
+ 
+	////////////////////////////
+	// Set up map environment
+	void Setup()
+	{
+		// Put display name entry in english.lang / Levels
+		GetBase().SetDisplayNameEntry("xx-xx-dummy-level");
+		
+		// Set up color grading etc.
+	}
+	
+	//-------------------------------------------------------
+		
+	void PreloadData()
+	{
+		/////////////////
+		// Preload gui
+		//ImGui_PreloadImage("some_image");
+
+		///////////////
+		// Preload particles
+		//ParticleSystem_Preload("some_particle.ps");
+
+		//////////////
+		// Preload screen effects
+		//Material_Preload("some_material.mat");
+	}
+	
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run first time starting map
+	void OnStart()
+	{
+		// Any general setup of script / entities
+		
+		/////////////////////////
+		// Debug
+		if(cLux_ScriptDebugOn())
+		{
+		}
+		
+		//Item_RemoveFromInventory(ItemType_GetFirstInInventory("CurseMedallion"));
+		//cScript_SetGlobalVarBool("HideAmuletBracelet", true);
+		
+		Entity_SetMaxInteractionDistance("Drapes_WaitRoom_A", 0.01);
+		Entity_SetMaxInteractionDistance("Drapes_WaitRoom_B", 0.01);
+		Entity_SetMaxInteractionDistance("Drapes_Reception_C", 0.01);
+		
+		Music_Play("Intro_Muffled.ogg", 1.0f, false, eMusicPrio_BigEvent);
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run when entering map
+	void OnEnter()
+	{	
+		//Game_AutoSave();
+		
+		PlayerBody_SetModel("munshi_playerV7.ent");
+		PlayerBody_SetActive(true);
+		Player_SetNightVisionEnabled(false);
+		Player_SetVertigoActive(false);
+		Player_SetAllowHideMode(false);
+		Player_SetAllowCheckBaby(false);
+		//Player_SetActive(false);
+		//Flashlight_SetEnabled(false);
+		//DreamHandler_SetActive(true);
+		Sketchbook_SetInventoryEnabled(false);
+		Player_SetCanUseLightSource(false);
+		
+		//Default Camera Settings
+		Player_SetPitchLimits(-50.0f, 15.0f);
+
+		iLuxEntity@ pPlayer = Map_GetEntity("player");		
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run when leaving map
+	void OnLeave()
+	{
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// The player has died.
+	void OnPlayerKilled(int alRecentDeaths, const tString&in asSource)
+	{
+	}
+	
+	//-------------------------------------------------------
+	
+	////////////////////////////////////
+	// Called when player HP reaches 0
+	bool OnDeath(const tString &in asSource)
+	{
+		cLux_AddTodoMessage("DEAD : SOURCE = " + asSource);
+		
+		if (asSource == "SomeReason")
+		{
+			Effect_Fade_Out(1.0f);
+			return true; // return true to completely override base behaviour
+		}
+		
+		// return false for default behaviour
+		return false;
+	}
+	
+	//-------------------------------------------------------
+	
+	////////////////////////////////////
+	// Called when player should respawn (after death)
+	bool OnRespawn(const tString &in asSource)
+	{		
+		// return false for default behaviour (fadeout and death area)
+		return false;
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// To get when player makes input (mostly used for debug)
+	void OnAction(int alAction, bool abPressed) 
+	{
+		if(abPressed==false) return;
+		
+		if(alAction == eAction_Test1)
+		{
+		}
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// This only used for pure debug purposes when info needs to printed.
+	float DrawDebugOutput(cGuiSet @apSet,iFontData @apFont,float afY)
+	{
+		//afY = cLux_DrawDebugText("My Debug value:"+..., afY);
+		return afY;
+	}
+ 
+	//-------------------------------------------------------
+ 
+	//} END MAIN CALLBACKS
+ 
+ 
+	//////////////////////////////////////////////////////////////////////////////////////////
+	// ==============
+	// MAIN FUNCTIONS
+	// ==============
+	//{///////////////////////////////////////////////////////////////////////////////////////
+ 
+	//-------------------------------------------------------
+ 
+	/*Put any variables that are used in more than one scene here.*/
+ 
+	//-------------------------------------------------------
+ 
+	/*Put any functions that are used in more than one scene here.*/
+ 
+	//-------------------------------------------------------
+ 
+	//} END MAIN FUNCTIONS
+ 
+	//////////////////////////////////////////////////////////////////////////////////////////
+	// ==============
+	// SCENE X *NAME OF SCENE*
+	// ==============
+	//{//////////////////////////////////////////////////////////////////////////////////////
+ 
+		/////////////////////////////////////////
+		// General
+		//{//////////////////////////////////////
+		 
+		//-------------------------------------------------------
+	 
+		/*Put any variables that are used by many events in Scene X here.*/
+	 
+		//-------------------------------------------------------
+	 
+		/*Put any functions that are used in more than one event in Scene X here.*/
+	 
+		//-------------------------------------------------------
+		
+		//} END General	
+	 
+		/////////////////////////////////////////
+		// Event *Opening Curtains*
+		//{//////////////////////////////////////
+
+		//-------------------------------------------------------
+
+		float mfWaitroomBright = 0.025f;
+		
+		bool mbDrapesOpen = false;
+		float mfDrapesBrightness = 0.6;
+		cColor mDrapesColor = cColor(1,1,1,0);
+		float mfDrapeAmbSoundMul;
+		bool mbDrapesBeenOpened=false;
+
+		//-------------------------------------------------------
+
+		void AdjustWaitroomLight(float afValue)
+		{
+			cLux_AddDebugMessage("AdjustWaitroomLight:"+afValue);
+		
+			float fMin = 0.0375f;
+			float fMax = 0.725f;
+		
+			////////////////////////////////
+			// Nudge accumulated brightness
+			mfWaitroomBright += afValue;
+			
+			///////////////////////////////////////////////////
+			// Ensure boxlight cannot exceed a given brightness
+			float fBright = cMath_Clamp(mfWaitroomBright,fMin,fMax);
+			
+			/////////////////////////////////
+			// Set brightness of the boxlight
+			iLight@ pBoxLight = cLux_GetCurrentMap().GetWorld().GetLight("WaitingRoom_BoxLight_1");
+			pBoxLight.FadeTo(pBoxLight.GetDefaultDiffuseColor()*fBright, 1, 0.5f);
+			
+			cLux_AddDebugMessage("New Brightness: " + fBright);
+		}
+		
+		void SetupDrapes()
+		{
+			mfDrapeAmbSoundMul = 1.0f;
+		}
+
+		void StateChangedDrapes(const tString &in asEntity, int alState)
+		{
+		mbDrapesOpen = MovingButton_IsSwitchedOn(asEntity);
+		
+		if (mbDrapesOpen)
+		{
+			///////////////////////////
+			// Adjust brightness for open
+			mDrapesColor = cColor(1,1,1,0);
+			mfDrapesBrightness = 0.6;
+			AdjustWaitroomLight(0.25);
+			
+			//////////////////////////
+			// Play open sound
+			Sound_CreateAtEntity("open_drapes", "Entities_Urban/ornament/curtains/curtains_draw", asEntity, 0, false);
+			cLux_AddDebugMessage("Selected entity is " + asEntity);
+			mfDrapeAmbSoundMul /= 0.7f;
+			
+			Entity_SetActive(asEntity+"_Closed", false);
+			Entity_SetActive(asEntity+"_Open1", true);
+			Entity_SetActive(asEntity+"_Open2", true);
+		}
+		else
+		{
+			/////////////////////////////
+			// Adjust brightness for closed
+			mDrapesColor = cColor(0,0,0,0);
+			mfDrapesBrightness = 0.3;
+			AdjustWaitroomLight(-0.25);
+			
+			//////////////////////////
+			// Play closing sound
+			Sound_CreateAtEntity("open_drapes", "Entities_Urban/ornament/curtains/curtains_draw", asEntity, 0, false);
+			mfDrapeAmbSoundMul *= 0.7f;
+			
+			Entity_SetActive(asEntity+"_Closed", true);
+			Entity_SetActive(asEntity+"_Open1", false);
+			Entity_SetActive(asEntity+"_Open2", false);
+		}
+
+		//////////////////////////////////////
+		// Fade sounds from outside
+		
+		//Sound_Fade("sound_outside", mfDrapeAmbSoundMul, 1);
+
+		/////////////////////////////////////
+		// Adjust light for appropriate drapes
+		if(asEntity == "Drapes_WaitRoom_A")
+		{
+			Light_SetBrightness("Drapes_PointLight_A",mfDrapesBrightness);
+			Lamp_SetLit("Lamp_Drapes_A",mbDrapesOpen,true);
+		}
+			
+		if(asEntity == "Drapes_WaitRoom_B")
+		{
+			Light_SetBrightness("Drapes_PointLight_B",mfDrapesBrightness);
+			Lamp_SetLit("Lamp_Drapes_B",mbDrapesOpen,true);
+		}
+			
+		if(asEntity == "Drapes_Reception_C")
+		{
+			Lamp_SetLit("Lamp_Drapes_C",mbDrapesOpen,true);
+			cLux_AddDebugMessage("Opened reception drapes");
+			Light_SetBrightness("Drapes_PointLight_C",mfDrapesBrightness);
+		}
+	}
+	
+	void TriggerCloseDrapes_OnPlayerInteract(const tString &in asEntity)
+	{
+		Entity_CallEntityInteract("drapes_waitroom_"+cString_GetLastChar(asEntity));
+	}
+
+		//-------------------------------------------------------
+
+		//} END Event *Name Of Event*
+	 
+	//} END SCENE X
+ 
+}

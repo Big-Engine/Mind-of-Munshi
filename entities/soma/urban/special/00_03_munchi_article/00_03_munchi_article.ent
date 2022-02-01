@@ -1,0 +1,66 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/special/00_03_munchi_article/00_03_munchi_article.DAE">
+            <SubMesh ID="0" Name="polySurface3" CreStamp="0" ModStamp="1436182977" WorldPos="-0.0163198 0.0156164 -0.00410959" Rotation="0 0 0" Scale="1 1 1" TriCount="830" Material="" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="ShapeBox_1" CreStamp="1427984607" ModStamp="1428958862" WorldPos="0.0189632 0.0114293 -0.00695723" Rotation="-0 3.14159 -0" Scale="0.430237 0.0253147 0.523286" RelativeTranslation="0 0 0" RelativeRotation="3.14159 2.53518e-006 3.14159" RelativeScale="1 1 1" ShapeType="Box" />
+        </Shapes>
+        <Bodies>
+            <Body ID="4" Name="Body_1" CreStamp="0" ModStamp="1436182972" WorldPos="0.0189632 0.0114293 -0.00695723" Rotation="0 0 0" Scale="1 1 1" Material="" Mass="0" AngularDamping="0.1" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Shape ID="1" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Readable">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="BlocksLineOfSight" Value="MaterialBased" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="NoGravityWhenUnderwater" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="0.2" />
+        <Var Name="EffectsOffTime" Value="0.2" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="StaticMoveLoopSoundFade" Value="true" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="OpenEntityFile" Value="" />
+        <Var Name="DistanceFromCamera" Value="0.4" />
+        <Var Name="YStartOffset" Value="-0.5" />
+        <Var Name="TextCategory" Value="" />
+        <Var Name="FrontTextEntry" Value="" />
+        <Var Name="BackTextEntry" Value="" />
+        <Var Name="TitleEntry" Value="" />
+        <Var Name="OpenSound" Value="Player/foley/default/action/pickup_paper" />
+        <Var Name="CloseSound" Value="" />
+        <Var Name="PageTurnSound" Value="" />
+    </UserDefinedVariables>
+</Entity>

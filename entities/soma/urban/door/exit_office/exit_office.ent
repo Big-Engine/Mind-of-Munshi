@@ -1,0 +1,47 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="false" Focused="1">
+            <Viewport CameraPos="0.807279 0.416768 200" CameraTarget="0.807279 0.416768 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="-0.861612" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="200 0.403996 -0.0495701" CameraTarget="0 0.403996 -0.0495701" Controller="Ortho" GridHeights="0 0 0" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="-0.861612" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="0 200 0" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="2.55834 2.08146 3.2599" CameraTarget="0 0 0" Controller="Maya" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/door/exit_office/exit_office.dae">
+            <SubMesh ID="0" Material="" Name="exit_office" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.065324 0.00111544 -0.0244169" Rotation="0 0 0" Scale="1.75 2.75 0.087708" ShapeType="Box" WorldPos="0 1.39421 -0.0212108" />
+            <Shape ID="2" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.79137 0.0280955 -0.000849882" Rotation="0 0 0" Scale="0.157358 0.350274 0.0707801" ShapeType="Box" WorldPos="-0.726046 1.42119 0.00235617" />
+            <Shape ID="3" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.79137 0.0280955 -0.0580657" Rotation="0 0 0" Scale="0.157358 0.350274 0.0707801" ShapeType="Box" WorldPos="-0.726046 1.42119 -0.0548596" />
+            <Shape ID="4" Name="Shape_4" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.78783 0.0647955 0.0586344" Rotation="0 0 0" Scale="0.0457358 0.0443721 0.079378" ShapeType="Box" WorldPos="-0.722506 1.45789 0.0618405" />
+            <Shape ID="5" Name="Shape_5" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.700139 0.0630355 0.0953427" Rotation="0 0 0" Scale="0.210193 0.040108 0.0244863" ShapeType="Box" WorldPos="-0.634815 1.45613 0.0985487" />
+            <Shape ID="6" Name="Shape_6" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.79137 -0.995426 0.0236703" Rotation="0 0 0" Scale="0.0157218 0.162546 0" ShapeType="Cylinder" WorldPos="0.856694 0.397669 0.0268764" />
+            <Shape ID="7" Name="Shape_7" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.79137 0.995425 0.0236703" Rotation="0 0 0" Scale="0.0157218 0.162546 0" ShapeType="Cylinder" WorldPos="0.856694 2.38852 0.0268764" />
+            <Shape ID="8" Name="Shape_8" RelativeRotation="-1.5708 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.788748 0.0948055 -0.0953427" Rotation="-1.5708 -0 0" Scale="0.0343302 0.0326175 0" ShapeType="Cylinder" WorldPos="-0.723424 1.4879 -0.0921366" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="11" LinearDamping="0.1" Mass="0" Material="Wood Robust" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="0.065324 1.39309 0.00320605">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="1" />
+                <Shape ID="2" />
+                <Shape ID="3" />
+                <Shape ID="4" />
+                <Shape ID="5" />
+                <Shape ID="6" />
+                <Shape ID="7" />
+                <Shape ID="8" />
+            </Body>
+        </Bodies>
+        <Joints>
+            <JointHinge BreakForce="0" BreakSound="" Breakable="false" CollideBodies="true" ConnectedChildBodyID="11" ConnectedParentBodyID="-1" ID="12" LimitStepCount="0" MaxAngle="0" MaxLimitMaxSpeed="0" MaxLimitMinSpeed="0" MaxLimitSound="" MaxMoveFreq="1.1" MaxMoveFreqSpeed="0.7" MaxMoveSpeed="2" MaxMoveVolume="0.8" MiddleMoveSpeed="0.5" MiddleMoveVolume="0.5" MinAngle="0" MinLimitMaxSpeed="0" MinLimitMinSpeed="0" MinLimitSound="" MinMoveFreq="0.95" MinMoveFreqSpeed="0.2" MinMoveSpeed="0.1" MinMoveVolume="0.01" MoveSound="" MoveType="Linear" Name="JointHinge_1" Rotation="0 -0 0" Scale="1 1 1" StickyMaxLimit="false" StickyMinLimit="false" Stiffness="0" WorldPos="0.856868 0.393314 0.0265839" />
+        </Joints>
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp" />
+</Entity>

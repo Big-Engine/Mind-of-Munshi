@@ -1,0 +1,149 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/character/urban/subway_bum/subway_bum.dae">
+            <SubMesh ID="0" Name="subway_bum" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="5352" Material="" />
+            <SubMesh ID="1" Name="bum_head" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="2531" Material="" />
+            <SubMesh ID="2" Name="bum_head_hair" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="196" Material="" />
+            <SubMesh ID="3" Name="bum_eye_left" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="81" Material="" />
+            <SubMesh ID="4" Name="bum_eye_right" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="81" Material="" />
+        </Mesh>
+        <Bones>
+            <Bone ID="5" Name="main" />
+            <Bone ID="6" Name="Pelvis_space" />
+            <Bone ID="7" Name="RootCtrl" />
+            <Bone ID="8" Name="root" />
+            <Bone ID="9" Name="R_Thigh" />
+            <Bone ID="10" Name="R_Shin" />
+            <Bone ID="11" Name="R_Ankle" />
+            <Bone ID="12" Name="R_Toes" />
+            <Bone ID="13" Name="Spine_Base" />
+            <Bone ID="14" Name="Spine" />
+            <Bone ID="15" Name="Chest" />
+            <Bone ID="16" Name="Neck_Base" />
+            <Bone ID="17" Name="Neck_Middle" />
+            <Bone ID="18" Name="Head" />
+            <Bone ID="19" Name="Jaw" />
+            <Bone ID="20" Name="Chin" />
+            <Bone ID="21" Name="Lip_Lower" />
+            <Bone ID="22" Name="R_Cheek_Lower" />
+            <Bone ID="23" Name="R_Lip_Lower" />
+            <Bone ID="24" Name="Tounge" />
+            <Bone ID="25" Name="L_Cheek_Lower" />
+            <Bone ID="26" Name="L_Lip_Lower" />
+            <Bone ID="27" Name="Lip_Upper" />
+            <Bone ID="28" Name="R_Mouth_Corner" />
+            <Bone ID="29" Name="R_Lip_Upper" />
+            <Bone ID="30" Name="R_Cheek_Upper" />
+            <Bone ID="31" Name="R_Nose" />
+            <Bone ID="32" Name="R_Eye_Expression" />
+            <Bone ID="33" Name="R_Eye" />
+            <Bone ID="34" Name="R_Eyebrow_Outer" />
+            <Bone ID="35" Name="R_Eyebrow_Inner" />
+            <Bone ID="36" Name="R_Eyelid_Upper" />
+            <Bone ID="37" Name="R_Eyelid_Lower" />
+            <Bone ID="38" Name="L_Mouth_Corner" />
+            <Bone ID="39" Name="L_Lip_Upper" />
+            <Bone ID="40" Name="L_Cheek_Upper" />
+            <Bone ID="41" Name="L_Nose" />
+            <Bone ID="42" Name="L_Eye_Expression" />
+            <Bone ID="43" Name="L_Eye" />
+            <Bone ID="44" Name="L_Eyebrow_Outer" />
+            <Bone ID="45" Name="L_Eyebrow_Inner" />
+            <Bone ID="46" Name="L_Eyelid_Upper" />
+            <Bone ID="47" Name="L_Eyelid_Lower" />
+            <Bone ID="48" Name="Hair_Left" />
+            <Bone ID="49" Name="Hair_Right" />
+            <Bone ID="50" Name="Hair_Back" />
+            <Bone ID="51" Name="R_Clavicle" />
+            <Bone ID="52" Name="R_Arm" />
+            <Bone ID="53" Name="R_Forearm" />
+            <Bone ID="54" Name="R_Wrist" />
+            <Bone ID="55" Name="R_Hand" />
+            <Bone ID="56" Name="R_Finger_Middle1" />
+            <Bone ID="57" Name="R_Finger_Middle2" />
+            <Bone ID="58" Name="R_Finger_Middle3" />
+            <Bone ID="59" Name="R_Finger_Index1" />
+            <Bone ID="60" Name="R_Finger_Index2" />
+            <Bone ID="61" Name="R_Finger_Index3" />
+            <Bone ID="62" Name="R_Finger_Thumb1" />
+            <Bone ID="63" Name="R_Finger_Thumb2" />
+            <Bone ID="64" Name="R_Finger_Thumb3" />
+            <Bone ID="65" Name="R_Finger_Ring1" />
+            <Bone ID="66" Name="R_Finger_Ring2" />
+            <Bone ID="67" Name="R_Finger_Ring3" />
+            <Bone ID="68" Name="R_Finger_Pinky1" />
+            <Bone ID="69" Name="R_Finger_Pinky2" />
+            <Bone ID="70" Name="R_Finger_Pinky3" />
+            <Bone ID="71" Name="L_Clavicle" />
+            <Bone ID="72" Name="L_Arm" />
+            <Bone ID="73" Name="L_Forearm" />
+            <Bone ID="74" Name="L_Wrist" />
+            <Bone ID="75" Name="L_Hand" />
+            <Bone ID="76" Name="L_Finger_Middle1" />
+            <Bone ID="77" Name="L_Finger_Middle2" />
+            <Bone ID="78" Name="L_Finger_Middle3" />
+            <Bone ID="79" Name="L_Finger_Index1" />
+            <Bone ID="80" Name="L_Finger_Index2" />
+            <Bone ID="81" Name="L_Finger_Index3" />
+            <Bone ID="82" Name="L_Finger_Thumb1" />
+            <Bone ID="83" Name="L_Finger_Thumb2" />
+            <Bone ID="84" Name="L_Finger_Thumb3" />
+            <Bone ID="85" Name="L_Finger_Ring1" />
+            <Bone ID="86" Name="L_Finger_Ring2" />
+            <Bone ID="87" Name="L_Finger_Ring3" />
+            <Bone ID="88" Name="L_Finger_Pinky1" />
+            <Bone ID="89" Name="L_Finger_Pinky2" />
+            <Bone ID="90" Name="L_Finger_Pinky3" />
+            <Bone ID="91" Name="L_Thigh" />
+            <Bone ID="92" Name="L_Shin" />
+            <Bone ID="93" Name="L_Ankle" />
+            <Bone ID="94" Name="L_Toes" />
+            <Bone ID="95" Name="subway_bum" />
+            <Bone ID="96" Name="bum_head" />
+            <Bone ID="97" Name="bum_head_hair" />
+            <Bone ID="98" Name="bum_eye_left" />
+            <Bone ID="99" Name="bum_eye_right" />
+        </Bones>
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Rigid">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="BlocksLineOfSight" Value="true" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="StaticMoveLoopSoundFade" Value="true" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+    </UserDefinedVariables>
+</Entity>

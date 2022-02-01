@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>marcus</author>
+      <authoring_tool>OpenCOLLADA2008 x64</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=0;relativePaths=0;copyTextures=0;exportTriangles=0;exportCgfxFileReferences=1;
+			isSampling=0;curveConstrainSampling=0;removeStaticCurves=1;exportPolygonMeshes=1;exportLights=1;
+			exportCameras=1;exportJointsAndSkin=1;exportAnimations=1;exportInvisibleNodes=0;exportDefaultCameras=0;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=1;exportVertexColors=1;exportVertexColorsPerVertex=1;
+			exportTexTangents=0;exportTangents=0;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=1;dereferenceXRefs=1;exportCameraAsLookat=0;cameraXFov=0;cameraYFov=1;doublePrecision=0
+		</comments>
+      <source_data>file:///C:/Users/marcus/Documents/maya/projects/default/untitled</source_data>
+    </contributor>
+    <created>2012-05-16T16:31:11</created>
+    <modified>2012-05-16T16:31:11</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="blinn17" name="blinn17">
+      <instance_effect url="#blinn17-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn17-fx">
+      <profile_COMMON>
+        <newparam sid="_03_contraption_ball_2-surface">
+          <surface type="2D">
+            <init_from>_03_contraption_ball_2</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="_03_contraption_ball_2-sampler">
+          <sampler2D>
+            <source>_03_contraption_ball_2-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="_03_contraption_ball_2-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU><wrapV>1</wrapV><mirrorU>0</mirrorU><mirrorV>0</mirrorV><coverageU>1</coverageU><coverageV>1</coverageV><translateFrameU>0</translateFrameU><translateFrameV>0</translateFrameV><rotateFrame>0</rotateFrame><stagger>0</stagger><fast>0</fast><repeatU>1</repeatU><repeatV>1</repeatV><offsetU>0</offsetU><offsetV>0</offsetV><rotateUV>0</rotateUV><noiseU>0</noiseU><noiseV>0</noiseV><blend_mode>NONE</blend_mode>
+                  </technique>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="_03_contraption_ball_2" name="_03_contraption_ball_2">
+      <init_from>file:///F:/work/TEST30/SVN_Server/application/entities/urban/special/ww/00_03_contraption/00_03_contraption_ball.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>_03_contraption_ball_2</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_controllers>
+    <controller id="contraption_ballShape-skin" name="contraption_ballShape-skin">
+      <skin source="#contraption_ballShape">
+        <bind_shape_matrix>1 0 0 0.013083 0 1 0 -0.856318 0 0 1 0.545776 0 0 0 1</bind_shape_matrix>
+        <source id="contraption_ballShape-skin-joints" name="contraption_ballShape-skin-joints">
+          <Name_array id="contraption_ballShape-skin-joints-array" count="1">ball</Name_array>
+          <technique_common>
+            <accessor source="#contraption_ballShape-skin-joints-array" count="1" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="contraption_ballShape-skin-bind_poses" name="contraption_ballShape-skin-bind_poses">
+          <float_array id="contraption_ballShape-skin-bind_poses-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#contraption_ballShape-skin-bind_poses-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="contraption_ballShape-skin-weights" name="contraption_ballShape-skin-weights">
+          <float_array id="contraption_ballShape-skin-weights-array" count="1">1 </float_array>
+          <technique_common>
+            <accessor source="#contraption_ballShape-skin-weights-array" count="1" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#contraption_ballShape-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#contraption_ballShape-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="46">
+          <input semantic="JOINT" source="#contraption_ballShape-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#contraption_ballShape-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>contraption_ballShape-skin</originalMayaNodeId>
+          </technique>
+        </extra>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_geometries>
+    <geometry id="contraption_ballShape" name="contraption_ballShape">
+      <mesh>
+        <source id="contraption_ballShape-positions" name="contraption_ballShape-positions">
+          <float_array id="contraption_ballShape-positions-array" count="138">-0.013082 0.8790401 -0.54532 -0.013082 0.875433 -0.557605 -0.019723 0.875433 -0.555655 -0.024256 0.875433 -0.550423 -0.025241 0.875433 -0.543572 -0.022366 0.875433 -0.537276 -0.016543 0.875433 -0.533534 -0.009621 0.875433 -0.533534 -0.003798 0.875433 -0.537276 -9.23e-4 0.875433 -0.543572 -0.001908 0.875433 -0.550423 -0.006441 0.875433 -0.555655 -0.013082 0.865757 -0.565989 -0.024256 0.865757 -0.562708 -0.031883 0.865757 -0.553906 -0.03354 0.865757 -0.542379 -0.028702 0.865757 -0.531786 -0.018905 0.865757 -0.525489 -0.007259 0.865757 -0.525489 0.002537 0.865757 -0.531786 0.007375 0.865757 -0.542379 0.005717 0.865757 -0.553906 -0.001908 0.865757 -0.562708 -0.025241 0.853084 -0.564241 -0.013082 0.853084 -0.567811 -0.03354 0.853084 -0.554663 -0.035344 0.853084 -0.54212 -0.030079 0.853084 -0.530592 -0.019418 0.853084 -0.523741 -0.006746 0.853084 -0.523741 0.003914 0.853084 -0.530592 0.009178 0.853084 -0.54212 0.007375 0.853084 -0.554663 -9.23e-4 0.853084 -0.564241 -0.013082 0.841439 -0.562492 -0.022366 0.841439 -0.559766 -0.028702 0.841439 -0.552454 -0.030079 0.841439 -0.542877 -0.02606 0.841439 -0.534075 -0.01792 0.841439 -0.528844 -0.008244 0.841439 -0.528844 -1.04e-4 0.841439 -0.534075 0.003914 0.841439 -0.542877 0.002537 0.841439 -0.552454 -0.003798 0.841439 -0.559766 -0.013082 0.833596 -0.54532</float_array>
+          <technique_common>
+            <accessor source="#contraption_ballShape-positions-array" count="46" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="contraption_ballShape-normals" name="contraption_ballShape-normals">
+          <float_array id="contraption_ballShape-normals-array" count="792">-0.08243797 0.9562317 -0.2807579 -0.08243797 0.9562317 -0.2807579 -0.08243797 0.9562317 -0.2807579 0.008616999 0.9995319 0.029358 -0.419182 0.752947 -0.507304 -0.4894668 0.8428896 -0.2235159 0.008616999 0.9995319 0.029358 -0.4894668 0.8428896 -0.2235159 -0.5866107 0.8089717 0.03811198 0.008616999 0.9995319 0.029358 -0.5866107 0.8089717 0.03811198 -0.47289 0.80896 0.349226 0.008616999 0.9995319 0.029358 -0.47289 0.80896 0.349226 -0.209022 0.8089638 0.5494429 0.008616999 0.9995319 0.029358 -0.209022 0.8089638 0.5494429 0.174101 0.7862381 0.5928901 0.008616999 0.9995319 0.029358 0.174101 0.7862381 0.5928901 0.4729111 0.8089442 0.3492341 0.008616999 0.9995319 0.029358 0.4729111 0.8089442 0.3492341 0.5866503 0.8089433 0.03810802 0.008616999 0.9995319 0.029358 0.5866503 0.8089433 0.03810802 0.514145 0.808948 -0.285058 0.008616999 0.9995319 0.029358 0.514145 0.808948 -0.285058 0.2783769 0.8089678 -0.5177619 0.008616999 0.9995319 0.029358 0.2783769 0.8089678 -0.5177619 -0.035242 0.7547901 -0.655019 0.08858103 0.4159712 -0.9050533 -0.4147871 0.4159711 -0.8092712 -0.035242 0.7547901 -0.655019 -0.035242 0.7547901 -0.655019 -0.4147871 0.4159711 -0.8092712 -0.419182 0.752947 -0.507304 -0.4147871 0.4159711 -0.8092712 -0.7913813 0.4548652 -0.4084282 -0.419182 0.752947 -0.507304 -0.419182 0.752947 -0.507304 -0.7913813 0.4548652 -0.4084282 -0.4894668 0.8428896 -0.2235159 -0.910676 0.378918 0.164592 -0.5866107 0.8089717 0.03811198 -0.7913813 0.4548652 -0.4084282 -0.7913813 0.4548652 -0.4084282 -0.5866107 0.8089717 0.03811198 -0.4894668 0.8428896 -0.2235159 -0.6359337 0.4695598 0.6124557 -0.47289 0.80896 0.349226 -0.910676 0.378918 0.164592 -0.910676 0.378918 0.164592 -0.47289 0.80896 0.349226 -0.5866107 0.8089717 0.03811198 -0.2667339 0.4175998 0.8685986 -0.209022 0.8089638 0.5494429 -0.6359337 0.4695598 0.6124557 -0.6359337 0.4695598 0.6124557 -0.209022 0.8089638 0.5494429 -0.47289 0.80896 0.349226 0.2044739 0.3628768 0.9091265 0.174101 0.7862381 0.5928901 -0.2667339 0.4175998 0.8685986 -0.2667339 0.4175998 0.8685986 0.174101 0.7862381 0.5928901 -0.209022 0.8089638 0.5494429 0.4729111 0.8089442 0.3492341 0.174101 0.7862381 0.5928901 0.677157 0.3788861 0.6307961 0.677157 0.3788861 0.6307961 0.174101 0.7862381 0.5928901 0.2044739 0.3628768 0.9091265 0.677157 0.3788861 0.6307961 0.9009293 0.4175561 0.118209 0.4729111 0.8089442 0.3492341 0.4729111 0.8089442 0.3492341 0.9009293 0.4175561 0.118209 0.5866503 0.8089433 0.03810802 0.9009293 0.4175561 0.118209 0.8213135 0.4695333 -0.3240102 0.5866503 0.8089433 0.03810802 0.5866503 0.8089433 0.03810802 0.8213135 0.4695333 -0.3240102 0.514145 0.808948 -0.285058 0.8213135 0.4695333 -0.3240102 0.5638761 0.4159771 -0.7134472 0.514145 0.808948 -0.285058 0.514145 0.808948 -0.285058 0.5638761 0.4159771 -0.7134472 0.2783769 0.8089678 -0.5177619 -0.035242 0.7547901 -0.655019 0.2783769 0.8089678 -0.5177619 0.08858103 0.4159712 -0.9050533 0.08858103 0.4159712 -0.9050533 0.2783769 0.8089678 -0.5177619 0.5638761 0.4159771 -0.7134472 -0.613687 -0.142558 -0.776573 -0.4147871 0.4159711 -0.8092712 -0.09641204 -0.142567 -0.9850783 -0.09641204 -0.142567 -0.9850783 -0.4147871 0.4159711 -0.8092712 0.08858103 0.4159712 -0.9050533 -0.9297187 -0.08475498 -0.3583849 -0.7913813 0.4548652 -0.4084282 -0.613687 -0.142558 -0.776573 -0.613687 -0.142558 -0.776573 -0.7913813 0.4548652 -0.4084282 -0.4147871 0.4159711 -0.8092712 -0.976044 -0.200651 0.084127 -0.910676 0.378918 0.164592 -0.9297187 -0.08475498 -0.3583849 -0.9297187 -0.08475498 -0.3583849 -0.910676 0.378918 0.164592 -0.7913813 0.4548652 -0.4084282 -0.6359337 0.4695598 0.6124557 -0.910676 0.378918 0.164592 -0.7773333 -0.101498 0.6208472 -0.7773333 -0.101498 0.6208472 -0.910676 0.378918 0.164592 -0.976044 -0.200651 0.084127 -0.6359337 0.4695598 0.6124557 -0.7773333 -0.101498 0.6208472 -0.2667339 0.4175998 0.8685986 -0.2667339 0.4175998 0.8685986 -0.7773333 -0.101498 0.6208472 -0.2353281 -0.1843821 0.9542663 0.3380172 -0.08474805 0.9373165 0.2044739 0.3628768 0.9091265 -0.2353281 -0.1843821 0.9542663 -0.2353281 -0.1843821 0.9542663 0.2044739 0.3628768 0.9091265 -0.2667339 0.4175998 0.8685986 0.7339138 -0.2387959 0.6358828 0.677157 0.3788861 0.6307961 0.3380172 -0.08474805 0.9373165 0.3380172 -0.08474805 0.9373165 0.677157 0.3788861 0.6307961 0.2044739 0.3628768 0.9091265 0.9009293 0.4175561 0.118209 0.677157 0.3788861 0.6307961 0.9758862 -0.08475802 0.201152 0.9758862 -0.08475802 0.201152 0.677157 0.3788861 0.6307961 0.7339138 -0.2387959 0.6358828 0.8213135 0.4695333 -0.3240102 0.9009293 0.4175561 0.118209 0.9207744 -0.101497 -0.3766602 0.9207744 -0.101497 -0.3766602 0.9009293 0.4175561 0.118209 0.9758862 -0.08475802 0.201152 0.4946752 -0.1843931 -0.8492913 0.5638761 0.4159771 -0.7134472 0.9207744 -0.101497 -0.3766602 0.9207744 -0.101497 -0.3766602 0.5638761 0.4159771 -0.7134472 0.8213135 0.4695333 -0.3240102 -0.09641204 -0.142567 -0.9850783 0.08858103 0.4159712 -0.9050533 0.4946752 -0.1843931 -0.8492913 0.4946752 -0.1843931 -0.8492913 0.08858103 0.4159712 -0.9050533 0.5638761 0.4159771 -0.7134472 0.05616399 -0.6551839 -0.7533789 -0.3600548 -0.6551817 -0.6641517 -0.09641204 -0.142567 -0.9850783 -0.09641204 -0.142567 -0.9850783 -0.3600548 -0.6551817 -0.6641517 -0.613687 -0.142558 -0.776573 -0.3600548 -0.6551817 -0.6641517 -0.7151499 -0.617973 -0.326604 -0.613687 -0.142558 -0.776573 -0.613687 -0.142558 -0.776573 -0.7151499 -0.617973 -0.326604 -0.9297187 -0.08475498 -0.3583849 -0.7377307 -0.6551718 0.1627989 -0.976044 -0.200651 0.084127 -0.7151499 -0.617973 -0.326604 -0.7151499 -0.617973 -0.326604 -0.976044 -0.200651 0.084127 -0.9297187 -0.08475498 -0.3583849 -0.976044 -0.200651 0.084127 -0.7377307 -0.6551718 0.1627989 -0.7773333 -0.101498 0.6208472 -0.7773333 -0.101498 0.6208472 -0.7377307 -0.6551718 0.1627989 -0.5326052 -0.6551602 0.5358142 -0.7773333 -0.101498 0.6208472 -0.5326052 -0.6551602 0.5358142 -0.2353281 -0.1843821 0.9542663 -0.2353281 -0.1843821 0.9542663 -0.5326052 -0.6551602 0.5358142 -0.1982029 -0.7106568 0.6750427 -0.1982029 -0.7106568 0.6750427 0.221501 -0.6179531 0.7543681 -0.2353281 -0.1843821 0.9542663 -0.2353281 -0.1843821 0.9542663 0.221501 -0.6179531 0.7543681 0.3380172 -0.08474805 0.9373165 0.3380172 -0.08474805 0.9373165 0.221501 -0.6179531 0.7543681 0.7339138 -0.2387959 0.6358828 0.7339138 -0.2387959 0.6358828 0.221501 -0.6179531 0.7543681 0.5317451 -0.7106392 0.4606941 0.5317451 -0.7106392 0.4606941 0.7782333 -0.6179333 0.1118541 0.7339138 -0.2387959 0.6358828 0.7339138 -0.2387959 0.6358828 0.7782333 -0.6179333 0.1118541 0.9758862 -0.08475802 0.201152 0.9758862 -0.08475802 0.201152 0.7782333 -0.6179333 0.1118541 0.9207744 -0.101497 -0.3766602 0.9207744 -0.101497 -0.3766602 0.7782333 -0.6179333 0.1118541 0.6620018 -0.6551588 -0.3640339 0.3803738 -0.7106736 -0.5918267 0.4946752 -0.1843931 -0.8492913 0.6620018 -0.6551588 -0.3640339 0.6620018 -0.6551588 -0.3640339 0.4946752 -0.1843931 -0.8492913 0.9207744 -0.101497 -0.3766602 -0.09641204 -0.142567 -0.9850783 0.4946752 -0.1843931 -0.8492913 0.05616399 -0.6551839 -0.7533789 0.05616399 -0.6551839 -0.7533789 0.4946752 -0.1843931 -0.8492913 0.3803738 -0.7106736 -0.5918267 0 -1 0 -0.3600548 -0.6551817 -0.6641517 0.05616399 -0.6551839 -0.7533789 0 -1 0 -0.7151499 -0.617973 -0.326604 -0.3600548 -0.6551817 -0.6641517 0 -1 0 -0.7377307 -0.6551718 0.1627989 -0.7151499 -0.617973 -0.326604 0 -1 0 -0.5326052 -0.6551602 0.5358142 -0.7377307 -0.6551718 0.1627989 0 -1 0 -0.1982029 -0.7106568 0.6750427 -0.5326052 -0.6551602 0.5358142 0 -1 0 0.221501 -0.6179531 0.7543681 -0.1982029 -0.7106568 0.6750427 0 -1 0 0.5317451 -0.7106392 0.4606941 0.221501 -0.6179531 0.7543681 0 -1 0 0.7782333 -0.6179333 0.1118541 0.5317451 -0.7106392 0.4606941 0 -1 0 0.6620018 -0.6551588 -0.3640339 0.7782333 -0.6179333 0.1118541 0 -1 0 0.3803738 -0.7106736 -0.5918267 0.6620018 -0.6551588 -0.3640339 0 -1 0 0.05616399 -0.6551839 -0.7533789 0.3803738 -0.7106736 -0.5918267</float_array>
+          <technique_common>
+            <accessor source="#contraption_ballShape-normals-array" count="264" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="contraption_ballShape-contraption_ballShape-map1" name="contraption_ballShape-contraption_ballShape-map1">
+          <float_array id="contraption_ballShape-contraption_ballShape-map1-array" count="100">0.196477 0.992759 0.163905 0.984539 0.169828 0.984539 0.17575 0.984539 0.181671 0.984539 0.187594 0.984539 0.193516 0.984539 0.199438 0.984539 0.205361 0.984539 0.211283 0.984539 0.217204 0.984539 0.223126 0.984539 0.229049 0.984539 0.155762 0.97286 0.163165 0.97286 0.170568 0.97286 0.17797 0.97286 0.185373 0.97286 0.192776 0.97286 0.200179 0.97286 0.207581 0.97286 0.214985 0.97286 0.222386 0.97286 0.229789 0.97286 0.237192 0.97286 0.163165 0.962909 0.155762 0.962909 0.170568 0.962909 0.17797 0.962909 0.185373 0.962909 0.192776 0.962909 0.200179 0.962909 0.207581 0.962909 0.214985 0.962909 0.222386 0.962909 0.229789 0.962909 0.237192 0.962909 0.163905 0.951228 0.169828 0.951228 0.17575 0.951228 0.181671 0.951228 0.187594 0.951228 0.193516 0.951228 0.199438 0.951228 0.205361 0.951228 0.211283 0.951228 0.217204 0.951228 0.223126 0.951228 0.229049 0.951228 0.196477 0.943009</float_array>
+          <technique_common>
+            <accessor source="#contraption_ballShape-contraption_ballShape-map1-array" count="50" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="contraption_ballShape-vertices" name="contraption_ballShape-vertices">
+          <input semantic="POSITION" source="#contraption_ballShape-positions"/>
+        </vertices>
+        <triangles material="blinn17SG" count="88">
+          <input semantic="VERTEX" source="#contraption_ballShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#contraption_ballShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#contraption_ballShape-contraption_ballShape-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 0 3 0 2 4 2 3 5 3 0 6 0 3 7 3 4 8 4 0 9 0 4 10 4 5 11 5 0 12 0 5 13 5 6 14 6 0 15 0 6 16 6 7 17 7 0 18 0 7 19 7 8 20 8 0 21 0 8 22 8 9 23 9 0 24 0 9 25 9 10 26 10 0 27 0 10 28 10 11 29 11 0 30 0 11 31 11 1 32 12 12 33 13 13 34 14 1 35 1 1 36 1 13 37 14 2 38 2 13 39 14 14 40 15 2 41 2 2 42 2 14 43 15 3 44 3 15 45 16 4 46 4 14 47 15 14 48 15 4 49 4 3 50 3 16 51 17 5 52 5 15 53 16 15 54 16 5 55 5 4 56 4 17 57 18 6 58 6 16 59 17 16 60 17 6 61 6 5 62 5 18 63 19 7 64 7 17 65 18 17 66 18 7 67 7 6 68 6 8 69 8 7 70 7 19 71 20 19 72 20 7 73 7 18 74 19 19 75 20 20 76 21 8 77 8 8 78 8 20 79 21 9 80 9 20 81 21 21 82 22 9 83 9 9 84 9 21 85 22 10 86 10 21 87 22 22 88 23 10 89 10 10 90 10 22 91 23 11 92 11 1 93 12 11 94 11 12 95 24 12 96 24 11 97 11 22 98 23 23 99 25 13 100 14 24 101 26 24 102 26 13 103 14 12 104 13 25 105 27 14 106 15 23 107 25 23 108 25 14 109 15 13 110 14 26 111 28 15 112 16 25 113 27 25 114 27 15 115 16 14 116 15 16 117 17 15 118 16 27 119 29 27 120 29 15 121 16 26 122 28 16 123 17 27 124 29 17 125 18 17 126 18 27 127 29 28 128 30 29 129 31 18 130 19 28 131 30 28 132 30 18 133 19 17 134 18 30 135 32 19 136 20 29 137 31 29 138 31 19 139 20 18 140 19 20 141 21 19 142 20 31 143 33 31 144 33 19 145 20 30 146 32 21 147 22 20 148 21 32 149 34 32 150 34 20 151 21 31 152 33 33 153 35 22 154 23 32 155 34 32 156 34 22 157 23 21 158 22 24 159 36 12 160 24 33 161 35 33 162 35 12 163 24 22 164 23 34 165 37 35 166 38 24 167 26 24 168 26 35 169 38 23 170 25 35 171 38 36 172 39 23 173 25 23 174 25 36 175 39 25 176 27 37 177 40 26 178 28 36 179 39 36 180 39 26 181 28 25 182 27 26 183 28 37 184 40 27 185 29 27 186 29 37 187 40 38 188 41 27 189 29 38 190 41 28 191 30 28 192 30 38 193 41 39 194 42 39 195 42 40 196 43 28 197 30 28 198 30 40 199 43 29 200 31 29 201 31 40 202 43 30 203 32 30 204 32 40 205 43 41 206 44 41 207 44 42 208 45 30 209 32 30 210 32 42 211 45 31 212 33 31 213 33 42 214 45 32 215 34 32 216 34 42 217 45 43 218 46 44 219 47 33 220 35 43 221 46 43 222 46 33 223 35 32 224 34 24 225 36 33 226 35 34 227 48 34 228 48 33 229 35 44 230 47 45 231 49 35 232 38 34 233 37 45 234 49 36 235 39 35 236 38 45 237 49 37 238 40 36 239 39 45 240 49 38 241 41 37 242 40 45 243 49 39 244 42 38 245 41 45 246 49 40 247 43 39 248 42 45 249 49 41 250 44 40 251 43 45 252 49 42 253 45 41 254 44 45 255 49 43 256 46 42 257 45 45 258 49 44 259 47 43 260 46 45 261 49 34 262 48 44 263 47</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>contraption_ballShape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="ball" name="ball" sid="ball" type="JOINT">
+        <translate sid="translate">0 0 0</translate>
+        <rotate sid="jointOrientZ">0 0 1 0</rotate>
+        <rotate sid="jointOrientY">0 1 0 0</rotate>
+        <rotate sid="jointOrientX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>ball</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="contraption_ball" name="contraption_ball" type="NODE">
+        <translate sid="translate">0 0 0</translate>
+        <instance_controller url="#contraption_ballShape-skin">
+          <skeleton>#ball</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn17SG" target="#blinn17">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>contraption_ball</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Administrator</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=1;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///D:/Ruihe/untitled</source_data>
+    </contributor>
+    <created>2012-04-26T10:07:02Z</created>
+    <modified>2012-04-26T10:07:02Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="lightswitch_base_1" name="lightswitch_base_1">
+      <init_from>file:///D:/Ruihe/LightsWitch/Lights_witch/lightswitch_base.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn1" name="blinn1">
+      <instance_effect url="#blinn1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn1-fx">
+      <profile_COMMON>
+        <newparam sid="lightswitch_base_1-surface">
+          <surface type="2D">
+            <init_from>lightswitch_base_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="lightswitch_base_1-sampler">
+          <sampler2D>
+            <source>lightswitch_base_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="lightswitch_base_1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="lightswitch_base" name="lightswitch_base">
+      <mesh>
+        <source id="lightswitch_base-positions" name="position">
+          <float_array id="lightswitch_base-positions-array" count="138">-6.3671 3.2267 -0.7485 -6.3671 6.4541 -0.7485 -6.3671 9.6815 -0.7485 6.4197 9.6815 -0.7485 6.4197 6.4541 -0.7485 6.4197 3.2267 -0.7485 -6.3671 3.231 0.2022 -6.197 3.2317 0.3726 6.2495 3.2317 0.3726 6.4197 3.231 0.2022 -6.197 9.6765 0.3726 -6.3671 9.6772 0.2022 6.4197 9.6772 0.2022 6.2495 9.6765 0.3726 -6.3671 6.4541 0.2925 -6.197 6.4541 0.4626 6.4197 6.4541 0.2925 6.2495 6.4541 0.4626 -6.0724 -0.0012 -0.7485 -6.2808 0.085 -0.7485 -6.3671 0.2934 -0.7485 -6.2837 0.0979 -0.0597 -6.3671 0.3197 -0.0411 -6.0674 0 -0.0679 6.4197 0.2934 -0.7485 6.3333 0.085 -0.7485 6.125 -0.0012 -0.7485 6.3363 0.0979 -0.0597 6.1199 0 -0.0679 6.4197 0.3197 -0.0411 -6.3671 12.6149 -0.7485 -6.2808 12.8232 -0.7485 -6.0724 12.9095 -0.7485 -6.2823 12.7828 -0.0599 -6.0672 12.8776 -0.0679 -6.3671 12.5641 -0.0414 6.125 12.9095 -0.7485 6.3333 12.8232 -0.7485 6.4197 12.6149 -0.7485 6.3349 12.7828 -0.0599 6.4197 12.5641 -0.0414 6.1198 12.8776 -0.0679 -6.197 0.1613 0.0545 6.2495 0.1613 0.0545 -6.197 12.6887 0.0853 6.2495 12.6887 0.0853</float_array>
+          <technique_common>
+            <accessor source="#lightswitch_base-positions-array" count="46" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lightswitch_base-normals" name="normal">
+          <float_array id="lightswitch_base-normals-array" count="138">-1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 -0.95233 -0.016988 0.304596 -0.408992 -0.052652 0.911018 0.408848 -0.06417 0.910344 0.952296 -0.016994 0.304702 -0.422834 0.060042 0.904216 -0.952329 0.017111 0.304592 0.952295 0.017117 0.304699 0.422678 0.049743 0.904914 -0.863018 0 0.505174 -0.305132 0.006024 0.952291 0.862916 0 0.505348 0.305026 -0.006024 0.952325 -0.129612 -0.991561 0.0027 -0.61236 -0.790536 0.008213 -0.968462 -0.2491 0.005553 -0.735097 -0.606334 0.303301 -0.89876 -0.149118 0.412305 -0.203717 -0.88577 0.417026 0.968428 -0.249231 0.00551 0.61226 -0.790614 0.008167 0.194927 -0.980813 0.00319 0.734972 -0.606447 0.303378 0.200283 -0.9433 0.264711 0.898689 -0.149119 0.412458 -0.967396 0.252777 0.01577 -0.608964 0.792053 0.042595 -0.19483 0.97969 0.047409 -0.73229 0.608196 0.306349 -0.194428 0.937018 0.290164 -0.908683 0.150466 0.38943 0.129657 0.990425 0.047412 0.608915 0.792095 0.04253 0.967362 0.252911 0.015732 0.73221 0.60826 0.306412 0.908618 0.150471 0.389579 0.19709 0.882066 0.427919 -0.27585 -0.349681 0.895338 0.274496 -0.438887 0.855588 -0.298436 0.452859 0.840152 0.299859 0.356596 0.88483</float_array>
+          <technique_common>
+            <accessor source="#lightswitch_base-normals-array" count="46" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lightswitch_base-map1" name="map1">
+          <float_array id="lightswitch_base-map1-array" count="136">0.706459 0.958639 0.682053 0.958416 0.682052 0.036951 0.706459 0.036727 0.65902 0.958571 0.633286 0.958953 0.633286 0.036622 0.65902 0.037004 0.524759 0.25853 0.533962 0.038391 0.560707 0.036401 0.560707 0.25821 0.575159 0.036401 0.601904 0.038391 0.611106 0.25853 0.575159 0.25821 0.575159 0.746293 0.611106 0.745973 0.601894 0.964264 0.575159 0.968102 0.560707 0.968102 0.533972 0.964264 0.524759 0.745973 0.560707 0.746293 0.015781 0.745409 0.015781 0.501744 0.486366 0.501744 0.486366 0.745409 0.015781 0.25808 0.486366 0.25808 0.614521 0.502252 0.575159 0.502252 0.560707 0.502252 0.521345 0.502252 0.486366 0.025905 0.015781 0.025905 0.015781 0.973181 0.486366 0.973181 0.663649 0.968372 0.663649 0.027203 0.605522 0.026412 0.617549 0.258587 0.530344 0.026412 0.518316 0.258587 0.606689 0.973689 0.617549 0.745916 0.673706 0.968555 0.673706 0.026811 0.529176 0.973689 0.518316 0.745916 0.620952 0.502252 0.514913 0.502252 0.575159 0.020645 0.601203 0.021623 0.633286 0.974709 0.65933 0.97493 0.633286 0.020866 0.65933 0.020645 0.560707 0.020645 0.534662 0.021623 0.706293 0.974747 0.680342 0.97436 0.575159 0.983857 0.601196 0.980799 0.560707 0.983857 0.534669 0.980799 0.706292 0.020619 0.680343 0.021004</float_array>
+          <technique_common>
+            <accessor source="#lightswitch_base-map1-array" count="68" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lightswitch_base-vertices">
+          <input semantic="POSITION" source="#lightswitch_base-positions"/>
+          <input semantic="NORMAL" source="#lightswitch_base-normals"/>
+        </vertices>
+        <triangles material="blinn1SG" count="72">
+          <input semantic="VERTEX" source="#lightswitch_base-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#lightswitch_base-map1" offset="1" set="0"/>
+          <p>32 0 34 1 36 3 36 3 34 1 41 2 23 4 18 5 28 7 28 7 18 5 26 6 9 8 29 9 5 11 5 11 29 9 24 10 20 12 22 13 0 15 0 15 22 13 6 14 11 17 35 18 2 16 2 16 35 18 30 19 38 20 40 21 3 23 3 23 40 21 12 22 10 24 15 25 13 27 13 27 15 25 17 26 15 25 7 28 17 26 17 26 7 28 8 29 14 30 1 31 6 14 6 14 1 31 0 15 14 30 11 17 1 31 1 31 11 17 2 16 5 11 4 32 9 8 9 8 4 32 16 33 3 23 12 22 4 32 4 32 12 22 16 33 43 34 8 29 42 35 42 35 8 29 7 28 44 36 10 24 45 37 45 37 10 24 13 27 42 38 23 4 43 39 43 39 23 4 28 7 42 40 7 41 22 13 22 13 7 41 6 14 43 42 29 9 8 43 8 43 29 9 9 8 44 44 35 18 10 45 10 45 35 18 11 17 34 1 44 46 41 2 41 2 44 46 45 47 45 48 13 49 40 21 40 21 13 49 12 22 6 14 7 41 14 30 14 30 7 41 15 50 9 8 16 33 8 43 8 43 16 33 17 51 11 17 14 30 10 45 10 45 14 30 15 50 12 22 13 49 16 33 16 33 13 49 17 51 19 52 21 53 20 12 20 12 21 53 22 13 18 5 23 4 19 54 19 54 23 4 21 55 22 13 21 53 42 40 21 55 23 4 42 38 26 6 25 56 28 7 28 7 25 56 27 57 25 58 24 10 27 59 27 59 24 10 29 9 28 7 27 57 43 39 27 59 29 9 43 42 32 0 31 60 34 1 34 1 31 60 33 61 31 62 30 19 33 63 33 63 30 19 35 18 34 1 33 61 44 46 33 63 35 18 44 44 37 64 39 65 38 20 38 20 39 65 40 21 36 3 41 2 37 66 37 66 41 2 39 67 40 21 39 65 45 48 39 67 41 2 45 47</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="_lightswitch_base" name="lightswitch_base" type="NODE">
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <instance_geometry url="#lightswitch_base">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn1SG" target="#blinn1">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,970 @@
+Warning: libpng warning: Interlace handling should be turned on when using png_read_image
+Warning: libpng warning: Interlace handling should be turned on when using png_read_image
+Warning: libpng warning: Interlace handling should be turned on when using png_read_image
+Warning: libpng warning: Interlace handling should be turned on when using png_read_image
+Warning: libpng warning: Interlace handling should be turned on when using png_read_image
+Warning: QPainter::begin: Paint device returned engine == 0, type: 1
+Warning: QPainter::setPen: Painter not active
+Warning: QPainter::setBrush: Painter not active
+Warning: QPainter::setRenderHint: Painter must be active to set rendering hints
+Warning: QPainter::setPen: Painter not active
+Warning: libpng warning: Interlace handling should be turned on when using png_read_image
+Warning: QColor::setHsv: HSV parameters out of range
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "10:09:35 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2856 HG: Add Sound File" 
+Debug: "10:09:52 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item" 
+Debug: "10:10:08 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2856 HG: Add Sound File" 
+Debug: "10:10:11 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item" 
+Debug: "10:10:24 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2856 HG: Add Sound File" 
+Debug: "10:10:27 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item" 
+Debug: "10:10:51 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item" 
+Debug: "10:10:58 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item" 
+Debug: "10:11:02 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item" 
+Debug: "10:11:06 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item" 
+Debug: "10:11:13 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item" 
+Debug: 
+Building project 'Soma_Player'...
+Debug: Building project C:\Program Files (x86)\Steam\steamapps\common\Amnesia Rebirth\mods\TBDName\sounds\soma\Soma_Player.fev...
+Debug: Unique sound defs 5/6
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 44 of 47
+Debug: Unique Strings: 172 characters of 188
+Debug: Caching sound file details for ''...
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#1 (glitch_high_1).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#10 (glitch_high_18).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#11 (glitch_high_19).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#12 (glitch_high_2).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#13 (glitch_high_20).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#14 (glitch_high_21).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#15 (glitch_high_22).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#16 (glitch_high_23).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#17 (glitch_high_24).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#18 (glitch_high_25).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#19 (glitch_high_26).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#2 (glitch_high_10).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#20 (glitch_high_27).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#21 (glitch_high_28).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#22 (glitch_high_29).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#23 (glitch_high_3).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#24 (glitch_high_30).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#25 (glitch_high_31).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#26 (glitch_high_32).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#27 (glitch_high_33).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#28 (glitch_high_34).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#29 (glitch_high_35).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#3 (glitch_high_11).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#30 (glitch_high_36).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#31 (glitch_high_37).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#32 (glitch_high_38).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#33 (glitch_high_39).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#34 (glitch_high_4).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#35 (glitch_high_40).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#36 (glitch_high_5).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#37 (glitch_high_6).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#38 (glitch_high_7).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#39 (glitch_high_8).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#4 (glitch_high_12).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#40 (glitch_high_9).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#41 (glitch_low_01).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#42 (glitch_low_02).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#43 (glitch_low_03).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#44 (glitch_low_04).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#45 (glitch_low_05).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#46 (glitch_low_06).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#47 (glitch_low_07).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#48 (glitch_low_08).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#49 (glitch_low_09).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#5 (glitch_high_13).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#50 (glitch_low_10).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#51 (glitch_low_11).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#52 (glitch_low_12).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#53 (glitch_low_13).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#54 (glitch_low_14).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#55 (glitch_low_15).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#56 (glitch_low_16).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#57 (glitch_low_17).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#58 (glitch_low_18).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#59 (glitch_low_19).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#6 (glitch_high_14).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#60 (glitch_low_20).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#61 (glitch_low_21).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#62 (glitch_low_22).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#63 (glitch_low_23).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#64 (glitch_low_24).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#65 (glitch_low_25).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#66 (glitch_low_26).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#67 (glitch_low_27).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#68 (glitch_low_28).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#69 (glitch_low_29).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#7 (glitch_high_15).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#70 (glitch_med_1).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#71 (glitch_med_10).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#72 (glitch_med_11).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#73 (glitch_med_12).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#74 (glitch_med_13).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#75 (glitch_med_14).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#76 (glitch_med_15).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#77 (glitch_med_16).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#78 (glitch_med_17).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#79 (glitch_med_18).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#8 (glitch_high_16).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#80 (glitch_med_19).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#81 (glitch_med_2).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#82 (glitch_med_20).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#83 (glitch_med_21).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#84 (glitch_med_3).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#85 (glitch_med_4).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#86 (glitch_med_5).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#87 (glitch_med_6).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#88 (glitch_med_7).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#89 (glitch_med_8).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#9 (glitch_high_17).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#90 (glitch_med_9).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#136 (glitch_loop).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#137 (time_freeze_01).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#138 (time_freeze_02).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#139 (time_freeze_03).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#140 (time_freeze_04).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#141 (time_glitch_hit_01).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#142 (time_glitch_hit_02).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#143 (time_glitch_hit_03).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#144 (time_glitch_hit_04).wav
+Debug: Building 'Soma_Player_Glitch.fsb'
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#10 (glitch_high_18).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#1 (glitch_high_1).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#11 (glitch_high_19).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#12 (glitch_high_2).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#13 (glitch_high_20).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#15 (glitch_high_22).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#14 (glitch_high_21).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#16 (glitch_high_23).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#17 (glitch_high_24).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#18 (glitch_high_25).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#19 (glitch_high_26).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#20 (glitch_high_27).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#2 (glitch_high_10).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#21 (glitch_high_28).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#23 (glitch_high_3).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#22 (glitch_high_29).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#25 (glitch_high_31).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#26 (glitch_high_32).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#24 (glitch_high_30).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#28 (glitch_high_34).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#27 (glitch_high_33).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#29 (glitch_high_35).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#30 (glitch_high_36).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#3 (glitch_high_11).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#31 (glitch_high_37).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#32 (glitch_high_38).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#33 (glitch_high_39).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#34 (glitch_high_4).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#35 (glitch_high_40).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#37 (glitch_high_6).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#38 (glitch_high_7).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#36 (glitch_high_5).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#39 (glitch_high_8).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#40 (glitch_high_9).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#41 (glitch_low_01).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#4 (glitch_high_12).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#42 (glitch_low_02).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#43 (glitch_low_03).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#45 (glitch_low_05).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#46 (glitch_low_06).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#44 (glitch_low_04).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#47 (glitch_low_07).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#48 (glitch_low_08).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#49 (glitch_low_09).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#5 (glitch_high_13).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#50 (glitch_low_10).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#51 (glitch_low_11).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#52 (glitch_low_12).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#53 (glitch_low_13).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#54 (glitch_low_14).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#55 (glitch_low_15).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#56 (glitch_low_16).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#57 (glitch_low_17).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#58 (glitch_low_18).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#59 (glitch_low_19).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#6 (glitch_high_14).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#60 (glitch_low_20).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#61 (glitch_low_21).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#62 (glitch_low_22).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#64 (glitch_low_24).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#63 (glitch_low_23).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#66 (glitch_low_26).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#65 (glitch_low_25).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#68 (glitch_low_28).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#67 (glitch_low_27).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#7 (glitch_high_15).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#69 (glitch_low_29).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#70 (glitch_med_1).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#72 (glitch_med_11).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#71 (glitch_med_10).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#73 (glitch_med_12).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#74 (glitch_med_13).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#76 (glitch_med_15).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#75 (glitch_med_14).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#77 (glitch_med_16).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#78 (glitch_med_17).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#79 (glitch_med_18).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#8 (glitch_high_16).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#81 (glitch_med_2).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#80 (glitch_med_19).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#82 (glitch_med_20).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#84 (glitch_med_3).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#83 (glitch_med_21).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#85 (glitch_med_4).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#86 (glitch_med_5).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#87 (glitch_med_6).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#88 (glitch_med_7).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#89 (glitch_med_8).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#9 (glitch_high_17).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#90 (glitch_med_9).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#137 (time_freeze_01).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#138 (time_freeze_02).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#139 (time_freeze_03).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#140 (time_freeze_04).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#141 (time_glitch_hit_01).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#142 (time_glitch_hit_02).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#136 (glitch_loop).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#143 (time_glitch_hit_03).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#144 (time_glitch_hit_04).wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: Running post-build commands...
+Debug: Running command '"C:\Program Files (x86)\Steam\steamapps\common\Amnesia Rebirth\mods\TBDName\sounds\soma/../run_after_build.bat"'...
+Debug: Error creating process: 
+Debug: Command '"C:\Program Files (x86)\Steam\steamapps\common\Amnesia Rebirth\mods\TBDName\sounds\soma/../run_after_build.bat"' failed
+Debug: Error : Post-build commands failed.
+Debug: 
+The following errors and warnings were detected:
+Error : Post-build commands failed.
+Debug: 
+Summary of build:
+SUCCESS: C:/Program Files (x86)/Steam/steamapps/common/Amnesia Rebirth/mods/TBDName/sounds/soma/Soma_Player.fev
+SUCCESS: Soma_Player_Glitch.fsb
+FAIL   : Post-build commands
+Debug: "10:13:12 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\builddialog.ui.h:186 AF: Modify Build Settings" 
+Debug: 
+Building project 'Soma_Player'...
+Debug: Building project C:\Program Files (x86)\Steam\steamapps\common\Amnesia Rebirth\mods\TBDName\sounds\soma\Soma_Player.fev...
+Debug: Unique sound defs 5/6
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 44 of 47
+Debug: Unique Strings: 172 characters of 188
+Debug: Caching sound file details for ''...
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#1 (glitch_high_1).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#10 (glitch_high_18).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#11 (glitch_high_19).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#12 (glitch_high_2).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#13 (glitch_high_20).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#14 (glitch_high_21).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#15 (glitch_high_22).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#16 (glitch_high_23).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#17 (glitch_high_24).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#18 (glitch_high_25).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#19 (glitch_high_26).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#2 (glitch_high_10).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#20 (glitch_high_27).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#21 (glitch_high_28).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#22 (glitch_high_29).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#23 (glitch_high_3).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#24 (glitch_high_30).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#25 (glitch_high_31).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#26 (glitch_high_32).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#27 (glitch_high_33).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#28 (glitch_high_34).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#29 (glitch_high_35).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#3 (glitch_high_11).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#30 (glitch_high_36).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#31 (glitch_high_37).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#32 (glitch_high_38).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#33 (glitch_high_39).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#34 (glitch_high_4).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#35 (glitch_high_40).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#36 (glitch_high_5).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#37 (glitch_high_6).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#38 (glitch_high_7).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#39 (glitch_high_8).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#4 (glitch_high_12).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#40 (glitch_high_9).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#41 (glitch_low_01).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#42 (glitch_low_02).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#43 (glitch_low_03).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#44 (glitch_low_04).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#45 (glitch_low_05).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#46 (glitch_low_06).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#47 (glitch_low_07).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#48 (glitch_low_08).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#49 (glitch_low_09).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#5 (glitch_high_13).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#50 (glitch_low_10).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#51 (glitch_low_11).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#52 (glitch_low_12).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#53 (glitch_low_13).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#54 (glitch_low_14).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#55 (glitch_low_15).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#56 (glitch_low_16).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#57 (glitch_low_17).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#58 (glitch_low_18).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#59 (glitch_low_19).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#6 (glitch_high_14).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#60 (glitch_low_20).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#61 (glitch_low_21).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#62 (glitch_low_22).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#63 (glitch_low_23).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#64 (glitch_low_24).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#65 (glitch_low_25).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#66 (glitch_low_26).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#67 (glitch_low_27).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#68 (glitch_low_28).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#69 (glitch_low_29).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#7 (glitch_high_15).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#70 (glitch_med_1).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#71 (glitch_med_10).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#72 (glitch_med_11).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#73 (glitch_med_12).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#74 (glitch_med_13).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#75 (glitch_med_14).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#76 (glitch_med_15).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#77 (glitch_med_16).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#78 (glitch_med_17).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#79 (glitch_med_18).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#8 (glitch_high_16).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#80 (glitch_med_19).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#81 (glitch_med_2).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#82 (glitch_med_20).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#83 (glitch_med_21).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#84 (glitch_med_3).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#85 (glitch_med_4).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#86 (glitch_med_5).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#87 (glitch_med_6).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#88 (glitch_med_7).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#89 (glitch_med_8).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#9 (glitch_high_17).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#90 (glitch_med_9).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#136 (glitch_loop).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#137 (time_freeze_01).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#138 (time_freeze_02).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#139 (time_freeze_03).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#140 (time_freeze_04).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#141 (time_glitch_hit_01).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#142 (time_glitch_hit_02).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#143 (time_glitch_hit_03).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#144 (time_glitch_hit_04).wav
+Debug: Building 'Soma_Player_Glitch.fsb'
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#1 (glitch_high_1).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#10 (glitch_high_18).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#12 (glitch_high_2).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#11 (glitch_high_19).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#13 (glitch_high_20).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#14 (glitch_high_21).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#15 (glitch_high_22).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#16 (glitch_high_23).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#17 (glitch_high_24).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#18 (glitch_high_25).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#19 (glitch_high_26).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#2 (glitch_high_10).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#20 (glitch_high_27).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#21 (glitch_high_28).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#23 (glitch_high_3).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#22 (glitch_high_29).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#24 (glitch_high_30).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#25 (glitch_high_31).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#27 (glitch_high_33).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#26 (glitch_high_32).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#28 (glitch_high_34).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#29 (glitch_high_35).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#3 (glitch_high_11).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#30 (glitch_high_36).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#31 (glitch_high_37).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#32 (glitch_high_38).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#33 (glitch_high_39).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#34 (glitch_high_4).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#36 (glitch_high_5).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#35 (glitch_high_40).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#38 (glitch_high_7).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#37 (glitch_high_6).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#39 (glitch_high_8).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#4 (glitch_high_12).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#40 (glitch_high_9).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#41 (glitch_low_01).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#42 (glitch_low_02).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#43 (glitch_low_03).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#44 (glitch_low_04).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#46 (glitch_low_06).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#45 (glitch_low_05).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#47 (glitch_low_07).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#48 (glitch_low_08).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#49 (glitch_low_09).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#50 (glitch_low_10).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#5 (glitch_high_13).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#51 (glitch_low_11).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#52 (glitch_low_12).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#53 (glitch_low_13).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#54 (glitch_low_14).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#55 (glitch_low_15).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#56 (glitch_low_16).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#57 (glitch_low_17).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#58 (glitch_low_18).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#59 (glitch_low_19).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#6 (glitch_high_14).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#60 (glitch_low_20).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#61 (glitch_low_21).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#62 (glitch_low_22).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#63 (glitch_low_23).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#64 (glitch_low_24).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#65 (glitch_low_25).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#66 (glitch_low_26).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#67 (glitch_low_27).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#68 (glitch_low_28).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#69 (glitch_low_29).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#7 (glitch_high_15).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#70 (glitch_med_1).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#71 (glitch_med_10).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#73 (glitch_med_12).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#72 (glitch_med_11).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#74 (glitch_med_13).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#75 (glitch_med_14).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#76 (glitch_med_15).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#78 (glitch_med_17).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#77 (glitch_med_16).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#79 (glitch_med_18).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#8 (glitch_high_16).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#80 (glitch_med_19).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#81 (glitch_med_2).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#82 (glitch_med_20).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#83 (glitch_med_21).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#84 (glitch_med_3).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#85 (glitch_med_4).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#86 (glitch_med_5).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#87 (glitch_med_6).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#89 (glitch_med_8).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#88 (glitch_med_7).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#90 (glitch_med_9).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#9 (glitch_high_17).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#136 (glitch_loop).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#137 (time_freeze_01).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#138 (time_freeze_02).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#139 (time_freeze_03).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#141 (time_glitch_hit_01).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#140 (time_freeze_04).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#142 (time_glitch_hit_02).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#143 (time_glitch_hit_03).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#144 (time_glitch_hit_04).wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: Running post-build commands...
+Debug: Running command '"C:\Program Files (x86)\Steam\steamapps\common\Amnesia Rebirth\mods\TBDName\sounds\soma/../run_after_build.bat"'...
+Debug: Error creating process: 
+Debug: Command '"C:\Program Files (x86)\Steam\steamapps\common\Amnesia Rebirth\mods\TBDName\sounds\soma/../run_after_build.bat"' failed
+Debug: Error : Post-build commands failed.
+Debug: 
+The following errors and warnings were detected:
+Error : Post-build commands failed.
+Debug: 
+Summary of build:
+SUCCESS: C:/Program Files (x86)/Steam/steamapps/common/Amnesia Rebirth/mods/TBDName/sounds/soma/Soma_Player.fev
+SUCCESS: Soma_Player_Glitch.fsb
+FAIL   : Post-build commands
+Debug: "12:12:29 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:1638 BZ: Add Event Group" 
+Debug: "12:12:50 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\mainform.ui.h:748 DY: Create Event" 
+Debug: "12:13:09 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\mainform.ui.h:748 DY: Create Event" 
+Debug: "12:13:17 ..\..\src\eventlistview.cpp:451 CB: Move Event to Group" 
+Debug: "12:36:54 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:2202 CH: Delete Events/Event Groups/Event Categories" 
+Debug: "12:37:08 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:2202 CH: Delete Events/Event Groups/Event Categories" 
+Debug: "12:37:13 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank" 
+Debug: "12:38:15 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:2202 CH: Delete Events/Event Groups/Event Categories" 
+Debug: "12:38:18 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:2202 CH: Delete Events/Event Groups/Event Categories" 
+Debug: "12:38:22 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:2202 CH: Delete Events/Event Groups/Event Categories" 
+Debug: "12:39:18 ..\..\src\simpleeventcontroller.cpp:613 HV: Set Playback Mode" 
+Debug: "12:39:19 ..\..\src\simpleeventcontroller.cpp:613 HV: Set Playback Mode" 
+Debug: "12:40:23 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:1428 BY: Add Event" 
+Debug: event name = Simon_Footsteps
+Debug: layer name = layer00
+Debug: "12:41:07 ..\..\src\eventlayerstackwidget.cpp:701 CR: Add Sound File(s)" 
+Debug: "12:41:16 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank" 
+Debug: "12:42:44 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank" 
+Debug: "12:43:14 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:1983 CG: Paste Event" 
+Debug: "12:43:42 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank" 
+Debug: "12:44:38 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:1717 CA: Add Event Category" 
+Debug: "12:44:44 ..\..\src\categorylistview.cpp:409 CD: Move Event to Category" 
+Debug: "12:44:48 ..\..\src\categorylistview.cpp:409 CD: Move Multiple Events to Category" 
+Debug: "12:45:03 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank" 
+Debug: "12:45:05 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank" 
+Warning: QColor::setHsv: HSV parameters out of range
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:46:24 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\mainform.ui.h:748 DY: Create Events" 
+Warning: QColor::setHsv: HSV parameters out of range
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length" 
+Warning: QColor::setHsv: HSV parameters out of range
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "12:47:32 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item" 
+Debug: "12:47:38 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2856 HG: Add Sound File" 
+Debug: "12:47:45 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:2202 CH: Delete Events/Event Groups/Event Categories" 
+Debug: "12:48:01 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:2202 CH: Delete Events/Event Groups/Event Categories" 
+Warning: QColor::setHsv: HSV parameters out of range
+Warning: libpng warning: Interlace handling should be turned on when using png_read_image
+Warning: libpng warning: Interlace handling should be turned on when using png_read_image
+Debug: "12:50:26 ..\..\src\propertyeditor.cpp:1508 EM: Set Name" 
+Debug: "12:50:35 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank" 
+Debug: "12:50:37 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank" 
+Debug: "12:50:46 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\bankform.ui.h:1048 AC: Delete Soundbank" 
+Debug: "12:50:46 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank" 
+Debug: 
+Building project 'Soma_Player'...
+Debug: Building project C:\Program Files (x86)\Steam\steamapps\common\Amnesia Rebirth\mods\TBDName\sounds\soma\Soma_Player.fev...
+Debug: Unique sound defs 6/9
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 63 of 67
+Debug: Unique Strings: 451 characters of 467
+Debug: Caching sound file details for ''...
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Construct_Idle_Rambling_57.wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Construct_Idle_Rambling_62.wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#452 (deepsea_diver_run_step_01).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#453 (deepsea_diver_run_step_02).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#454 (deepsea_diver_run_step_03).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#455 (deepsea_diver_run_step_04).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#456 (deepsea_diver_run_step_05).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#457 (deepsea_diver_run_step_06).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#458 (deepsea_diver_run_step_07).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#459 (deepsea_diver_run_step_08).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#460 (deepsea_diver_run_step_09).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#461 (deepsea_diver_run_step_10).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#462 (deepsea_diver_run_step_11).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#463 (deepsea_diver_run_step_12).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#464 (deepsea_diver_run_step_13).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#465 (deepsea_diver_run_step_14).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#1 (glitch_high_1).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#10 (glitch_high_18).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#11 (glitch_high_19).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#12 (glitch_high_2).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#13 (glitch_high_20).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#14 (glitch_high_21).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#15 (glitch_high_22).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#16 (glitch_high_23).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#17 (glitch_high_24).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#18 (glitch_high_25).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#19 (glitch_high_26).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#2 (glitch_high_10).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#20 (glitch_high_27).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#21 (glitch_high_28).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#22 (glitch_high_29).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#23 (glitch_high_3).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#24 (glitch_high_30).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#25 (glitch_high_31).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#26 (glitch_high_32).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#27 (glitch_high_33).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#28 (glitch_high_34).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#29 (glitch_high_35).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#3 (glitch_high_11).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#30 (glitch_high_36).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#31 (glitch_high_37).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#32 (glitch_high_38).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#33 (glitch_high_39).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#34 (glitch_high_4).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#35 (glitch_high_40).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#36 (glitch_high_5).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#37 (glitch_high_6).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#38 (glitch_high_7).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#39 (glitch_high_8).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#4 (glitch_high_12).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#40 (glitch_high_9).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#41 (glitch_low_01).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#42 (glitch_low_02).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#43 (glitch_low_03).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#44 (glitch_low_04).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#45 (glitch_low_05).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#46 (glitch_low_06).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#47 (glitch_low_07).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#48 (glitch_low_08).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#49 (glitch_low_09).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#5 (glitch_high_13).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#50 (glitch_low_10).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#51 (glitch_low_11).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#52 (glitch_low_12).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#53 (glitch_low_13).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#54 (glitch_low_14).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#55 (glitch_low_15).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#56 (glitch_low_16).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#57 (glitch_low_17).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#58 (glitch_low_18).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#59 (glitch_low_19).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#6 (glitch_high_14).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#60 (glitch_low_20).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#61 (glitch_low_21).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#62 (glitch_low_22).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#63 (glitch_low_23).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#64 (glitch_low_24).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#65 (glitch_low_25).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#66 (glitch_low_26).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#67 (glitch_low_27).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#68 (glitch_low_28).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#69 (glitch_low_29).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#7 (glitch_high_15).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#70 (glitch_med_1).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#71 (glitch_med_10).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#72 (glitch_med_11).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#73 (glitch_med_12).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#74 (glitch_med_13).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#75 (glitch_med_14).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#76 (glitch_med_15).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#77 (glitch_med_16).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#78 (glitch_med_17).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#79 (glitch_med_18).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#8 (glitch_high_16).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#80 (glitch_med_19).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#81 (glitch_med_2).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#82 (glitch_med_20).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#83 (glitch_med_21).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#84 (glitch_med_3).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#85 (glitch_med_4).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#86 (glitch_med_5).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#87 (glitch_med_6).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#88 (glitch_med_7).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#89 (glitch_med_8).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#9 (glitch_high_17).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#90 (glitch_med_9).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#136 (glitch_loop).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#137 (time_freeze_01).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#138 (time_freeze_02).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#139 (time_freeze_03).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#140 (time_freeze_04).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#141 (time_glitch_hit_01).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#142 (time_glitch_hit_02).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#143 (time_glitch_hit_03).wav
+Debug: ..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#144 (time_glitch_hit_04).wav
+Debug: Building 'Soma_Import.fsb'
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Construct_Idle_Rambling_57.wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Construct_Idle_Rambling_62.wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#453 (deepsea_diver_run_step_02).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#452 (deepsea_diver_run_step_01).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#454 (deepsea_diver_run_step_03).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#455 (deepsea_diver_run_step_04).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#457 (deepsea_diver_run_step_06).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#456 (deepsea_diver_run_step_05).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#459 (deepsea_diver_run_step_08).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#458 (deepsea_diver_run_step_07).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#460 (deepsea_diver_run_step_09).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#461 (deepsea_diver_run_step_10).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#462 (deepsea_diver_run_step_11).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#463 (deepsea_diver_run_step_12).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#465 (deepsea_diver_run_step_14).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\NPC_Creatures_Foley#464 (deepsea_diver_run_step_13).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#1 (glitch_high_1).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#10 (glitch_high_18).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#11 (glitch_high_19).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#12 (glitch_high_2).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#13 (glitch_high_20).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#14 (glitch_high_21).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#15 (glitch_high_22).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#16 (glitch_high_23).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#18 (glitch_high_25).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#17 (glitch_high_24).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#19 (glitch_high_26).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#2 (glitch_high_10).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#21 (glitch_high_28).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#20 (glitch_high_27).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#22 (glitch_high_29).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#23 (glitch_high_3).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#25 (glitch_high_31).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#24 (glitch_high_30).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#26 (glitch_high_32).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#28 (glitch_high_34).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#27 (glitch_high_33).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#29 (glitch_high_35).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#3 (glitch_high_11).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#30 (glitch_high_36).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#31 (glitch_high_37).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#32 (glitch_high_38).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#33 (glitch_high_39).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#35 (glitch_high_40).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#34 (glitch_high_4).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#37 (glitch_high_6).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#36 (glitch_high_5).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#38 (glitch_high_7).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#39 (glitch_high_8).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#4 (glitch_high_12).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#40 (glitch_high_9).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#41 (glitch_low_01).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#42 (glitch_low_02).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#43 (glitch_low_03).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#44 (glitch_low_04).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#45 (glitch_low_05).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#46 (glitch_low_06).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#47 (glitch_low_07).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#48 (glitch_low_08).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#49 (glitch_low_09).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#5 (glitch_high_13).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#50 (glitch_low_10).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#51 (glitch_low_11).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#52 (glitch_low_12).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#53 (glitch_low_13).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#54 (glitch_low_14).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#55 (glitch_low_15).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#56 (glitch_low_16).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#57 (glitch_low_17).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#58 (glitch_low_18).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#59 (glitch_low_19).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#6 (glitch_high_14).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#60 (glitch_low_20).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#61 (glitch_low_21).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#62 (glitch_low_22).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#63 (glitch_low_23).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#64 (glitch_low_24).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#65 (glitch_low_25).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#66 (glitch_low_26).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#67 (glitch_low_27).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#68 (glitch_low_28).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#69 (glitch_low_29).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#7 (glitch_high_15).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#70 (glitch_med_1).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#71 (glitch_med_10).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#72 (glitch_med_11).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#73 (glitch_med_12).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#74 (glitch_med_13).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#75 (glitch_med_14).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#76 (glitch_med_15).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#77 (glitch_med_16).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#79 (glitch_med_18).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#78 (glitch_med_17).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#8 (glitch_high_16).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#80 (glitch_med_19).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#81 (glitch_med_2).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#83 (glitch_med_21).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#82 (glitch_med_20).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#84 (glitch_med_3).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#85 (glitch_med_4).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#86 (glitch_med_5).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#87 (glitch_med_6).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#88 (glitch_med_7).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#9 (glitch_high_17).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#89 (glitch_med_8).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#136 (glitch_loop).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_Glitch#90 (glitch_med_9).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#138 (time_freeze_02).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#137 (time_freeze_01).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#140 (time_freeze_04).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#139 (time_freeze_03).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#142 (time_glitch_hit_02).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#141 (time_glitch_hit_01).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#143 (time_glitch_hit_03).wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\SOMA\sounds\player\..\..\..\..\..\..\..\users\cjwsh\desktop\soma_fsb_extraction\Player_UI#144 (time_glitch_hit_04).wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: Running post-build commands...
+Debug: Running command '"C:\Program Files (x86)\Steam\steamapps\common\Amnesia Rebirth\mods\TBDName\sounds\soma/../run_after_build.bat"'...
+Debug: Error creating process: 
+Debug: Command '"C:\Program Files (x86)\Steam\steamapps\common\Amnesia Rebirth\mods\TBDName\sounds\soma/../run_after_build.bat"' failed
+Debug: Error : Post-build commands failed.
+Debug: 
+The following errors and warnings were detected:
+Error : Post-build commands failed.
+Debug: 
+Summary of build:
+SUCCESS: C:/Program Files (x86)/Steam/steamapps/common/Amnesia Rebirth/mods/TBDName/sounds/soma/Soma_Player.fev
+SUCCESS: Soma_Import.fsb
+FAIL   : Post-build commands

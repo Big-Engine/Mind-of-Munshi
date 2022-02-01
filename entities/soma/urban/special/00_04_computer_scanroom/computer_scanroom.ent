@@ -1,0 +1,57 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="true" Focused="3">
+            <Viewport CameraPos="0.492366 0.0236717 200" CameraTarget="0.492366 0.0236717 0" Controller="Ortho" GridHeights="0.492366 0.0236717 0" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="0.632242" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="200.492 0.0236717 0" CameraTarget="0.492366 0.0236717 0" Controller="Ortho" GridHeights="0.492366 0.0236717 0" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="0.632242" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="0.492366 200.024 0" CameraTarget="0.492366 0.0236717 0" Controller="Ortho" GridHeights="0.492366 0.0236717 0" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="0.632242" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="1.65366 3.20869 2.27794" CameraTarget="-0.246992 0.0236717 -0.68482" Controller="Maya" GridHeights="0.492366 0.0236717 0" GridPlane="1" LockToGrid="true" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/special/00_04_computer_scanroom/computer_scanroom.dae">
+            <SubMesh ID="0" Material="" Name="polySurface131" Rotation="0 0 0" Scale="1 1 1" TriCount="1402" WorldPos="0 0 0" />
+            <SubMesh ID="1" Material="" Name="polySurface133" Rotation="0 0 0" Scale="1 1 1" TriCount="344" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="2" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.21879 0.383887 -0.0525485" Rotation="0 0 0" Scale="1.90252 2.28682 0.681764" ShapeType="Box" WorldPos="0 1.61335 0" />
+            <Shape ID="3" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="1.03217 -0.389275 -0.0525485" Rotation="0 0 0" Scale="0.604272 0.790667 0.6123" ShapeType="Box" WorldPos="1.25096 0.840188 0" />
+            <Shape ID="5" Name="Shape_4" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.050684 0.861246 0.306442" Rotation="0 0 0" Scale="0.0387771 0.038281 0.0790952" ShapeType="Box" WorldPos="0.269474 2.09071 0.358991" />
+            <Shape ID="6" Name="Shape_5" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.143572 0.861246 0.332063" Rotation="0 0 0" Scale="0.173093 0.038281 0.0243575" ShapeType="Box" WorldPos="0.362362 2.09071 0.384611" />
+            <Shape ID="7" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-1.2976 1.21901 -0.0525485" Rotation="0 0 0" Scale="0.325993 0.480447 0.474892" ShapeType="Box" WorldPos="-1.07881 2.44847 0" />
+            <Shape ID="8" Name="Shape_6" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="1.2976 -1.00786 0.22414" Rotation="0 0 0" Scale="0.0620461 0.452969 0.0664149" ShapeType="Box" WorldPos="1.51639 0.221599 0.276689" />
+            <Shape ID="9" Name="Shape_7" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="1.2976 -1.00786 -0.332063" Rotation="0 0 0" Scale="0.0620461 0.452969 0.0664149" ShapeType="Box" WorldPos="1.51639 0.221599 -0.279514" />
+            <Shape ID="10" Name="Shape_8" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.689885 -1.00786 -0.323707" Rotation="0 0 0" Scale="0.0620461 0.452969 0.0664149" ShapeType="Box" WorldPos="0.908675 0.221599 -0.271159" />
+            <Shape ID="11" Name="Shape_9" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.689885 -1.00786 0.22414" Rotation="0 0 0" Scale="0.0620461 0.452969 0.0664149" ShapeType="Box" WorldPos="0.908675 0.221599 0.276689" />
+            <Shape ID="12" Name="Shape_10" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-1.11768 -1.00786 -0.323707" Rotation="0 0 0" Scale="0.0620461 0.452969 0.0664149" ShapeType="Box" WorldPos="-0.898892 0.221599 -0.271159" />
+            <Shape ID="13" Name="Shape_11" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-1.11768 -1.00786 0.22414" Rotation="0 0 0" Scale="0.0620461 0.452969 0.0664149" ShapeType="Box" WorldPos="-0.898892 0.221599 0.276689" />
+            <Shape ID="14" Name="Shape_12" RelativeRotation="0 -0.204992 0" RelativeScale="1 1 1" RelativeTranslation="0.201966 -1.21901 0.0310181" Rotation="0 -0.204992 0" Scale="0.691435 0.0251424 0.623476" ShapeType="Box" WorldPos="0.420756 0.0104569 0.0835666" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="15" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="0.21879 1.22946 0.0525485">
+                <Children>
+                    <Child ID="1" />
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="14" />
+                <Shape ID="2" />
+                <Shape ID="3" />
+                <Shape ID="8" />
+                <Shape ID="11" />
+                <Shape ID="10" />
+                <Shape ID="9" />
+                <Shape ID="12" />
+                <Shape ID="13" />
+                <Shape ID="6" />
+                <Shape ID="5" />
+                <Shape ID="7" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp">
+        <Var Name="ShowMesh" Value="true" />
+    </UserDefinedVariables>
+</Entity>

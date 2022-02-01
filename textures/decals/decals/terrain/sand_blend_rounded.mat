@@ -1,0 +1,19 @@
+<Material>
+    <Main BlendMode="Alpha" DepthTest="true" PhysicsMaterial="Default Soft" Type="decal" UVSubDivs="2 2" UseAlpha="false" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="0" AnimMode="None" AnimStartTime="0" Compress="true" File="textures/decals/terrain/sand_blend_rounded.dds" MipMaps="false" Type="2D" Wrap="Repeat" />
+        <NMap AnimFrameTime="0" AnimMode="None" AnimStartTime="0" Compress="true" File="textures/decals/terrain/sand_blend_rounded_nrm.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <Specular AnimFrameTime="0" AnimMode="None" AnimStartTime="0" Compress="true" File="textures/decals/terrain/sand_blend_rounded_spec.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <DetailDiffuse AnimFrameTime="0" AnimMode="None" AnimStartTime="0" Compress="true" File="textures/terrain/sand/sand_detail_diff.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+    </TextureUnits>
+    <SpecificVariables>
+        <Var Name="HeightMapScale" Value="0.05" />
+        <Var Name="HeightMapBias" Value="0" />
+        <Var Name="FrenselBias" Value="0.2" />
+        <Var Name="FrenselPow" Value="8" />
+        <Var Name="DetailUvMul" Value="1.5000000   1.500000" />
+        <Var Name="DetailFadeStart" Value="20" />
+        <Var Name="DetailFadeEnd" Value="30" />
+        <Var Name="DetailWeight" Value="1" />
+    </SpecificVariables>
+</Material>

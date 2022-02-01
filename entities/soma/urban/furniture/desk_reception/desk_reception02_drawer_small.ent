@@ -1,0 +1,87 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/furniture/desk_reception/desk_reception02_small_box.dae">
+            <SubMesh ID="0" Name="polySurface1" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="124" Material="" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" CreStamp="0" ModStamp="0" WorldPos="0.409263 0.116757 -3.78336e-006" Rotation="0 0 0" Scale="0.021 0.23 0.73" RelativeTranslation="0.413976 0.0209595 -0.000252782" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="2" Name="Shape_2" CreStamp="0" ModStamp="1395845080" WorldPos="-0.470419 0.0787721 -3.78336e-006" Rotation="0 0 0" Scale="0.0425423 0.15 0.73" RelativeTranslation="-0.465706 -0.0170253 -0.000252782" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="3" Name="Shape_3" CreStamp="0" ModStamp="0" WorldPos="-0.0357278 0.0771695 0.35731" Rotation="-0 1.57114 -0" Scale="0.021 0.15 0.9" RelativeTranslation="-0.0310153 -0.0186279 0.357061" RelativeRotation="3.14159 1.57045 3.14159" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="4" Name="Shape_4" CreStamp="0" ModStamp="0" WorldPos="-0.0357278 0.0768121 -0.356812" Rotation="-0 1.57114 -0" Scale="0.021 0.15 0.9" RelativeTranslation="-0.0310153 -0.0189853 -0.357061" RelativeRotation="3.14159 1.57045 3.14159" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="5" Name="Shape_5" CreStamp="0" ModStamp="1395845051" WorldPos="-0.0244859 0.00955288 0.0008024" Rotation="1.5708 -0 1.5708" Scale="0.03 0.73 0.9" RelativeTranslation="-0.0197734 -0.0862446 0.000553402" RelativeRotation="1.5708 -0 1.5708" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="6" Name="Shape_6" CreStamp="0" ModStamp="0" WorldPos="0.460994 0.182042 -0.0037" Rotation="1.5708 -0 1.5708" Scale="0.021 0.25 0.09" RelativeTranslation="0.465706 0.0862446 -0.003949" RelativeRotation="1.5708 -0 1.5708" RelativeScale="1 1 1" ShapeType="Box" />
+        </Shapes>
+        <Bodies>
+            <Body ID="7" Name="Body_1" CreStamp="0" ModStamp="1436177998" WorldPos="-0.00471249 0.0957974 0.000248998" Rotation="0 0 0" Scale="0.839 0.839 0.839" Material="" Mass="60" AngularDamping="0.1" LinearDamping="0.9" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="false" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="3" />
+                <Shape ID="6" />
+                <Shape ID="1" />
+                <Shape ID="5" />
+                <Shape ID="2" />
+                <Shape ID="4" />
+            </Body>
+        </Bodies>
+        <Joints>
+            <JointSlider ID="8" Name="JointSlider_1" CreStamp="0" ModStamp="1404230292" WorldPos="-0.483858 0.0971621 0" Rotation="0 -0 -1.5708" Scale="1 1 1" LimitStepCount="0" Stiffness="0" MinMoveSpeed="0.1" MinMoveFreq="0.95" MinMoveFreqSpeed="0.2" MinMoveVolume="0.01" MaxMoveSpeed="2" MaxMoveFreq="1.1" MaxMoveFreqSpeed="0.7" MaxMoveVolume="0.8" MiddleMoveSpeed="0.5" MiddleMoveVolume="0.5" MinLimitSound="Entities_Urban/kitchen/drawer_metal_slide/drawer_close" MinLimitMinSpeed="0" MinLimitMaxSpeed="0" MaxLimitSound="Entities_Urban/kitchen/drawer_metal_slide/drawer_open" MaxLimitMinSpeed="0" MaxLimitMaxSpeed="0" Breakable="false" BreakForce="0" BreakSound="" CollideBodies="true" StickyMinLimit="true" StickyMaxLimit="true" MoveSound="Entities_Urban/kitchen/drawer_metal_slide/drawer_slide" MoveType="Linear" MinDistance="0" MaxDistance="0.8" ConnectedParentBodyID="-1" ConnectedChildBodyID="7" />
+        </Joints>
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Slide">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="BlocksLineOfSight" Value="true" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="NoGravityWhenUnderwater" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="StaticMoveLoopSoundFade" Value="true" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="SlideMaxSpeed" Value="1.6" />
+        <Var Name="SlideSlowDownFactor" Value="2" />
+        <Var Name="SlideSpeedFactor" Value="1" />
+        <Var Name="AutoOpenAmount" Value="1" />
+        <Var Name="SlidePadMultiplier" Value="2" />
+        <Var Name="LockOnSound" Value="" />
+        <Var Name="LockOffSound" Value="" />
+        <Var Name="InteractLockedSound" Value="" />
+        <Var Name="MoveSound" Value="" />
+        <Var Name="MinMoveSoundSpeed" Value="-1" />
+        <Var Name="AtMaxSound" Value="" />
+        <Var Name="AtMaxSoundMinSpeed" Value="0.1" />
+        <Var Name="AtMinSound" Value="" />
+        <Var Name="AtMinSoundMinSpeed" Value="0.1" />
+        <Var Name="GrabStartSound" Value="" />
+        <Var Name="GrabEndSound" Value="" />
+    </UserDefinedVariables>
+</Entity>

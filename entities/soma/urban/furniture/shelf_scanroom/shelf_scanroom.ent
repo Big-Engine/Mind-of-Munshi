@@ -1,0 +1,31 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="../../shelf_scanroom/furniture_shelf_scanroom/shelf_scanroom.dae">
+            <SubMesh ID="0" Material="" Name="shelf_scanroom" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.769172 -0.116037 0" Rotation="0 0 0" Scale="0.136685 2.90536 0.712457" ShapeType="Box" WorldPos="-0.768963 1.45343 -0.000405669" />
+            <Shape ID="2" Name="Shape_2" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" RelativeTranslation="-0.0110633 0.662595 0" Rotation="0 -0 1.5708" Scale="0.0586023 1.51858 0.712457" ShapeType="Box" WorldPos="-0.0108547 2.23206 -0.000405669" />
+            <Shape ID="5" Name="Shape_3" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" RelativeTranslation="-0.0110633 -0.00338161 0" Rotation="0 -0 1.5708" Scale="0.0586023 1.51858 0.712457" ShapeType="Box" WorldPos="-0.0108547 1.56608 -0.000405669" />
+            <Shape ID="6" Name="Shape_4" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" RelativeTranslation="-0.0110633 -0.662595 0" Rotation="0 -0 1.5708" Scale="0.0605199 1.51858 0.712457" ShapeType="Box" WorldPos="-0.0108547 0.906871 -0.000405669" />
+            <Shape ID="7" Name="Shape_5" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.769172 -0.116037 0" Rotation="0 0 0" Scale="0.136685 2.90536 0.712457" ShapeType="Box" WorldPos="0.76938 1.45343 -0.000405669" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="8" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="0.000208616 1.56947 -0.000405669">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="1" />
+                <Shape ID="2" />
+                <Shape ID="5" />
+                <Shape ID="6" />
+                <Shape ID="7" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp" />
+</Entity>

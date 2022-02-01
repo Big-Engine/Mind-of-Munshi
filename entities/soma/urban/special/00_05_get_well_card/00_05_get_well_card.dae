@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>modo 701 [Build 68192], Microsoft Windows 7 Service Pack 1 (6.1.7601 Service Pack 1)</authoring_tool>
+            <comments>
+                Plug-in: [Build 68192];
+                Use Absolute Path: No;
+                Merge Reference Items: No;
+                Save Hidden Items: No;
+                Save Cameras: No;
+                Save Lights: No;
+                Save Locators: Yes;
+                Save Triangles as Triangles: No;
+                Order Vertex Maps Alphabetically: No;
+                Bake Matrices: Yes;
+                Save Vertex Normals: Yes;
+                Save UV Texture Coordinates: Yes;
+                Save Vertex Colors: Yes;
+                Save Vertex Weights: Yes;
+                Save Animation: Yes;
+                Sample Animation: Yes;
+                Sample Animation Start: 0;
+                Sample Animation End: 18;
+                Save modo Profile: No;
+                Save Maya Profile: No;
+                Save 3ds Max Profile: No;
+                Formatted Arrays: Yes;
+            </comments>
+            <source_data>file:///D:/Work/Dropbox/Frictional%20Games%20-%20Team/Aaron/models/entities/urban/special/get_well_card/00_05_get_well_card.lxo</source_data>
+        </contributor>
+        <created>2015-09-08T08:18:24Z</created>
+        <modified>2015-09-08T08:18:24Z</modified>
+        <unit name="game" meter="1" />
+        <up_axis>Y_UP</up_axis>
+    </asset>
+    <library_images>
+        <image id="Image0001" name="Image0001">
+            <init_from>file:///D:/Work/Dropbox/Frictional%20Games%20-%20Team/Aaron/models/entities/urban/special/get_well_card/00_05_get_well_card.tga</init_from>
+        </image>
+    </library_images>
+    <library_materials>
+        <material id="Material-get_well_Card" name="get_well_Card">
+            <instance_effect url="#Effect-get_well_Card" />
+        </material>
+    </library_materials>
+    <library_effects>
+        <effect id="Effect-get_well_Card" name="get_well_Card">
+            <profile_COMMON>
+                <newparam sid="Image0001-surface">
+                    <surface type="2D">
+                        <init_from>Image0001</init_from>
+                        <format>A8R8G8B8</format>
+                    </surface>
+                </newparam>
+                <newparam sid="Image0001-sampler">
+                    <sampler2D>
+                        <source>Image0001-surface</source>
+                        <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+                        <magfilter>LINEAR</magfilter>
+                    </sampler2D>
+                </newparam>
+                <technique sid="common">
+                    <phong>
+                        <diffuse>
+                            <texture texture="Image0001-sampler" texcoord="UVSet0" />
+                        </diffuse>
+                        <specular>
+                            <color sid="specular_effect_rgb">0.2 0.2 0.2 1</color>
+                        </specular>
+                        <shininess>
+                            <float sid="specular_effect_rgb">256</float>
+                        </shininess>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_geometries>
+        <geometry id="Geometry-pPlane1" name="pPlane1">
+            <mesh>
+                <source id="Geometry-pPlane1-positions" name="positions">
+                    <float_array id="Geometry-pPlane1-positions-array" count="120">
+                        0.064 0 -0.105
+                        -0.064 0 -0.105
+                        0.064 0 0.105
+                        -0.064 0 0.105
+                        0.064 0.00326283 0
+                        -0.064 0.00326283 0
+                        0.064 0.0024556 -0.0525
+                        -0.064 0.0024556 -0.0525
+                        0.064 0.0024556 0.0525
+                        -0.064 0.0024556 0.0525
+                        -0.0213333 0.00182784 0.105
+                        -0.0213333 0.00428344 0.0525
+                        -0.0213333 0.00537434 0
+                        -0.0213333 0.00428344 -0.0525
+                        -0.0213333 0.00182784 -0.105
+                        0.0213333 0.00182784 0.105
+                        0.0213333 0.00428344 0.0525
+                        0.0213333 0.00537434 0
+                        0.0213333 0.00428344 -0.0525
+                        0.0213333 0.00182784 -0.105
+                        -0.0213603 0.00549816 0.0525402
+                        -0.064054 0.00366932 0.0525393
+                        -0.064052 0.00121325 0.105057
+                        -0.0213593 0.00304164 0.105057
+                        -0.0213603 0.00549816 -0.0525402
+                        -0.064054 0.00366932 -0.0525394
+                        -0.064056 0.00447702 0
+                        -0.0213614 0.0065897 0
+                        -0.0213593 0.00304164 -0.105057
+                        -0.064052 0.00121324 -0.105057
+                        0.0213604 0.00549816 0.0525402
+                        0.0213593 0.00304164 0.105057
+                        0.0213614 0.0065897 0
+                        0.0213604 0.00549816 -0.0525402
+                        0.0213593 0.00304164 -0.105057
+                        0.064054 0.00366932 0.0525393
+                        0.064052 0.00121325 0.105057
+                        0.0640561 0.00447702 0
+                        0.064054 0.00366932 -0.0525394
+                        0.064052 0.00121325 -0.105057
+                    </float_array>
+                    <technique_common>
+                        <accessor count="40" source="#Geometry-pPlane1-positions-array" stride="3">
+                            <param name="X" type="float" />
+                            <param name="Y" type="float" />
+                            <param name="Z" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="Geometry-pPlane1-normals" name="normals">
+                    <float_array id="Geometry-pPlane1-normals-array" count="174">
+                        -0.02222 0.999206 0.0330683
+                        -0.0444294 0.998488 0.0323696
+                        -0.021378 0.99868 0.0467126
+                        -0.0427462 0.997995 0.0466789
+                        -0.0444295 0.998488 -0.0323696
+                        -0.046111 0.998936 0
+                        -0.02222 0.999206 -0.0330684
+                        -0.0230622 0.999734 0
+                        -0.0427462 0.997995 -0.046679
+                        -0.021378 0.99868 -0.0467127
+                        0.02222 0.999206 0.0330683
+                        0.021378 0.99868 0.0467126
+                        0.0230622 0.999734 0
+                        0.02222 0.999206 -0.0330684
+                        0.021378 0.99868 -0.0467127
+                        0.0444295 0.998488 0.0323696
+                        0.0427462 0.997995 0.0466789
+                        0.046111 0.998936 0
+                        0.0444295 0.998488 -0.0323696
+                        0.0427462 0.997995 -0.046679
+                        0.022223 -0.999206 -0.0330691
+                        0.0213819 -0.99868 -0.0467116
+                        0.0444355 -0.998488 -0.0323707
+                        0.0427541 -0.997995 -0.0466795
+                        0.0230643 -0.999734 0
+                        0.0461152 -0.998936 0
+                        0.022223 -0.999206 0.0330692
+                        0.0444355 -0.998488 0.0323707
+                        0.0213819 -0.99868 0.0467116
+                        0.0427541 -0.997995 0.0466796
+                        -0.022223 -0.999206 -0.0330692
+                        -0.0213819 -0.99868 -0.0467116
+                        -0.0230643 -0.999734 0
+                        -0.022223 -0.999206 0.0330692
+                        -0.0213819 -0.99868 0.0467116
+                        -0.0427541 -0.997995 -0.0466795
+                        -0.0444355 -0.998488 -0.0323707
+                        -0.0461151 -0.998936 0
+                        -0.0444355 -0.998488 0.0323707
+                        -0.0427541 -0.997995 0.0466796
+                        -0.999013 -0.0444086 -0.00134698
+                        -0.999049 -0.0435443 -0.00201728
+                        0.00199774 -0.0466481 0.998909
+                        0.00099887 -0.0466768 0.998909
+                        -0.999012 -0.0444112 0.00134698
+                        -0.998975 -0.045275 0
+                        0.00199889 -0.0466717 -0.998908
+                        0.00099956 -0.0467024 -0.998908
+                        -0.999049 -0.0435452 0.00201729
+                        -0.000998986 -0.0466769 0.99891
+                        -0.0009991 -0.0466984 -0.998909
+                        -0.00199797 -0.0466481 0.998909
+                        0.999049 -0.0435524 -0.00201765
+                        0.999012 -0.0444166 -0.00134722
+                        0.998974 -0.045284 0
+                        0.999012 -0.044423 0.00134722
+                        -0.00199843 -0.0466638 -0.998909
+                        0.999049 -0.0435586 0.00201765
+                    </float_array>
+                    <technique_common>
+                        <accessor count="58" source="#Geometry-pPlane1-normals-array" stride="3">
+                            <param name="X" type="float" />
+                            <param name="Y" type="float" />
+                            <param name="Z" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="Geometry-pPlane1-UVSet0" name="UVSet0">
+                    <float_array id="Geometry-pPlane1-UVSet0-array" count="136">
+                        0.333333 0.382743
+                        0 0.382743
+                        0.333333 0.177154
+                        0 0.177154
+                        0 0.79392
+                        0 0.588331
+                        0.333333 0.79392
+                        0.333333 0.588331
+                        0 0.999509
+                        0.333333 0.999509
+                        0.666667 0.382743
+                        0.666667 0.177154
+                        0.666667 0.588331
+                        0.666667 0.79392
+                        0.666667 0.999509
+                        1 0.382743
+                        1 0.177154
+                        1 0.588331
+                        1 0.79392
+                        1 0.999509
+                        0.739461 0.147277
+                        0.739461 0.125305
+                        0.703836 0.147277
+                        0.703836 0.125305
+                        0.739461 0.16925
+                        0.703836 0.16925
+                        0.739461 0.191222
+                        0.703836 0.191222
+                        0.739461 0.213195
+                        0.703836 0.213195
+                        0.775087 0.147277
+                        0.775087 0.125305
+                        0.775087 0.16925
+                        0.775087 0.191222
+                        0.775087 0.213195
+                        0.810712 0.125305
+                        0.810712 0.147277
+                        0.810712 0.16925
+                        0.810712 0.191222
+                        0.810712 0.213195
+                        0.000176251 0.382743
+                        0.000176251 0.177154
+                        0.00528538 0.382743
+                        0.00528538 0.177154
+                        0 0.113189
+                        0.333333 0.113189
+                        0.000176251 0.79392
+                        0.000176251 0.588331
+                        0.00528538 0.79392
+                        0.00528538 0.588331
+                        0 1.24804
+                        0.333333 1.24804
+                        0.000176251 0.999509
+                        0.00528538 0.999509
+                        0.666667 0.113189
+                        0.666667 1.24804
+                        1 0.113189
+                        0.997913 0.177154
+                        0.997913 0.382743
+                        0.993048 0.177154
+                        0.993048 0.382743
+                        0.997913 0.588331
+                        0.993048 0.588331
+                        0.997913 0.79392
+                        0.993048 0.79392
+                        1 1.24804
+                        0.997913 0.999243
+                        0.993048 0.999537
+                    </float_array>
+                    <technique_common>
+                        <accessor count="68" source="#Geometry-pPlane1-UVSet0-array" stride="2">
+                            <param name="S" type="float" />
+                            <param name="T" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="Geometry-pPlane1-vertices">
+                    <input semantic="POSITION" source="#Geometry-pPlane1-positions" />
+                </vertices>
+                <polylist count="76" material="Material-get_well_Card">
+                    <input semantic="VERTEX" source="#Geometry-pPlane1-vertices" offset="0" />
+                    <input semantic="NORMAL" source="#Geometry-pPlane1-normals" offset="1" />
+                    <input semantic="TEXCOORD" source="#Geometry-pPlane1-UVSet0" offset="2" set="0" />
+                    <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3</vcount>
+                    <p>20 0 0 21 1 1 23 2 2 23 2 2 21 1 1 22 3 3 25 4 4 26 5 5 24 6 6 24 6 6 26 5 5 27 7 7 29 8 8 25 4 4 28 9 9 28 9 9 25 4 4 24 6 6 27 7 7 26 5 5 20 0 0 20 0 0 26 5 5 21 1 1 30 10 10 20 0 0 31 11 11 31 11 11 20 0 0 23 2 2 32 12 12 27 7 7 30 10 10 30 10 10 27 7 7 20 0 0 33 13 13 24 6 6 32 12 12 32 12 12 24 6 6 27 7 7 34 14 14 28 9 9 33 13 13 33 13 13 28 9 9 24 6 6 30 10 10 31 11 11 35 15 15 35 15 15 31 11 11 36 16 16 32 12 12 30 10 10 37 17 17 37 17 17 30 10 10 35 15 15 38 18 18 33 13 13 37 17 17 37 17 17 33 13 13 32 12 12 39 19 19 34 14 14 38 18 18 38 18 18 34 14 14 33 13 13 11 20 20 10 21 21 9 22 22 9 22 22 10 21 21 3 23 23 12 24 24 5 25 25 13 26 26 13 26 26 5 25 25 7 27 27 13 26 26 7 27 27 14 28 28 14 28 28 7 27 27 1 29 29 12 24 24 11 20 20 5 25 25 5 25 25 11 20 20 9 22 22 16 30 30 15 31 31 11 20 20 11 20 20 15 31 31 10 21 21 17 32 32 16 30 30 12 24 24 12 24 24 16 30 30 11 20 20 18 33 33 17 32 32 13 26 26 13 26 26 17 32 32 12 24 24 19 34 34 18 33 33 14 28 28 14 28 28 18 33 33 13 26 26 2 35 35 15 31 31 8 36 36 8 36 36 15 31 31 16 30 30 8 36 36 16 30 30 4 37 37 4 37 37 16 30 30 17 32 32 6 38 38 4 37 37 18 33 33 18 33 33 4 37 37 17 32 32 0 39 39 6 38 38 19 34 34 19 34 34 6 38 38 18 33 33 9 40 40 3 41 41 21 40 42 21 40 42 3 41 41 22 41 43 3 42 44 10 43 45 22 42 44 22 42 44 10 43 45 23 43 45 7 44 46 5 45 47 25 44 48 25 44 48 5 45 47 26 45 49 1 46 50 29 46 50 14 47 51 14 47 51 29 46 50 28 47 51 1 48 52 7 44 46 29 48 53 29 48 53 7 44 46 25 44 48 5 45 47 9 40 40 26 45 49 26 45 49 9 40 40 21 40 42 10 43 45 15 49 54 23 43 45 23 43 45 15 49 54 31 49 54 19 50 55 14 47 51 34 50 55 34 50 55 14 47 51 28 47 51 2 51 56 36 51 56 15 49 54 15 49 54 36 51 56 31 49 54 2 52 57 8 53 58 36 52 59 36 52 59 8 53 58 35 53 60 8 53 58 4 54 61 35 53 60 35 53 60 4 54 61 37 54 62 4 54 61 6 55 63 37 54 62 37 54 62 6 55 63 38 55 64 0 56 65 19 50 55 39 56 65 39 56 65 19 50 55 34 50 55 6 55 63 0 57 66 38 55 64 38 55 64 0 57 66 39 57 67</p>
+                </polylist>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_visual_scenes>
+        <visual_scene id="DefaultScene">
+            <node id="Geometry-pPlane1Node" name="pPlane1" type="NODE">
+                <matrix sid="transform">
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+    </matrix>
+                <instance_geometry url="#Geometry-pPlane1">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="Material-get_well_Card" target="#Material-get_well_Card">
+                                <bind_vertex_input semantic="UVSet0" input_semantic="TEXCOORD" input_set="0" />
+                            </instance_material>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+            <node id="TextureGroupNode" name="TextureGroup" type="NODE">
+                <matrix sid="transform">
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+    </matrix>
+            </node>
+            <node id="groupLocator047Node" name="Texture_Group" type="NODE">
+                <matrix sid="transform">
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+    </matrix>
+                <node id="txtrLocator043Node" name="00_05_get_well_card__Image___Texture_" type="NODE">
+                    <matrix sid="transform">
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+    </matrix>
+                </node>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#DefaultScene" />
+    </scene>
+</COLLADA>

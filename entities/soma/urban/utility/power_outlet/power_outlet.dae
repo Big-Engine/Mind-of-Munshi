@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Administrator</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=1;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///D:/Ruihe/power_outlet/power_outlet_8.5.mb</source_data>
+    </contributor>
+    <created>2012-05-02T07:52:13Z</created>
+    <modified>2012-05-02T07:52:13Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="power_outlet_1" name="power_outlet_1">
+      <init_from>file:///D:/Ruihe/power_outlet/power_outlet.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn1" name="blinn1">
+      <instance_effect url="#blinn1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn1-fx">
+      <profile_COMMON>
+        <newparam sid="power_outlet_1-surface">
+          <surface type="2D">
+            <init_from>power_outlet_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="power_outlet_1-sampler">
+          <sampler2D>
+            <source>power_outlet_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="power_outlet_1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="power_outlet" name="power_outlet">
+      <mesh>
+        <source id="power_outlet-positions" name="position">
+          <float_array id="power_outlet-positions-array" count="168">2.07889 12.2708 0.821164 2.06078 17.7798 0.820379 2.06078 17.7798 0.208415 2.07889 12.2708 0.2092 3.27746 16.532 0.820379 3.649 15.0253 0.820379 3.27746 13.5187 0.820379 3.27746 16.532 0.208415 3.649 15.0253 0.208415 3.27746 13.5187 0.208415 -2.07863 12.2708 0.821164 -2.06052 17.7798 0.820379 -2.06052 17.7798 0.208415 -2.07863 12.2708 0.2092 -3.27728 16.532 0.820379 -3.64883 15.0253 0.820379 -3.27728 13.5187 0.820379 -3.27728 16.532 0.208415 -3.64883 15.0253 0.208415 -3.27728 13.5187 0.208415 2.07889 4.7134 0.821164 2.06078 10.2224 0.820379 2.06078 10.2224 0.208415 2.07889 4.7134 0.2092 3.27746 8.97454 0.820379 3.649 7.46789 0.820379 3.27746 5.96124 0.820379 3.27746 8.97454 0.208415 3.649 7.46789 0.208415 3.27746 5.96124 0.208415 -2.07863 4.7134 0.821164 -2.06052 10.2224 0.820379 -2.06052 10.2224 0.208415 -2.07863 4.7134 0.2092 -3.27728 8.97454 0.820379 -3.64883 7.46789 0.820379 -3.27728 5.96124 0.820379 -3.27728 8.97454 0.208415 -3.64883 7.46789 0.208415 -3.27728 5.96124 0.208415 7.50758 0 -0.49995 -7.50758 0 -0.49995 7.50758 22.5227 -0.49995 -7.50758 22.5227 -0.49995 7.39998 22.4485 -0.076868 6.85644 21.8234 0.512294 -7.39998 22.4485 -0.076868 -6.85644 21.8234 0.512294 7.39998 0.074206 -0.076868 6.85644 0.699351 0.512294 -7.39998 0.074206 -0.076868 -6.85644 0.699351 0.512294 7.1312 22.1416 0.312646 -7.1312 22.1416 0.312646 -7.1312 0.381093 0.312646 7.1312 0.381093 0.312646</float_array>
+          <technique_common>
+            <accessor source="#power_outlet-positions-array" count="56" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="power_outlet-normals" name="normal">
+          <float_array id="power_outlet-normals-array" count="288">0.000073 0.000142 1 0.000344 0.000038 1 0.000247 0.000114 1 0.000614 -0.000065 1 0.000881 -0.000217 1 0.874076 0.485789 0 0.388515 0.921443 0 0.388515 0.921443 0 0.874076 0.485789 0 1 0 0 1 0 0 0.87589 -0.48251 0 0.87589 -0.48251 0 0.391965 -0.91998 0 0.391965 -0.91998 0 -0.000344 0.000038 1 -0.000073 0.000142 1 -0.388501 0.921448 0 -0.388501 0.921448 0 -0.391951 -0.919986 0 -0.391951 -0.919986 0 -0.000247 0.000114 1 -0.000614 -0.000065 1 -0.00088 -0.000217 1 -0.874066 0.485807 0 -0.874066 0.485807 0 -1 0 0 -1 0 0 -0.875881 -0.482528 0 -0.875881 -0.482528 0 0.000073 0.000142 1 0.000344 0.000038 1 0.000247 0.000114 1 0.000614 -0.000065 1 0.000881 -0.000217 1 0.874076 0.485788 0 0.388515 0.921442 0 0.388515 0.921442 0 0.874076 0.485788 0 1 0 0 1 0 0 0.87589 -0.48251 0 0.87589 -0.48251 0 0.391964 -0.91998 0 0.391964 -0.91998 0 -0.000344 0.000038 1 -0.000073 0.000142 1 -0.388501 0.921448 0 -0.388501 0.921448 0 -0.391951 -0.919986 0 -0.391951 -0.919986 0 -0.000247 0.000114 1 -0.000614 -0.000065 1 -0.00088 -0.000217 1 -0.874066 0.485806 0 -0.874066 0.485806 0 -1 0 0 -1 0 0 -0.87588 -0.482528 0 -0.87588 -0.482528 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0.668266 0.743922 0 0.668266 0.743922 0 0.531407 0.847117 0 0.531407 0.847117 0 0.912899 0.408184 0 0.984965 0.172753 0 0.984965 0.172753 0 0.912899 0.408184 0.969147 0 0.246485 0.91041 0 0.413708 0.91041 0 0.413708 0.969147 0 0.246485 0.715669 0 0.698439 0.715669 0 0.698439 0.58782 0 0.808992 0.58782 0 0.808992 -0.58782 0 0.808992 -0.715669 0 0.698439 -0.715669 0 0.698439 -0.58782 0 0.808992 -0.91041 0 0.413708 -0.969147 0 0.246485 -0.969147 0 0.246485 -0.91041 0 0.413708 0 -0.984964 0.172758 0 -0.912899 0.408184 0 -0.912899 0.408184 0 -0.984964 0.172758 0 -0.668269 0.74392 0 -0.531408 0.847116 0 -0.531408 0.847116 0 -0.668269 0.74392</float_array>
+          <technique_common>
+            <accessor source="#power_outlet-normals-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="power_outlet-map1" name="map1">
+          <float_array id="power_outlet-map1-array" count="192">0.804058 0.089267 0.803417 0.389463 0.770627 0.155506 0.760527 0.238757 0.770158 0.32298 0.739396 0.122718 0.788452 0.027772 0.797719 0.072866 0.760637 0.146337 0.749435 0.238679 0.724685 0.239498 0.760117 0.332099 0.739256 0.356558 0.788276 0.451342 0.797008 0.405841 0.920634 0.389381 0.920468 0.089341 0.935492 0.027705 0.92684 0.072948 0.927025 0.405751 0.936421 0.451064 0.95352 0.155977 0.963668 0.239013 0.954198 0.323338 0.985133 0.122301 0.963501 0.14686 0.999552 0.239539 0.974757 0.238963 0.984587 0.356069 0.964254 0.332496 0.800803 0.627536 0.800162 0.927731 0.767371 0.693774 0.757272 0.777025 0.766902 0.861248 0.738905 0.663618 0.786856 0.570811 0.795057 0.612672 0.758317 0.685466 0.747218 0.776958 0.724525 0.777767 0.757802 0.869516 0.738768 0.892189 0.786684 0.984838 0.794353 0.94258 0.917379 0.927649 0.917212 0.62761 0.930583 0.570745 0.922989 0.612754 0.923171 0.942489 0.931492 0.984567 0.950264 0.694246 0.960412 0.777281 0.950943 0.861606 0.979106 0.66321 0.959312 0.685985 0.9932 0.777807 0.970464 0.777239 0.978573 0.891711 0.960057 0.86991 0.049885 0.08749 0.688859 0.08749 0.688859 0.917018 0.049884 0.917018 0.704451 0.075871 0.70445 0.928637 0.696863 0.917018 0.696863 0.08749 0.712039 0.064251 0.730543 0.053929 0.730542 0.950578 0.712038 0.940257 0.701638 0.013452 0.696477 0.050467 0.034264 0.050467 0.029103 0.013452 0.040073 0.065644 0.690667 0.065644 0.684858 0.080821 0.045883 0.080821 0.688859 0.926355 0.694669 0.941532 0.044075 0.941532 0.049884 0.926355 0.700478 0.95671 0.705639 0.993724 0.033105 0.993724 0.038265 0.95671 0.010869 0.05393 0.029373 0.064252 0.029373 0.940257 0.010869 0.950579 0.036961 0.075871 0.044549 0.08749 0.044549 0.917018 0.036961 0.928638</float_array>
+          <technique_common>
+            <accessor source="#power_outlet-map1-array" count="96" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="power_outlet-vertices">
+          <input semantic="POSITION" source="#power_outlet-positions"/>
+        </vertices>
+        <triangles material="blinn1SG" count="82">
+          <input semantic="VERTEX" source="#power_outlet-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#power_outlet-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#power_outlet-map1" offset="2" set="0"/>
+          <p>1 0 0 0 1 1 4 2 2 0 1 1 5 3 3 4 2 2 0 1 1 6 4 4 5 3 3 7 5 5 2 6 6 4 8 8 4 8 8 2 6 6 1 7 7 4 8 8 5 9 9 7 5 5 7 5 5 5 9 9 8 10 10 5 9 9 6 11 11 8 10 10 8 10 10 6 11 11 9 12 12 3 13 13 9 12 12 0 14 14 0 14 14 9 12 12 6 11 11 10 15 15 0 1 1 11 16 16 11 16 16 0 1 1 1 0 0 2 6 6 12 17 17 1 7 7 1 7 7 12 17 17 11 18 18 0 14 14 10 19 19 3 13 13 3 13 13 10 19 19 13 20 20 14 21 21 10 15 15 11 16 16 10 15 15 14 21 21 15 22 22 10 15 15 15 22 22 16 23 23 12 17 17 17 24 24 11 18 18 11 18 18 17 24 24 14 25 25 14 25 25 17 24 24 15 27 27 15 27 27 17 24 24 18 26 26 15 27 27 18 26 26 16 29 29 16 29 29 18 26 26 19 28 28 19 28 28 13 20 20 16 29 29 16 29 29 13 20 20 10 19 19 21 30 30 20 31 31 24 32 32 20 31 31 25 33 33 24 32 32 20 31 31 26 34 34 25 33 33 27 35 35 22 36 36 24 38 38 24 38 38 22 36 36 21 37 37 24 38 38 25 39 39 27 35 35 27 35 35 25 39 39 28 40 40 25 39 39 26 41 41 28 40 40 28 40 40 26 41 41 29 42 42 23 43 43 29 42 42 20 44 44 20 44 44 29 42 42 26 41 41 30 45 45 20 31 31 31 46 46 31 46 46 20 31 31 21 30 30 22 36 36 32 47 47 21 37 37 21 37 37 32 47 47 31 48 48 20 44 44 30 49 49 23 43 43 23 43 43 30 49 49 33 50 50 34 51 51 30 45 45 31 46 46 30 45 45 34 51 51 35 52 52 30 45 45 35 52 52 36 53 53 32 47 47 37 54 54 31 48 48 31 48 48 37 54 54 34 55 55 34 55 55 37 54 54 35 57 57 35 57 57 37 54 54 38 56 56 35 57 57 38 56 56 36 59 59 36 59 59 38 56 56 39 58 58 39 58 58 33 50 50 36 59 59 36 59 59 33 50 50 30 49 49 49 60 60 45 61 61 51 63 63 51 63 63 45 61 61 47 62 62 52 64 64 53 65 65 45 67 67 45 67 67 53 65 65 47 66 66 44 68 68 42 69 69 46 71 71 46 71 71 42 69 69 43 70 70 42 72 72 44 73 73 40 75 75 40 75 75 44 73 73 48 74 74 55 76 76 52 77 77 49 79 79 49 79 79 52 77 77 45 78 78 47 80 80 53 81 81 51 83 83 51 83 83 53 81 81 54 82 82 46 84 84 43 85 85 50 87 87 50 87 87 43 85 85 41 86 86 40 88 88 48 89 89 41 91 91 41 91 91 48 89 89 50 90 90 55 92 92 49 93 93 54 95 95 54 95 95 49 93 93 51 94 94 52 64 64 44 68 68 53 65 65 53 65 65 44 68 68 46 71 71 50 87 87 54 82 82 46 84 84 46 84 84 54 82 82 53 81 81 48 89 89 55 92 92 50 90 90 50 90 90 55 92 92 54 95 95 48 74 74 44 73 73 55 76 76 55 76 76 44 73 73 52 77 77</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="power_outlet_8_5">
+      <node id="_power_outlet" name="power_outlet" type="NODE">
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <instance_geometry url="#power_outlet">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn1SG" target="#blinn1">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

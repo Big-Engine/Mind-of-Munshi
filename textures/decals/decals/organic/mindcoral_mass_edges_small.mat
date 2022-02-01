@@ -1,0 +1,19 @@
+<Material>
+  <Main BlendMode="Alpha" DepthTest="true" PhysicsMaterial="Organic Fresh" Type="decal" UVSubDivs="2 2" UseAlpha="false" />
+  <TextureUnits>
+    <Diffuse AnimFrameTime="0" AnimMode="None" AnimStartTime="0" Compress="true" File="textures/decals/organic/mind_coral_colony_edges_small.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+    <NMap AnimFrameTime="0" AnimMode="None" AnimStartTime="0" Compress="true" File="textures/decals/organic/mindcoral_colony_edges_nrm.dds" MipMaps="false" Type="2D" Wrap="Repeat" />
+    <Specular AnimFrameTime="0" AnimMode="None" AnimStartTime="0" Compress="true" File="textures/decals/organic/mind_coral_colony_edges_small_spec.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+    <Height AnimFrameTime="0" AnimMode="None" AnimStartTime="0" Compress="false" File="static_objects/organic/mindcoral_colony_tiling_height.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+  </TextureUnits>
+  <SpecificVariables>
+    <Var Name="HeightMapScale" Value="-0.015" />
+    <Var Name="HeightMapBias" Value="0" />
+    <Var Name="FrenselBias" Value="0.2" />
+    <Var Name="FrenselPow" Value="8" />
+    <Var Name="DetailUvMul" Value="4.000000   4.000000" />
+    <Var Name="DetailFadeStart" Value="5" />
+    <Var Name="DetailFadeEnd" Value="10" />
+    <Var Name="DetailWeight" Value="1" />
+  </SpecificVariables>
+</Material>

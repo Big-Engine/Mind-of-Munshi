@@ -1,0 +1,95 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="true" Focused="3">
+            <Viewport CameraPos="-0.371737 1.24246 199.944" CameraTarget="-0.371737 1.24246 -0.0564533" Controller="Ortho" GridHeights="-0.371737 1.24246 -0.0564533" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="6.67887" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="199.628 1.24246 -0.0564533" CameraTarget="-0.371737 1.24246 -0.0564533" Controller="Ortho" GridHeights="-0.371737 1.24246 -0.0564533" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="6.67887" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="-0.371737 201.242 -0.0564533" CameraTarget="-0.371737 1.24246 -0.0564533" Controller="Ortho" GridHeights="-0.371737 1.24246 -0.0564533" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="6.67887" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="-0.126177 2.55612 -2.66239" CameraTarget="-0.184619 1.61015 0.0944373" Controller="Maya" GridHeights="-0.371737 1.24246 -0.0564533" GridPlane="1" LockToGrid="false" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/subway/door/slidedoor_subway_exit/slidedoor_subway_exit.dae">
+            <SubMesh ID="0" Material="" Name="glass_right" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+            <SubMesh ID="1" Material="" Name="slidedoor_subway_exit_right" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+            <SubMesh ID="2" Material="" Name="glass_left" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+            <SubMesh ID="3" Material="" Name="slidedoor_subway_exit_left" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="6" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0 0 0" Rotation="0 0 0" Scale="0.688924 2.43308 0.0552897" ShapeType="Box" WorldPos="-0.391039 1.24784 -0.0564533" />
+            <Shape ID="7" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0 0 0" Rotation="0 0 0" Scale="0.688924 2.43308 0.0552897" ShapeType="Box" WorldPos="0.383337 1.24784 -0.0564533" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="true" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="8" LinearDamping="0.1" Mass="0" Material="Metal Hollow" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="true" WorldPos="0.383337 1.24784 -0.0564533">
+                <Children>
+                    <Child ID="1" />
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="7" />
+            </Body>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="true" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="9" LinearDamping="0.1" Mass="0" Material="Metal Hollow" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_2" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="true" WorldPos="-0.391039 1.24784 -0.0564533">
+                <Children>
+                    <Child ID="3" />
+                    <Child ID="2" />
+                </Children>
+                <Shape ID="6" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_SlideDoor">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="BlocksLineOfSight" Value="true" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="DoorParts_Body" Value="Body_1, Body_2" />
+        <Var Name="DoorParts_MoveDir" Value="1 0, -1 0" />
+        <Var Name="DoorParts_MoveAmount" Value="0.9, 0.9" />
+        <Var Name="OpenableByInteraction" Value="false" />
+        <Var Name="OpenSpeed" Value="1.3" />
+        <Var Name="CloseSpeed" Value="0.7" />
+        <Var Name="OpenAcc" Value="1" />
+        <Var Name="CloseAcc" Value="1" />
+        <Var Name="OpenSlowDownDist" Value="0.1" />
+        <Var Name="CloseSlowDownDist" Value="0.1" />
+        <Var Name="CheckCollision" Value="true" />
+        <Var Name="PushImpulse" Value="0.08" />
+        <Var Name="PushMaxMass" Value="40" />
+        <Var Name="OpenSound_Start" Value="entities_subway/door/door_slide_open" />
+        <Var Name="OpenSound_End" Value="" />
+        <Var Name="CloseSound_Start" Value="entities_subway/door/door_slide_close" />
+        <Var Name="CloseSound_End" Value="" />
+        <Var Name="OpenSound_Loop" Value="" />
+        <Var Name="CloseSound_Loop" Value="" />
+    </UserDefinedVariables>
+</Entity>

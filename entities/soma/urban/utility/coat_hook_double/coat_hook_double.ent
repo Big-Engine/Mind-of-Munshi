@@ -1,0 +1,37 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/utility/coat_hook_double/coat_hook_double.dae">
+            <SubMesh ID="0" Material="" Name="coat_hook_double" Rotation="0 0 0" Scale="3 3 5" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.00195498 0.0185405 -0.012887" Rotation="0 0 0" Scale="0.0536835 0.0911835 0.0071411" ShapeType="Box" WorldPos="-0.000971827 0.0739474 -0.0164248" />
+            <Shape ID="2" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.00195498 0.0401792 -0.00367995" Rotation="0 0 0" Scale="0.0173666 0.016841 0.014442" ShapeType="Box" WorldPos="-0.000971827 0.0955861 -0.00721766" />
+            <Shape ID="3" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.00264279 0.00858437 0.000616814" Rotation="0 0 0" Scale="0.0220847 0.0115696 0.0251106" ShapeType="Box" WorldPos="-0.00165965 0.0639913 -0.0029209" />
+            <Shape ID="4" Name="Shape_4" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.00264279 -0.0150334 0.012887" Rotation="0 0 0" Scale="0.0220847 0.0507342 0.0159365" ShapeType="Box" WorldPos="-0.00165965 0.0403735 0.00934933" />
+            <Shape ID="5" Name="Shape_5" RelativeRotation="0 -0 0.295066" RelativeScale="1 1 1" RelativeTranslation="-0.0243933 -0.0373903 0.012887" Rotation="0 -0 0.295066" Scale="0.0568743 0.0140688 0.0159364" ShapeType="Box" WorldPos="-0.0234102 0.0180166 0.00934933" />
+            <Shape ID="6" Name="Shape_6" RelativeRotation="0 -0 -0.262912" RelativeScale="1 1 1" RelativeTranslation="-0.0755768 -0.0373903 0.012887" Rotation="0 -0 -0.262912" Scale="0.0637278 0.0140688 0.0159365" ShapeType="Box" WorldPos="-0.0745936 0.0180166 0.00934933" />
+            <Shape ID="7" Name="Shape_7" RelativeRotation="0 -0 -0.262912" RelativeScale="1 1 1" RelativeTranslation="0.0243933 -0.0401792 0.012887" Rotation="0 -0 -0.262912" Scale="0.0637278 0.0140688 0.0159365" ShapeType="Box" WorldPos="0.0253765 0.0152278 0.00934933" />
+            <Shape ID="8" Name="Shape_8" RelativeRotation="0 -0 0.295066" RelativeScale="1 1 1" RelativeTranslation="0.0755768 -0.0373903 0.012887" Rotation="0 -0 0.295066" Scale="0.0568743 0.0140688 0.0159364" ShapeType="Box" WorldPos="0.0765599 0.0180166 0.00934933" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="9" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="3 3 3" UseSurfaceEffects="true" Volatile="false" WorldPos="0.000983149 0.0554069 -0.00353771">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="1" />
+                <Shape ID="2" />
+                <Shape ID="3" />
+                <Shape ID="4" />
+                <Shape ID="5" />
+                <Shape ID="6" />
+                <Shape ID="7" />
+                <Shape ID="8" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp" />
+</Entity>

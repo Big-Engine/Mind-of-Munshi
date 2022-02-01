@@ -1,0 +1,32 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="true" Focused="3">
+            <Viewport CameraPos="0 0.228143 200.119" CameraTarget="0 0.228143 0.118547" Controller="Ortho" GridHeights="0 0.228143 0.118547" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="0.385805" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="200 0.228143 0.118547" CameraTarget="0 0.228143 0.118547" Controller="Ortho" GridHeights="0 0.228143 0.118547" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="0.385805" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="0 200.228 0.118547" CameraTarget="0 0.228143 0.118547" Controller="Ortho" GridHeights="0 0.228143 0.118547" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="0.385805" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="-0.878509 1.01617 1.61928" CameraTarget="0 0.228143 0.118547" Controller="Maya" GridHeights="0 0.228143 0.118547" GridPlane="1" LockToGrid="true" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/utility/first_aid_kit_wall/first_aid_kit_wall.dae">
+            <SubMesh ID="0" Material="" Name="polySurface248" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" RelativeRotation="-0.156146 -0 0" RelativeScale="1 1 1" RelativeTranslation="0 -0.166726 0.0245339" Rotation="-0.156146 -0 0" Scale="0.588682 0.746143 0.326896" ShapeType="Box" WorldPos="0 -0.0331878 0.118547" />
+            <Shape ID="2" Name="Shape_2" RelativeRotation="0.324587 -0 0" RelativeScale="1 1 1" RelativeTranslation="0 0.166726 -0.0245339" Rotation="0.324587 -0 0" Scale="0.588682 0.219188 0.248564" ShapeType="Box" WorldPos="0 0.300265 0.0694796" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="3" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="0 0.133539 0.0940135">
+                <Shape ID="1" />
+                <Shape ID="2" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp">
+        <Var Name="ShowMesh" Value="true" />
+    </UserDefinedVariables>
+</Entity>

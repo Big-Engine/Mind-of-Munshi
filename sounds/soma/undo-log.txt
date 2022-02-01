@@ -1,0 +1,144 @@
+10:09:35 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2856 HG: Add Sound File
+10:09:52 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item
+10:10:08 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2856 HG: Add Sound File
+10:10:11 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item
+10:10:24 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2856 HG: Add Sound File
+10:10:27 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item
+10:10:51 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item
+10:10:58 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item
+10:11:02 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item
+10:11:06 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item
+10:11:13 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item
+10:13:12 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\builddialog.ui.h:186 AF: Modify Build Settings
+12:12:29 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:1638 BZ: Add Event Group
+12:12:50 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\mainform.ui.h:748 DY: Create Event
+12:13:09 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\mainform.ui.h:748 DY: Create Event
+12:13:17 ..\..\src\eventlistview.cpp:451 CB: Move Event to Group
+12:36:54 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:2202 CH: Delete Events/Event Groups/Event Categories
+12:37:08 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:2202 CH: Delete Events/Event Groups/Event Categories
+12:37:13 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank
+12:38:15 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:2202 CH: Delete Events/Event Groups/Event Categories
+12:38:18 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:2202 CH: Delete Events/Event Groups/Event Categories
+12:38:22 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:2202 CH: Delete Events/Event Groups/Event Categories
+12:39:18 ..\..\src\simpleeventcontroller.cpp:613 HV: Set Playback Mode
+12:39:19 ..\..\src\simpleeventcontroller.cpp:613 HV: Set Playback Mode
+12:40:23 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:1428 BY: Add Event
+12:41:07 ..\..\src\eventlayerstackwidget.cpp:701 CR: Add Sound File(s)
+12:41:16 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank
+12:42:44 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank
+12:43:14 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:1983 CG: Paste Event
+12:43:42 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank
+12:44:38 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:1717 CA: Add Event Category
+12:44:44 ..\..\src\categorylistview.cpp:409 CD: Move Event to Category
+12:44:48 ..\..\src\categorylistview.cpp:409 CD: Move Multiple Events to Category
+12:45:03 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank
+12:45:05 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank
+12:46:24 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\mainform.ui.h:748 DY: Create Events
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:11 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:12 ..\..\src\eventsoundwidget.cpp:700 DS: Adjust Sound Length
+12:47:32 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item
+12:47:38 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2856 HG: Add Sound File
+12:47:45 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:2202 CH: Delete Events/Event Groups/Event Categories
+12:48:01 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:2202 CH: Delete Events/Event Groups/Event Categories
+12:50:26 ..\..\src\propertyeditor.cpp:1508 EM: Set Name
+12:50:35 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank
+12:50:37 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank
+12:50:46 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\bankform.ui.h:1048 AC: Delete Soundbank
+12:50:46 ..\..\src\simpleeventcontroller.cpp:1388 IL: Set Bank

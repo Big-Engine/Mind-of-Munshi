@@ -1,0 +1,687 @@
+#include "interfaces/Map_Interface.hps"
+#include "base/InputHandler_Types.hps"
+
+#include "helpers/helper_map.hps"
+#include "helpers/helper_props.hps"
+#include "helpers/helper_effects.hps"
+#include "helpers/helper_audio.hps"
+#include "helpers/helper_imgui.hps"
+#include "helpers/helper_sequences.hps"
+#include "helpers/helper_game.hps"
+#include "helpers/helper_modules.hps"
+#include "helpers/helper_ai.hps"
+#include "helpers/helper_player.hps"
+#include "helpers/helper_areas.hps"
+
+//--------------------------------------------------
+ 
+/*Place any global values here. These must be const variables as they will not be saved*/
+/*This is also the place for enums and classes, but these should be avoided whenever possible*/
+ 
+//--------------------------------------------------
+ 
+class cScrMap : iScrMap
+{
+	//--------------------------------------------
+ 
+	//////////////////////////////////////////////////////////////////////////////////////////
+	// ==============
+	// MAIN CALLBACKS
+	// ==============
+	//{///////////////////////////////////////////////////////////////////////////////////////
+ 
+	//-------------------------------------------------------
+ 
+	////////////////////////////
+	// Set up map environment
+	void Setup()
+	{
+		// Put display name entry in english.lang / Levels
+		GetBase().SetDisplayNameEntry("xx-xx-dummy-level");
+		
+		Item_RemoveFromInventory(ItemType_GetFirstInInventory("CurseMedallion"));
+		cScript_SetGlobalVarBool("HideAmuletBracelet", true);
+		
+		Entity_PlayAnimation("Simon_Hallucination", "simon_idle", 0, true, false);
+		Entity_SetActive("Simon_Hallucination", false);
+		
+		iLuxEntity@ pEnt = cLux_GetCurrentMap().GetEntityByName("subway_businessman_1");
+		pEnt.GetMeshEntity().GetSubMeshEntityName("glass_left").SetVisible(false);
+		pEnt.GetMeshEntity().GetSubMeshEntityName("glass_right").SetVisible(false);
+		
+		Entity_PlayAnimation("munshi_weirdo", "idle_stand", 0, false, false);
+		
+		// Set up color grading etc.
+		
+		Map_Preset_SetupDirLight("SubwayDirLight", false, cColor(0,0,0), 0.0f, cVector3f(0,0,0), cColor(0,0,0), cColor(0,0,0));
+	}
+	
+	//-------------------------------------------------------
+		
+	void PreloadData()
+	{
+		/////////////////
+		// Preload gui
+		//ImGui_PreloadImage("some_image");
+
+		///////////////
+		// Preload particles
+		//ParticleSystem_Preload("some_particle.ps");
+
+		//////////////
+		// Preload screen effects
+		//Material_Preload("some_material.mat");
+	}
+	
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run first time starting map
+	void OnStart()
+	{
+		// Any general setup of script / entities
+		
+		/////////////////////////
+		// Debug
+		if(cLux_ScriptDebugOn())
+		{
+		}
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run when entering map
+	void OnEnter()
+	{	
+		//Game_AutoSave();
+		
+		PlayerBody_SetModel("munshi_playerV7.ent");
+		PlayerBody_SetActive(true);
+		Player_SetNightVisionEnabled(false);
+		Player_SetVertigoActive(false);
+		Player_SetAllowHideMode(false);
+		Player_SetAllowCheckBaby(false);
+		Player_SetActive(false);
+		Player_SetJumpDisabled(true);
+		Player_SetCrouchDisabled(true);
+		
+		//Default Camera Settings
+		Player_SetPitchLimits(-50.0f, 15.0f);	
+		
+		//iLuxEntity@ pPlayer = Map_GetEntity("player");
+		
+		Music_Play("03_03_conversation_reverse.ogg", 0.5f, false, eMusicPrio_BigEvent);
+		
+		Map_AddTimer("OnTimer_Start", 2.0f, "OnTimer_Start");
+		cLux_AddDebugMessage("Blah!");		
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run when leaving map
+	void OnLeave()
+	{
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// The player has died.
+	void OnPlayerKilled(int alRecentDeaths, const tString&in asSource)
+	{
+	}
+	
+	//-------------------------------------------------------
+	
+	////////////////////////////////////
+	// Called when player HP reaches 0
+	bool OnDeath(const tString &in asSource)
+	{
+		cLux_AddTodoMessage("DEAD : SOURCE = " + asSource);
+		
+		if (asSource == "SomeReason")
+		{
+			Effect_Fade_Out(1.0f);
+			return true; // return true to completely override base behaviour
+		}
+		
+		// return false for default behaviour
+		return false;
+	}
+	
+	//-------------------------------------------------------
+	
+	////////////////////////////////////
+	// Called when player should respawn (after death)
+	bool OnRespawn(const tString &in asSource)
+	{		
+		// return false for default behaviour (fadeout and death area)
+		return false;
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// To get when player makes input (mostly used for debug)
+	void OnAction(int alAction, bool abPressed) 
+	{
+		if(abPressed==false) return;
+		
+		if(alAction == eAction_Test1)
+		{
+		}
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// This only used for pure debug purposes when info needs to printed.
+	float DrawDebugOutput(cGuiSet @apSet,iFontData @apFont,float afY)
+	{
+		//afY = cLux_DrawDebugText("My Debug value:"+..., afY);
+		return afY;
+	}
+ 
+	//-------------------------------------------------------
+ 
+	//} END MAIN CALLBACKS
+ 
+ 
+	//////////////////////////////////////////////////////////////////////////////////////////
+	// ==============
+	// MAIN FUNCTIONS
+	// ==============
+	//{///////////////////////////////////////////////////////////////////////////////////////
+ 
+	//-------------------------------------------------------
+ 
+	/*Put any variables that are used in more than one scene here.*/
+ 
+	//-------------------------------------------------------
+ 
+	/*Put any functions that are used in more than one scene here.*/
+ 
+	//-------------------------------------------------------
+ 
+	//} END MAIN FUNCTIONS
+ 
+	//////////////////////////////////////////////////////////////////////////////////////////
+	// ==============
+	// SCENE 1 *HALLUCINATIONS*
+	// ==============
+	//{//////////////////////////////////////////////////////////////////////////////////////
+ 
+		/////////////////////////////////////////
+		// General
+		//{//////////////////////////////////////
+		 
+		//-------------------------------------------------------
+	 
+		/*Put any variables that are used by many events in Scene 1 here.*/
+		
+		int effectsTimerLoop = 0;
+		float effectsStrength = 0.0f;
+	 
+		//-------------------------------------------------------
+	 
+		/*Put any functions that are used in more than one event in Scene 1 here.*/
+		
+		void SetHallucinationEffects(bool mbActive)
+		{
+			if (mbActive)
+			{
+				Map_AddTimer("IncreaseEffectsTimer", 0.01f, "IncreaseEffectsTimer");
+			}
+			else
+			{
+				Map_AddTimer("DecreaseEffectsTimer", 0.01f, "DecreaseEffectsTimer");
+			}
+		}
+		
+		void IncreaseEffectsTimer(const tString &in asTimer)
+		{
+			if(effectsTimerLoop < 100)
+			{
+				effectsTimerLoop++;
+				effectsStrength += 0.01f;
+				Effect_ToneMapping_SetGradingTexture(1,"grading_microflash",effectsStrength/1.5f);
+				Effect_RadialBlur_SetDirect(0.1f, 0.0f, effectsStrength/2);
+				//cLux_AddDebugMessage(""+effectsTimerLoop, false);
+				Map_AddTimer("IncreaseEffectsTimer", 0.01f, "IncreaseEffectsTimer");
+			}
+		}
+		
+		void DecreaseEffectsTimer(const tString &in asTimer)
+		{
+			if(effectsTimerLoop > 0)
+			{
+				effectsTimerLoop--;
+				effectsStrength -= 0.01f;
+				Effect_ToneMapping_SetGradingTexture(1,"grading_microflash",effectsStrength/1.5f);
+				Effect_RadialBlur_SetDirect(0.1f, 0.0f, effectsStrength/2);
+				//cLux_AddDebugMessage(""+effectsTimerLoop, false);
+				Map_AddTimer("DecreaseEffectsTimer", 0.01f, "DecreaseEffectsTimer");
+			}
+		}
+	 
+		//-------------------------------------------------------
+		
+		//} END General	
+	 
+		/////////////////////////////////////////
+		// Event *Hallucination_1_PostScan*
+		//{//////////////////////////////////////
+
+		//-------------------------------------------------------
+
+		/*Put any variables that are only used in Scene 1, Event 1 here.*/
+
+		//-------------------------------------------------------
+
+		/*Put any functions that are only used in Scene 1, Event 1 here.*/
+		
+		void OnTimer_Start(const tString &in asTimer)
+		{
+			cLux_AddDebugMessage("Called Timer_Start!");
+			PlayerBody_PlayCutsceneAnimation("intro_wakeup",false,0.0f);
+			Player_SetActive(true);
+			
+			Map_FadeFogEnd(8.0f, 10.0f);
+			Music_PlayOverlay("Intro_Muffled.ogg", 0.125f);
+			Map_AddTimer("OnTimer_EndIntro", 34.0f, "OnTimer_EndIntro");
+			
+			////////////////////
+			//Debugging
+			//Seq_Encounter("");
+		}
+		
+		//-------------------------------------------------------
+		
+		void OnTimer_EndIntro(const tString &in asTimer)
+		{
+			PlayerBody_StopAnimation("intro_wakeup", 2.0f);
+			cLux_AddDebugMessage("Called Timer_EndIntro!");
+			Map_AddTimer("OnTimer_IntroSequence", 15.0f, "OnTimer_IntroSequence");
+		}
+		
+		//-------------------------------------------------------
+		
+		void OnTimer_IntroSequence(const tString &in asTimer)
+		{
+			Seq_Hallucination_One("");
+		}
+		
+		//-------------------------------------------------------
+		
+		bool OnTrigger_Test(const tString &in asParent, const tString &in asChild, int alState)
+		{
+			cLux_AddDebugMessage("Touched the first trigger!");
+		
+			//Seq_Hallucination_One("");
+			
+			iLuxEntity@ pEnt = cLux_GetCurrentMap().GetEntityByName("Simon_Hallucination_2");
+			pEnt.GetMeshEntity().GetSubMeshEntityName("SimonCortexChip").SetVisible(false);
+			
+			//Effect_VideoDistortion_SetDirectAmount(1.0f);
+			//Effect_ChromaticAberration_SetDirect(0.02f, 45, 0.0f, cVector2f_Zero);
+			//Effect_TimeGlitch_Start(1, 0.5f, 0.5f, false);
+			//Effect_Shake_Start(0.03f, 1.0f, 0.4f, 0.4f);
+			//Effect_Shake_Start(0.01f, 0.5f, 0.2f, 0.2f);
+			
+			return false;
+		}
+		
+		//-------------------------------------------------------
+		
+		cSequenceStatesData mHallucinationOneSequence;
+		
+		void Seq_Hallucination_One(const tString &in asTimer)
+		{
+			Sequence_Begin("Seq_Hallucination_One", mHallucinationOneSequence);
+			
+			if(Sequence_DoStepAndWait(1.25f))
+			{
+				Map_FadeFogEnd(0.0f, 1.25f);
+				SetHallucinationEffects(true);
+				Sound_CreateAtEntity("Sound_FinalWhisper", "player/UI/memory_sketch/whisper_flash", "player");
+			}
+			if(Sequence_DoStepAndWait(0.5f))
+			{
+				Player_Teleport("HallucinationPos_1", true);
+				Map_FadeFogEnd(8.0f, 5.0f);
+
+				Prop_SetActiveAndFade("simple_grey_plane_1", false, 4.0f);
+				Player_SetRunSpeedMul(0.0f);
+				Player_SetMoveSpeedMul(0.5f);
+			}
+			if(Sequence_DoStepAndWait(0.25f))
+			{
+				Map_FadeFogEnd(100.0f, 0.25f);
+			}
+			if(Sequence_DoStepAndWait(17.0f))
+			{
+				//Music_Play("Hallucination_1.ogg", 1.0f, false, eMusicPrio_BigEvent);
+				Music_PlayOverlay("Hallucination_1.ogg", 1.0f);
+			}
+			if(Sequence_DoStepAndWait(3.0f))
+			{
+				Prop_SetActiveAndFade("simple_grey_plane_1", true, 3.0f);
+				Map_FadeFogEnd(8.0f, 3.0f);
+			}
+			if(Sequence_DoStepAndContinue())
+			{
+				Map_FadeFogEnd(3.5f, 0.0f);
+			}
+			if(Sequence_DoStepAndWait(1.25f))
+			{
+				Map_FadeFogEnd(0.0f, 1.25f);
+				SetHallucinationEffects(false);
+			}
+			if(Sequence_DoStepAndWait(12.0f))
+			{
+				Player_Teleport("Start_Begin", true);
+				Map_FadeFogEnd(8.0f, 0.75f);
+				Player_SetRunSpeedMul(1.0f);
+				Player_SetMoveSpeedMul(1.0f);
+			}
+			if(Sequence_DoStepAndContinue())
+			{
+				Seq_Hallucination_Two("");
+			}
+			Sequence_End();
+		}
+
+		//-------------------------------------------------------
+
+		//} END Event *Hallucination_1_PostScan*
+		
+		/////////////////////////////////////////
+		// Event *Hallucination_2_Treatment*
+		//{//////////////////////////////////////
+
+		//-------------------------------------------------------
+
+		/*Put any variables that are only used in Scene 1, Event 2 here.*/
+
+		//-------------------------------------------------------
+
+		/*Put any functions that are only used in Scene 1, Event 2 here.*/
+		
+		cSequenceStatesData mHallucinationTwoSequence;
+		
+		void Seq_Hallucination_Two(const tString &in asTimer)
+		{
+			Sequence_Begin("Seq_Hallucination_Two", mHallucinationTwoSequence);
+			
+			if(Sequence_DoStepAndWait(1.25f))
+			{
+				Map_FadeFogEnd(0.0f, 1.25f);
+				SetHallucinationEffects(true);
+				Sound_CreateAtEntity("Sound_FinalWhisper", "player/UI/memory_sketch/whisper_flash", "player");
+			}
+			if(Sequence_DoStepAndWait(0.5f))
+			{
+				Player_Teleport("HallucinationPos_2", true);
+				Map_FadeFogEnd(8.0f, 5.0f);
+
+				Prop_SetActiveAndFade("simple_grey_plane_2", false, 4.0f);
+				Player_SetRunSpeedMul(0.0f);
+				Player_SetMoveSpeedMul(0.5f);
+			}
+			if(Sequence_DoStepAndWait(0.25f))
+			{
+				Map_FadeFogEnd(100.0f, 0.25f);
+			}
+			if(Sequence_DoStepAndWait(25.0f))
+			{
+				//Music_Play("Hallucination_2.ogg", 1.0f, false, eMusicPrio_BigEvent);
+				Music_PlayOverlay("Hallucination_2.ogg", 1.0f);
+			}
+			if(Sequence_DoStepAndWait(3.0f))
+			{
+				Prop_SetActiveAndFade("simple_grey_plane_2", true, 3.0f);
+				Map_FadeFogEnd(8.0f, 3.0f);
+			}
+			if(Sequence_DoStepAndContinue())
+			{
+				Map_FadeFogEnd(3.5f, 0.0f);
+			}
+			if(Sequence_DoStepAndWait(1.25f))
+			{
+				Map_FadeFogEnd(0.0f, 1.25f);
+				SetHallucinationEffects(false);
+			}
+			if(Sequence_DoStepAndWait(11.0f))
+			{
+				Player_Teleport("Start_Begin", true);
+				Map_FadeFogEnd(8.0f, 0.75f);
+				Player_SetRunSpeedMul(1.0f);
+				Player_SetMoveSpeedMul(1.0f);
+			}
+			if(Sequence_DoStepAndContinue())
+			{
+				Seq_Hallucination_Three("");
+			}
+			Sequence_End();
+		}
+
+		//-------------------------------------------------------
+
+		//} END Event *Hallucination_2_Treatment*
+		
+		/////////////////////////////////////////
+		// Event *Hallucination_3_Deathbed**
+		//{//////////////////////////////////////
+
+		//-------------------------------------------------------
+
+		/*Put any variables that are only used in Scene 1, Event 3 here.*/
+
+		//-------------------------------------------------------
+
+		/*Put any functions that are only used in Scene 1, Event 3 here.*/
+		
+		cSequenceStatesData mHallucinationThreeSequence;
+		
+		void Seq_Hallucination_Three(const tString &in asTimer)
+		{
+			Sequence_Begin("Seq_Hallucination_Three", mHallucinationThreeSequence);
+			
+			if(Sequence_DoStepAndWait(1.25f))
+			{
+				Map_FadeFogEnd(0.0f, 1.25f);
+				SetHallucinationEffects(true);
+				Sound_CreateAtEntity("Sound_FinalWhisper", "player/UI/memory_sketch/whisper_flash", "player");
+			}
+			if(Sequence_DoStepAndWait(0.5f))
+			{
+				Player_Teleport("HallucinationPos_3", true);
+				Map_FadeFogEnd(8.0f, 5.0f);
+
+				Prop_SetActiveAndFade("simple_grey_plane_3", false, 4.0f);
+				Player_SetRunSpeedMul(0.0f);
+				Player_SetMoveSpeedMul(0.5f);
+			}
+			if(Sequence_DoStepAndWait(0.25f))
+			{
+				Map_FadeFogEnd(100.0f, 0.25f);
+			}
+			if(Sequence_DoStepAndWait(56.0f))
+			{
+				//Music_Play("Hallucination_3.ogg", 1.0f, false, eMusicPrio_BigEvent);
+				Music_PlayOverlay("Hallucination_3.ogg", 1.0f);
+			}
+			if(Sequence_DoStepAndWait(3.0f))
+			{
+				Prop_SetActiveAndFade("simple_grey_plane_3", true, 3.0f);
+				Map_FadeFogEnd(8.0f, 3.0f);
+			}
+			if(Sequence_DoStepAndContinue())
+			{
+				Map_FadeFogEnd(3.5f, 0.0f);
+			}
+			if(Sequence_DoStepAndWait(1.25f))
+			{
+				Map_FadeFogEnd(0.0f, 1.25f);
+				SetHallucinationEffects(false);
+			}
+			if(Sequence_DoStepAndWait(8.0f))
+			{
+				Player_Teleport("Start_Begin", true);
+				Map_FadeFogEnd(8.0f, 0.75f);
+				Player_SetRunSpeedMul(1.0f);
+				Player_SetMoveSpeedMul(1.0f);
+			}
+			if(Sequence_DoStepAndContinue())
+			{
+				Seq_Encounter("");
+			}
+			Sequence_End();
+		}
+
+		//-------------------------------------------------------
+
+		//} END Event *Hallucination_3_Deathbed*
+		
+		/////////////////////////////////////////
+		// Event *Encounter*
+		//{//////////////////////////////////////
+
+		//-------------------------------------------------------
+
+		/*Put any variables that are only used in Scene 1, Event 4 here.*/
+
+		//-------------------------------------------------------
+
+		/*Put any functions that are only used in Scene 1, Event 4 here.*/
+		
+		cSequenceStatesData mEncounterSequence;
+		
+		void Seq_Encounter(const tString &in asTimer)
+		{	
+			Sequence_Begin("Seq_Encounter", mEncounterSequence);
+			
+			if(Sequence_DoStepAndWait(5.0f))
+			{
+				Player_Teleport("Start_Begin", true);
+				PlayerBody_PlayCutsceneAnimation("intro_flee",false,0.0f,"OnAnimEnd_Encounter");
+				
+				Entity_SetActive("Simon_Hallucination", true);
+				iLuxEntity@ pEnt = cLux_GetCurrentMap().GetEntityByName("Simon_Hallucination");
+				pEnt.GetMeshEntity().GetSubMeshEntityName("SimonHead").SetVisible(false);
+				
+				Map_FadeFogEnd(20.0f, 0.0f);
+				Music_PlayOverlay("Fault.ogg", 1.0f);
+				
+				Effect_TimeGlitch_Start(0.5f, 0.25f, 0.0f, true);
+				
+				//Amount, Duration, FadeIn, FadeOut
+				Effect_FOV_Shake_Start(0.05f, 1.0f, 0.125f, 0.4f);
+				
+				//Amount, Duration, FadeIn, FadeOut, Volume
+				Effect_VideoDistortion_Start(1.0f,1.0f,0.125f,0.4f,0.5f);
+				
+				//Duration, Amount, Randomness, Direction
+				//Effect_ChromaticAberration_StartAnim(1.525f,0.05f,0.005f,cVector2f_Zero);
+				Effect_ChromaticAberration_StartAnim(cMath_RandRectf(0.2f, 0.5f)*2, 0.1f, 1.0f, cVector2f(1,0.1f));
+			}
+			if(Sequence_DoStepAndWait(8.0f))
+			{
+				Entity_PlayAnimation("Simon_Hallucination", "simon_shake", 0, true, false);
+				Effect_FOV_Shake_Start(0.05f, 7.95f, 0.025f, 0.025f);
+				Effect_VideoDistortion_Start(1.0f, 7.95f, 0.025f, 0.025f, 0.5f);
+				Effect_ChromaticAberration_StartAnim(8.0f, 0.1f, 1.0f, cVector2f(1,0.1f));
+			}
+			if(Sequence_DoStepAndWait(3.0f))
+			{
+				Entity_PlayAnimation("Simon_Hallucination", "simon_stop", 0, false, false);
+			}
+			if(Sequence_DoStepAndContinue())
+			{
+				Entity_PlayAnimation("Simon_Hallucination", "simon_hunt", 0, false, false);
+				Sound_CreateAtEntity("Sound_SimonAttack", "Soma_Player/Simon/NPC_Construct_Idle_Rambling_62", "Simon_Hallucination", 0.0f, false, 0.25f);
+				Sound_CreateAtEntity("Sound_SimonExtra", "player/landing/lucidity_meter_full_01", "Simon_Hallucination", 0.0f, false, 1.0f);
+				
+				Effect_FOV_Shake_Start(0.05f, 2.0f, 0.5f, 0.0f);
+				Effect_VideoDistortion_Start(1.0f, 1.0f, 0.5f, 0.0f, 1.0f);
+				Effect_ChromaticAberration_StartAnim(2.5f, 0.1f, 1.0f, cVector2f(1,0.1f));
+			}
+			Sequence_End();
+		}
+		
+		void OnAnimEnd_Encounter(const tString &in asAnim)
+		{
+			Seq_Subway("");
+		}
+
+		//-------------------------------------------------------
+
+		//} END Event *Encounter*
+		
+		/////////////////////////////////////////
+		// Event *Subway*
+		//{//////////////////////////////////////
+
+		//-------------------------------------------------------
+
+		/*Put any variables that are only used in Scene 1, Event 5 here.*/
+
+		//-------------------------------------------------------
+
+		/*Put any functions that are only used in Scene 1, Event 5 here.*/
+		
+		cSequenceStatesData mSubwaySequence;
+		
+		void Seq_Subway(const tString &in asTimer)
+		{	
+			Sequence_Begin("Seq_Subway", mSubwaySequence);
+			
+			if(Sequence_DoStepAndWait(0.0001f))
+			{
+				//Why does this fix it?
+			}
+			if(Sequence_DoStepAndWait(3.0f))
+			{
+				PlayerBody_SetActive(false);
+				Music_PlayOverlay("WAAAAHUHUH.ogg", 1.0f);
+				Sound_CreateAtEntity("TrainLoop", "00_01_subway/SFX/train_loop", "CamFour_1", 0.0f, false, 1.0f);
+				Sound_Stop("Sound_SimonAttack", 0.0f);
+				Sound_Stop("Sound_SimonExtra", 0.0f);
+				
+				Entity_PlayAnimation("munshi_weirdo", "intro_scream", 0, false, false);
+				CameraAnimation_Begin("CamOne", "", false);
+				
+				Map_FadeFogEnd(10.0f, 0.0f);
+				Map_Preset_Fade("SubwayDirLight", 0.0f);
+				
+				Prop_MoveLinearTo("00_02_outside_1","SubwayMovPos",5,5,1,true);
+			}
+			if(Sequence_DoStepAndWait(2.5f))
+			{
+				CameraAnimation_End();
+				CameraAnimation_Begin("CamTwo", "", false);
+			}
+			if(Sequence_DoStepAndWait(3.0f))
+			{
+				CameraAnimation_End();
+				CameraAnimation_Begin("CamThree", "", false);
+			}
+			if(Sequence_DoStepAndWait(2.0f))
+			{
+				CameraAnimation_End();
+				CameraAnimation_Begin("CamFour", "", false);
+				Map_FadeFogEnd(0.0f, 6.0f);
+				Sound_Stop("TrainLoop", 6.0f);
+			}
+			Sequence_End();
+		}
+
+		//-------------------------------------------------------
+
+		//} END Event *Subway*
+	 
+	//} END SCENE 1
+ 
+}

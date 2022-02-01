@@ -1,0 +1,23 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="../Ruihe/power_outlet/power_outlet.dae">
+            <SubMesh ID="0" Material="" Name="power_outlet" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0 0 0" Rotation="0 0 0" Scale="0.151347 0.227373 0.0173862" ShapeType="Box" WorldPos="0 0.112306 0" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="2" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="16" MaxLinearSpeed="16" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="0 0.112306 0">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="1" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp" />
+</Entity>

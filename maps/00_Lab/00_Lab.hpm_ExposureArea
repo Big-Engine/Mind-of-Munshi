@@ -1,0 +1,63 @@
+<HPLMapTrack_ExposureArea ID="C47507453FC9D79BF0249665D52528043FE6F77" MajorVersion="1" MinorVersion="1">
+    <Section Name="3162489429237727101">
+        <Objects>
+            <ExposureArea ID="268436988" Name="ExposureArea_1" CreStamp="1432646594" ModStamp="1432896741" WorldPos="9.35802 1.64809 -37.2969" Rotation="0 0 0" Scale="1.54931 3.08454 2.01784" Exposure="-1" WhiteCut="4" TransitionTime="2" UID="16 1550 268436988" />
+            <ExposureArea ID="268436989" Name="ExposureArea_2" CreStamp="1432649487" ModStamp="1432896747" WorldPos="9.33457 2.09453 -33.3288" Rotation="0 0 0" Scale="1.54931 3.08454 1.98467" Exposure="-1" WhiteCut="4" TransitionTime="2" UID="16 1575 268436989" />
+            <ExposureArea ID="268436990" Name="ExposureArea_3" CreStamp="1432649491" ModStamp="1432896758" WorldPos="9.38593 1.98752 -28.8401" Rotation="0 0 0" Scale="1.54931 3.08454 2.28323" Exposure="-1" WhiteCut="4" TransitionTime="1.9" UID="16 1576 268436990" />
+        </Objects>
+    </Section>
+    <Section Name="12842900846329863869">
+        <Objects />
+    </Section>
+    <Section Name="15945596188556043045">
+        <Objects />
+    </Section>
+    <Section Name="10861980699194989444">
+        <Objects />
+    </Section>
+    <Section Name="12832235860626620287">
+        <Objects />
+    </Section>
+    <Section Name="592759162956312619">
+        <Objects />
+    </Section>
+    <Section Name="6156478819529950732">
+        <Objects />
+    </Section>
+    <Section Name="13833073084221543913">
+        <Objects />
+    </Section>
+    <Section Name="8037706082786106749">
+        <Objects />
+    </Section>
+    <Section Name="13338907128802076914">
+        <Objects />
+    </Section>
+    <Section Name="855410697664785853">
+        <Objects />
+    </Section>
+    <Section Name="15438713831384302178">
+        <Objects />
+    </Section>
+    <Section Name="6937444921226728725">
+        <Objects />
+    </Section>
+    <Section Name="12432252782041171907">
+        <Objects />
+    </Section>
+    <Section Name="8292389879337415459">
+        <Objects />
+    </Section>
+    <Section Name="5849815058735395437">
+        <Objects />
+    </Section>
+    <Section Name="10824747931208392861">
+        <Objects />
+    </Section>
+    <Section Name="9184686221738508799">
+        <Objects />
+    </Section>
+    <Section Name="7909075790457549210">
+        <Objects />
+    </Section>
+</HPLMapTrack_ExposureArea>

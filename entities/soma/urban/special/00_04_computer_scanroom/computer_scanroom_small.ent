@@ -1,0 +1,36 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/special/00_04_computer_scanroom/computer_scanroom_small.dae">
+            <SubMesh ID="0" Name="small" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="442" Material="" />
+            <SubMesh ID="2" Name="servers__2_" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="42" Material="" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="3" Name="ShapeBox_1" CreStamp="1421681657" ModStamp="1421681678" WorldPos="0 0.840653 0" Rotation="0 0 0" Scale="0.686178 0.791999 0.627829" RelativeTranslation="5.79357e-005 0.300863 0.000117481" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="4" Name="ShapeBox_2" CreStamp="1421681681" ModStamp="1421681715" WorldPos="-0.305693 0.238928 0.278453" Rotation="0 0 0" Scale="0.0617674 0.480394 0.064952" RelativeTranslation="-0.305635 -0.300863 0.278571" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="5" Name="ShapeBox_3" CreStamp="1421681716" ModStamp="1421681724" WorldPos="0.305577 0.238928 0.278453" Rotation="0 0 0" Scale="0.0648459 0.480394 0.064952" RelativeTranslation="0.305635 -0.300863 0.278571" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="6" Name="ShapeBox_4" CreStamp="1421681726" ModStamp="1421681729" WorldPos="0.305577 0.238928 -0.278688" Rotation="0 0 0" Scale="0.0648459 0.480394 0.064952" RelativeTranslation="0.305635 -0.300863 -0.278571" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="7" Name="ShapeBox_5" CreStamp="1421681726" ModStamp="1421681729" WorldPos="-0.305693 0.238928 -0.278688" Rotation="0 0 0" Scale="0.0617674 0.480394 0.064952" RelativeTranslation="-0.305635 -0.300863 -0.278571" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+        </Shapes>
+        <Bodies>
+            <Body ID="8" Name="Body_1" CreStamp="0" ModStamp="1421681740" WorldPos="-5.79357e-005 0.539791 -0.000117481" Rotation="0 0 0" Scale="1 1 1" Material="" Mass="0" AngularDamping="0.1" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Children>
+                    <Child ID="2" />
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="6" />
+                <Shape ID="7" />
+                <Shape ID="5" />
+                <Shape ID="4" />
+                <Shape ID="3" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp">
+        <Var Name="ShowMesh" Value="true" />
+    </UserDefinedVariables>
+</Entity>

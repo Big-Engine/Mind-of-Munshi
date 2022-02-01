@@ -1,0 +1,91 @@
+<HPLMapTrack_Sound ID="C47507453FC9D79BF0249665D52528043FE6F77" MajorVersion="1" MinorVersion="1">
+    <Section Name="3162489429237727101">
+        <Objects>
+            <Sound ID="268436743" Name="computer" CreStamp="0" ModStamp="1403872161" WorldPos="6.41154 0.75 -30.7465" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="" MinDistance="0.5" MaxDistance="6.5" Volume="1" Active="true" UseCustomProperties="false" UID="16 110 268436743" />
+            <Sound ID="268436744" Name="water_cooler_idle" CreStamp="0" ModStamp="1403871701" WorldPos="0.25 1.75 -27.7467" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="12" MaxDistance="12" Volume="1" Active="false" UseCustomProperties="false" UID="16 108 268436744" />
+            <Sound ID="268436745" Name="computer_hdd" CreStamp="0" ModStamp="1403869983" WorldPos="-7.25 0.75 -7.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="0.5" MaxDistance="6" Volume="1" Active="true" UseCustomProperties="false" UID="16 107 268436745" />
+            <Sound ID="268436746" Name="small_room_server_4" CreStamp="0" ModStamp="1403871101" WorldPos="-7.3621 1.5 -2.37468" Rotation="0 0.0928416 0" Scale="1 1 1" SoundEntityFile="" MinDistance="10" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 104 268436746" />
+            <Sound ID="268436747" Name="fan_wall" CreStamp="0" ModStamp="1403870300" WorldPos="-7.75 3.25 -9.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="0" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 97 268436747" />
+            <Sound ID="268436748" Name="small_room_server_2" CreStamp="1403870623" ModStamp="1403871099" WorldPos="-3.5 1.5 -3.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="10" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 1406 268436748" />
+            <Sound ID="268436749" Name="small_room_server_3" CreStamp="1403870634" ModStamp="1403871104" WorldPos="-3.5 1.5 -2" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="10" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 1414 268436749" />
+            <Sound ID="268436750" Name="small_room_server_1" CreStamp="1403870636" ModStamp="1403870646" WorldPos="-3.5 1.5 -5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="10" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="16 1411 268436750" />
+            <Sound ID="268436751" Name="lab_room_server_1" CreStamp="1404225900" ModStamp="1404225912" WorldPos="-2 1.5 1" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="10" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 1415 268436751" />
+            <Sound ID="268436752" Name="lab_room_server_2" CreStamp="1404225913" ModStamp="1404225916" WorldPos="-2.75 1.5 6.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="10" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 1405 268436752" />
+            <Sound ID="268436753" Name="lab_room_server_3" CreStamp="1404225917" ModStamp="1404225919" WorldPos="-2.75 1.5 9" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="10" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 1413 268436753" />
+            <Sound ID="268436754" Name="lab_room_server_4" CreStamp="1404225919" ModStamp="1421357571" WorldPos="2.06381 1.5 8.37451" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="10" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 1410 268436754" />
+            <Sound ID="268436755" Name="lab_room_server_5" CreStamp="1404225927" ModStamp="1432637984" WorldPos="2.75 1.5 6.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="10" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 1404 268436755" />
+            <Sound ID="268436756" Name="window_spot" CreStamp="1404295970" ModStamp="1404296000" WorldPos="9.75 2 -33.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="1" MaxDistance="12" Volume="1" Active="true" UseCustomProperties="false" UID="16 1409 268436756" />
+            <Sound ID="268436757" Name="behind_door_spot" CreStamp="1405354054" ModStamp="1421849552" WorldPos="3 1.5 3.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="5" MaxDistance="15" Volume="1" Active="true" UseCustomProperties="false" UID="16 1412 268436757" />
+            <Sound ID="268436758" Name="lightbuzz_1" CreStamp="1421840152" ModStamp="1421840359" WorldPos="-0.0562854 3.75087 -3.52086" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="1" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="16 1408 268436758" />
+            <Sound ID="268436759" Name="lightbuzz_2" CreStamp="1421840362" ModStamp="1421840364" WorldPos="-0.0562854 3.75087 -8.40951" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="1" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="16 971 268436759" />
+            <Sound ID="268436760" Name="lightbuzz_3" CreStamp="1421840366" ModStamp="1421840368" WorldPos="-0.0562854 3.75087 -14.1723" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="1" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="16 931 268436760" />
+            <Sound ID="268436761" Name="lightbuzz_4" CreStamp="1421840370" ModStamp="1421840372" WorldPos="2.44803 3.75087 -14.1723" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="1" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="16 1407 268436761" />
+            <Sound ID="268436762" Name="lightbuzz_5" CreStamp="1421840373" ModStamp="1421840374" WorldPos="2.44803 3.75087 -19.6291" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="1" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="16 960 268436762" />
+            <Sound ID="268436763" Name="distant_dog" CreStamp="1421853177" ModStamp="1421853984" WorldPos="11.75 3.75087 -33.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="10" MaxDistance="25" Volume="1" Active="true" UseCustomProperties="false" UID="16 946 268436763" />
+            <Sound ID="268436764" Name="distant_car" CreStamp="1421853624" ModStamp="1421853632" WorldPos="11.75 3.75087 -28" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="5" MaxDistance="15" Volume="1" Active="true" UseCustomProperties="false" UID="16 1403 268436764" />
+            <Sound ID="268436765" Name="vent_sound" CreStamp="1421856331" ModStamp="1421856365" WorldPos="-0.75 3.82845 -31.6313" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="1" MaxDistance="15" Volume="1" Active="true" UseCustomProperties="false" UID="16 961 268436765" />
+            <Sound ID="268436766" Name="WaitingRoomLightBuzz_1" CreStamp="1421925852" ModStamp="1421925879" WorldPos="2.5 3.75087 -29.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="1" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="16 1400 268436766" />
+            <Sound ID="268436767" Name="WaitingRoomLightBuzz_2" CreStamp="1421925879" ModStamp="1421925881" WorldPos="5.75 3.75087 -29.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="1" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="16 955 268436767" />
+            <Sound ID="268436768" Name="WaitingRoomLightBuzz_3" CreStamp="1421925885" ModStamp="1421925887" WorldPos="5.75 3.75087 -32.75" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="1" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="16 957 268436768" />
+            <Sound ID="268436769" Name="WaitingRoomLightBuzz_4" CreStamp="1421925892" ModStamp="1421925893" WorldPos="5.75 3.75087 -36.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="1" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="16 958 268436769" />
+            <Sound ID="268436770" Name="WaitingRoomLightBuzz_5" CreStamp="1421925897" ModStamp="1421925899" WorldPos="2.75 3.75087 -36.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="1" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="16 959 268436770" />
+            <Sound ID="268436771" Name="WaitingRoomLightBuzz_6" CreStamp="1421925901" ModStamp="1421925903" WorldPos="2.75 3.75087 -33" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="1" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="16 956 268436771" />
+            <Sound ID="268436772" Name="serverroom_light_1" CreStamp="1421926401" ModStamp="1421926523" WorldPos="-5.5 3.5 -7.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="16 972 268436772" />
+            <Sound ID="268436773" Name="serverroom_light_2" CreStamp="1421926419" ModStamp="1421926482" WorldPos="-5.25 3.5 -3.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="16 1397 268436773" />
+        </Objects>
+    </Section>
+    <Section Name="12842900846329863869">
+        <Objects />
+    </Section>
+    <Section Name="15945596188556043045">
+        <Objects />
+    </Section>
+    <Section Name="10861980699194989444">
+        <Objects />
+    </Section>
+    <Section Name="12832235860626620287">
+        <Objects />
+    </Section>
+    <Section Name="592759162956312619">
+        <Objects />
+    </Section>
+    <Section Name="6156478819529950732">
+        <Objects />
+    </Section>
+    <Section Name="13833073084221543913">
+        <Objects />
+    </Section>
+    <Section Name="8037706082786106749">
+        <Objects />
+    </Section>
+    <Section Name="13338907128802076914">
+        <Objects />
+    </Section>
+    <Section Name="855410697664785853">
+        <Objects />
+    </Section>
+    <Section Name="15438713831384302178">
+        <Objects />
+    </Section>
+    <Section Name="6937444921226728725">
+        <Objects />
+    </Section>
+    <Section Name="12432252782041171907">
+        <Objects />
+    </Section>
+    <Section Name="8292389879337415459">
+        <Objects />
+    </Section>
+    <Section Name="5849815058735395437">
+        <Objects />
+    </Section>
+    <Section Name="10824747931208392861">
+        <Objects />
+    </Section>
+    <Section Name="9184686221738508799">
+        <Objects />
+    </Section>
+    <Section Name="7909075790457549210">
+        <Objects />
+    </Section>
+</HPLMapTrack_Sound>

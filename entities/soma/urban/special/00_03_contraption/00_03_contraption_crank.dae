@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Administrator</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=1;
+exportAnimations=1;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=1;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///F:/00_03_contraption/00_03_contraption.ma</source_data>
+    </contributor>
+    <contributor>
+      <author>user</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=1;
+exportAnimations=1;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Users/user/Documents/maya/projects/default/untitled</source_data>
+    </contributor>
+    <created>2011-12-27T05:16:54Z</created>
+    <modified>2012-01-06T07:49:07Z</modified>
+    <unit meter="1" name="meter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="_03_contraption_crank_1" name="_03_contraption_crank_1">
+      <init_from>file:///E:/SVN_Server/application/entities/urban/special/00_03_contraption/00_03_contraption_crank.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn11" name="blinn11">
+      <instance_effect url="#blinn11-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn11-fx">
+      <profile_COMMON>
+        <newparam sid="_03_contraption_crank_1-surface">
+          <surface type="2D">
+            <init_from>_03_contraption_crank_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="_03_contraption_crank_1-sampler">
+          <sampler2D>
+            <source>_03_contraption_crank_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="_03_contraption_crank_1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="contraption_crankShape" name="contraption_crankShape">
+      <mesh>
+        <source id="contraption_crankShape-positions" name="position">
+          <float_array id="contraption_crankShape-positions-array" count="207">0.012856 0.896077 -0.3231 0.013276 0.897342 -0.393665 0.019536 0.894759 -0.396259 0.019536 0.893313 -0.3231 0.026217 0.896077 -0.3231 0.025798 0.897342 -0.393665 0.027848 1.01081 -0.378333 0.027378 1.00305 -0.376552 0.03129 1.01081 -0.387517 0.019536 1.01081 -0.375584 0.019536 1.00305 -0.373803 0.011225 1.01081 -0.378333 0.011695 1.00303 -0.376553 0.007783 1.01081 -0.387517 0.019536 1.0161 -0.387517 0.027848 1.01081 -0.394896 0.019536 1.01077 -0.39763 0.011225 1.01081 -0.394896 0.025798 0.909818 -0.381142 0.028392 0.90358 -0.387405 0.029776 0.98689 -0.388246 0.026777 0.986938 -0.380183 0.019536 0.986938 -0.377433 0.019536 0.912402 -0.378548 0.013275 0.909818 -0.381142 0.012297 0.986938 -0.380183 0.009297 0.98689 -0.388246 0.010681 0.90358 -0.387405 0.028986 0.902748 -0.3231 0.026217 0.909419 -0.3231 0.019536 0.912182 -0.3231 0.012856 0.909419 -0.3231 0.010087 0.902748 -0.3231 0.025465 1.00879 -0.436832 0.027921 1.00287 -0.436832 0.029044 1.00287 -0.499305 0.026259 1.00959 -0.499305 0.019536 1.01125 -0.436832 0.019536 1.01237 -0.499305 0.013608 1.00879 -0.436832 0.012814 1.00959 -0.499305 0.011152 1.00287 -0.436832 0.010029 1.00287 -0.499305 0.012814 0.996142 -0.499305 0.013608 0.996937 -0.436832 0.019536 0.994481 -0.436832 0.019536 0.993357 -0.499305 0.026259 0.996142 -0.499305 0.025465 0.996937 -0.436832 0.017379 1.00807 -0.50336 0.024745 1.00502 -0.50336 0.021694 0.997656 -0.50336 0.014328 1.00071 -0.50336 0.026889 1.01022 -0.405081 0.029935 1.00287 -0.405081 0.019536 1.01326 -0.405081 0.012184 1.01022 -0.405081 0.009137 1.00287 -0.405081 0.012184 0.995512 -0.405081 0.019536 0.992466 -0.405081 0.026889 0.995512 -0.405081 0.019536 1.00994 -0.393837 0.026613 1.00287 -0.393837 0.026613 1.00287 -0.407931 0.019536 1.00994 -0.407931 0.012461 1.00287 -0.393837 0.012461 1.00287 -0.407931 0.019536 0.995789 -0.393837 0.019536 0.995789 -0.407931</float_array>
+          <technique_common>
+            <accessor source="#contraption_crankShape-positions-array" count="69" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="contraption_crankShape-normals" name="normal">
+          <float_array id="contraption_crankShape-normals-array" count="255">-0.7989 -0.601252 -0.015934 -0.607513 -0.794114 -0.017631 -0.000041 -0.999799 -0.020072 -0.000057 -0.999805 -0.019762 0.798916 -0.601231 -0.015927 0.607498 -0.794126 -0.017626 0.546145 0.620807 0.562427 0.660898 -0.02855 0.749933 0.902803 0.427579 0.046063 -0.000137 0.503019 0.864275 -0.000081 0.001994 0.999998 -0.546237 0.620646 0.562516 -0.660936 -0.028742 0.749892 -0.902821 0.427545 0.046041 -0.000012 0.999644 -0.026674 0.681178 0.425258 -0.595947 -0.000031 0.341639 -0.939831 -0.681187 0.425245 -0.595945 0.999767 -0.016467 0.013963 0.998284 -0.04505 0.037407 0.801341 -0.015731 0.598001 0.645188 -0.082758 0.759528 0.000032 -0.157077 0.987586 -0.000037 -0.01627 0.999868 -0.801329 -0.015725 0.598017 -0.645189 -0.082843 0.759518 -0.998283 -0.045081 0.0374 -0.999768 -0.016468 0.013894 -0.704561 -0.018309 -0.709407 0.704563 -0.018307 -0.709405 0.99117 -0.132185 -0.010438 0.796057 0.60522 -0.001413 0.990348 0.138401 -0.007522 0.603422 0.797421 0.001151 -0.000026 0.999992 0.003967 -0.000027 0.999992 0.003924 -0.603452 0.797398 0.001149 -0.796067 0.605207 -0.001414 -0.991164 -0.132227 -0.010443 -0.990348 0.138401 -0.007522 -0.000057 -0.011817 -0.99993 0.663654 0.747499 -0.028448 0.996448 0.082951 -0.014494 0.671476 0.619446 -0.406702 0.907852 -0.110957 -0.404342 -0.136581 0.990374 -0.022471 0.075916 0.948592 -0.307261 -0.763016 0.646216 -0.014533 -0.619101 0.671809 -0.406678 -0.997864 -0.058795 -0.028471 -0.948601 0.076042 -0.307204 -0.671862 -0.619086 -0.406613 -0.603691 -0.796901 -0.022481 0.136733 -0.990353 -0.022485 -0.075805 -0.948627 -0.30718 0.597809 -0.740739 -0.306481 0.797065 -0.603474 -0.02248 -0.09019 0.483694 -0.870578 0.351359 0.145485 -0.924868 -0.403423 -0.075132 -0.911924 0.187115 -0.451631 -0.872363 0.705388 0.705977 -0.063431 0.997993 0.000287 -0.063322 0.136669 0.988632 -0.062674 -0.705545 0.705828 -0.063349 -0.997992 0.000188 -0.063334 -0.795685 -0.602453 -0.062731 -0.136544 -0.988645 -0.062743 0.60262 -0.795558 -0.062734 -0.000002 0 1 0.000004 0 1 -0.000000 0 1 0 0 1 -0.000004 0 1 0 0 1 0 0 1 -0.000004 0 1 -0.316057 0.94874 0 0.948542 0.316653 0 0.315923 0.948785 0 0.948786 -0.315921 0 -0.948812 -0.31584 0 -0.948569 0.316571 0 0.316361 -0.948639 0 -0.316496 -0.948594 0</float_array>
+          <technique_common>
+            <accessor source="#contraption_crankShape-normals-array" count="85" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="contraption_crankShape-map1" name="map1">
+          <float_array id="contraption_crankShape-map1-array" count="224">0.589424 0.720187 0.589424 0.7959 0.58181 0.797985 0.58181 0.720187 0.574196 0.720187 0.574196 0.7959 0.557639 0.926904 0.556819 0.918856 0.564758 0.926904 0.551132 0.926904 0.551132 0.918856 0.60607 0.926904 0.606889 0.918856 0.612576 0.918856 0.612576 0.926904 0.598951 0.926904 0.564416 0.791565 0.567984 0.801054 0.555835 0.801066 0.564434 0.808685 0.555845 0.81152 0.547253 0.808703 0.543687 0.801078 0.547236 0.791583 0.555823 0.788732 0.560995 0.817531 0.568014 0.810934 0.566306 0.901403 0.557521 0.901403 0.551132 0.901403 0.551132 0.819975 0.602713 0.817531 0.612576 0.819975 0.612576 0.901403 0.606188 0.901403 0.597403 0.901403 0.595695 0.810934 0.588678 0.804332 0.575031 0.804332 0.590912 0.926904 0.572797 0.926904 0.566514 0.720187 0.566514 0.789656 0.558834 0.782997 0.558834 0.720187 0.55119 0.780336 0.55119 0.720187 0.604786 0.720187 0.61243 0.720187 0.61243 0.780336 0.604786 0.782997 0.597106 0.789656 0.597106 0.720187 0.581855 0.926904 0.581855 0.801513 0.641545 0.86545 0.63391 0.86545 0.63391 0.797783 0.641545 0.797783 0.64918 0.86545 0.64918 0.797783 0.656815 0.86545 0.656815 0.797783 0.664449 0.86545 0.664449 0.797783 0.672084 0.797783 0.672083 0.86545 0.679718 0.86545 0.679718 0.797783 0.61864 0.797783 0.626276 0.797783 0.626276 0.86545 0.61864 0.86545 0.667032 0.916175 0.658984 0.916208 0.658951 0.908161 0.666998 0.908128 0.641545 0.899841 0.63391 0.899841 0.64918 0.899841 0.656814 0.899841 0.664449 0.899841 0.672083 0.899841 0.679718 0.899841 0.626276 0.899841 0.61864 0.899841 0.659356 0.921048 0.654142 0.915877 0.654111 0.908533 0.659283 0.903319 0.666626 0.903288 0.671841 0.90846 0.671871 0.915803 0.6667 0.921017 0.651066 0.911833 0.648051 0.919112 0.640771 0.901538 0.640771 0.922128 0.633492 0.919112 0.630477 0.911833 0.633492 0.904553 0.648051 0.904553 0.479347 0.935347 0.479347 0.917917 0.503978 0.917917 0.503978 0.935347 0.479347 0.952778 0.503978 0.952778 0.479347 0.970208 0.503978 0.970208 0.479347 0.987638 0.503978 0.987638</float_array>
+          <technique_common>
+            <accessor source="#contraption_crankShape-map1-array" count="112" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="contraption_crankShape-vertices">
+          <input semantic="POSITION" source="#contraption_crankShape-positions"/>
+        </vertices>
+        <triangles material="blinn11SG" count="116">
+          <input semantic="VERTEX" source="#contraption_crankShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#contraption_crankShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#contraption_crankShape-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 3 2 3 3 2 3 1 1 1 2 3 2 4 4 4 3 2 3 5 5 5 5 5 5 3 2 3 2 3 2 6 6 6 7 7 7 8 8 8 6 6 6 9 9 9 7 7 7 7 7 7 9 9 9 10 10 10 11 11 11 12 12 12 9 9 14 9 9 14 12 12 12 10 10 13 11 11 11 13 13 15 12 12 12 6 6 16 8 8 17 14 14 18 8 8 17 15 15 19 14 14 18 14 14 18 15 15 19 16 16 20 16 16 20 17 17 21 14 14 18 13 13 22 14 14 18 17 17 21 13 13 22 11 11 23 14 14 18 11 11 23 9 9 24 14 14 18 9 9 24 6 6 16 14 14 18 19 18 26 20 19 27 18 20 25 18 20 25 20 19 27 21 21 28 22 22 29 23 23 30 21 21 28 21 21 28 23 23 30 18 20 25 24 24 31 23 23 32 25 25 34 25 25 34 23 23 32 22 22 33 25 25 34 26 26 35 24 24 31 24 24 31 26 26 35 27 27 36 26 26 35 1 28 37 27 27 36 20 19 27 19 18 26 5 29 38 8 8 8 7 7 7 20 19 27 20 19 27 7 7 7 21 21 28 10 10 10 22 22 29 7 7 7 7 7 7 22 22 29 21 21 28 10 10 13 12 12 12 22 22 33 22 22 33 12 12 12 25 25 34 25 25 34 12 12 12 26 26 35 26 26 35 12 12 12 13 13 15 26 26 35 17 17 39 1 28 37 5 29 38 15 15 40 20 19 27 19 30 42 18 31 43 28 32 41 28 32 41 18 31 43 29 33 44 30 34 46 29 33 44 23 35 45 23 35 45 29 33 44 18 31 43 30 34 48 23 35 49 31 36 47 31 36 47 23 35 49 24 37 50 27 38 51 32 39 52 24 37 50 24 37 50 32 39 52 31 36 47 1 1 1 0 0 0 27 38 51 27 38 51 0 0 0 32 39 52 5 5 5 19 30 42 4 4 4 4 4 4 19 30 42 28 32 41 17 17 39 16 16 53 1 28 37 1 28 37 16 16 53 2 40 54 15 15 40 5 29 38 16 16 53 16 16 53 5 29 38 2 40 54 15 15 40 8 8 8 20 19 27 26 26 35 13 13 15 17 17 39 33 41 55 34 42 56 36 43 58 36 43 58 34 42 56 35 44 57 37 45 59 33 41 55 38 46 60 38 46 60 33 41 55 36 43 58 39 47 61 37 45 59 40 48 62 40 48 62 37 45 59 38 46 60 41 49 63 39 47 61 42 50 64 42 50 64 39 47 61 40 48 62 42 50 64 43 51 65 41 49 63 41 49 63 43 51 65 44 52 66 45 53 67 44 52 66 46 54 68 46 54 68 44 52 66 43 51 65 46 54 69 47 55 70 45 53 72 45 53 72 47 55 70 48 56 71 34 42 56 48 56 71 35 44 57 35 44 57 48 56 71 47 55 70 49 57 73 50 58 74 52 59 76 52 59 76 50 58 74 51 60 75 53 61 77 54 62 78 33 41 55 33 41 55 54 62 78 34 42 56 53 61 77 33 41 55 55 63 79 55 63 79 33 41 55 37 45 59 55 63 79 37 45 59 56 64 80 56 64 80 37 45 59 39 47 61 57 65 81 56 64 80 41 49 63 41 49 63 56 64 80 39 47 61 57 65 81 41 49 63 58 66 82 58 66 82 41 49 63 44 52 66 58 66 82 44 52 66 59 67 83 59 67 83 44 52 66 45 53 67 48 56 71 60 68 84 45 53 72 45 53 72 60 68 84 59 67 85 60 68 84 48 56 71 54 62 78 54 62 78 48 56 71 34 42 56 50 58 74 36 43 86 35 44 87 47 55 88 51 60 75 35 44 87 35 44 87 51 60 75 50 58 74 51 60 75 47 55 88 46 54 89 52 59 76 51 60 75 43 51 90 43 51 90 51 60 75 46 54 89 52 59 76 43 51 90 42 50 91 42 50 91 40 48 92 52 59 76 52 59 76 40 48 92 49 57 73 49 57 73 40 48 92 38 46 93 38 46 93 36 43 86 49 57 73 49 57 73 36 43 86 50 58 74 54 69 94 53 70 95 59 71 96 53 70 95 55 72 97 59 71 96 55 72 97 56 73 98 59 71 96 56 73 98 57 74 99 59 71 96 57 74 99 58 75 100 59 71 96 60 76 101 54 69 94 59 71 96 61 77 102 62 78 103 64 79 105 64 79 105 62 78 103 63 80 104 65 81 106 61 77 102 66 82 107 66 82 107 61 77 102 64 79 105 67 83 108 65 81 106 68 84 109 68 84 109 65 81 106 66 82 107 62 78 110 67 83 108 63 80 111 63 80 111 67 83 108 68 84 109</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="contraption_crank" name="contraption_crank" type="NODE">
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <instance_geometry url="#contraption_crankShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn11SG" target="#blinn11">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

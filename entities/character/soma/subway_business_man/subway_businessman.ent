@@ -1,0 +1,189 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="true" Focused="3">
+            <Viewport CameraPos="0 0 200" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="200 0 0" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="0 200 0" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="-0.251036 1.83684 2.11012" CameraTarget="-0.276722 0.533292 -0.360469" Controller="Maya" GridHeights="0 0 0" GridPlane="1" LockToGrid="false" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/character/urban/subway_business_man/subway_businessman.dae">
+            <SubMesh ID="0" Material="" Name="business_man" Rotation="0 0 0" Scale="1 1 1" TriCount="5406" WorldPos="0 0 0" />
+            <SubMesh ID="1" Material="" Name="head" Rotation="0 0 0" Scale="1 1 1" TriCount="3088" WorldPos="0 0 0" />
+            <SubMesh ID="2" Material="" Name="eye_left" Rotation="0 0 0" Scale="1 1 1" TriCount="81" WorldPos="0 0 0" />
+            <SubMesh ID="3" Material="" Name="eye_right" Rotation="0 0 0" Scale="1 1 1" TriCount="81" WorldPos="0 0 0" />
+            <SubMesh ID="4" Material="" Name="glass_right" Rotation="0 0 0" Scale="1 1 1" TriCount="16" WorldPos="0 0 0" />
+            <SubMesh ID="5" Material="" Name="glass_left" Rotation="0 0 0" Scale="1 1 1" TriCount="16" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones>
+            <Bone ID="6" Name="main" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+            <Bone ID="7" Name="Pelvis_space" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+            <Bone ID="8" Name="RootCtrl" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+            <Bone ID="9" Name="business_man" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+            <Bone ID="10" Name="head" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+            <Bone ID="11" Name="eye_left" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+            <Bone ID="12" Name="eye_right" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+            <Bone ID="13" Name="glass_right" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+            <Bone ID="14" Name="glass_left" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+            <Bone ID="15" Name="root" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 1.10077 -0.0228427" />
+            <Bone ID="16" Name="R_Thigh" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.126991 1.03895 -0.0176392" />
+            <Bone ID="17" Name="R_Shin" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.155949 0.566692 -0.0031381" />
+            <Bone ID="18" Name="R_Ankle" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.183322 0.12352 -0.0874646" />
+            <Bone ID="19" Name="R_Toes" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.20191 -0.000186486 0.0575837" />
+            <Bone ID="20" Name="Spine_Base" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 1.20375 -0.00544572" />
+            <Bone ID="21" Name="Spine" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 1.33215 0.00196852" />
+            <Bone ID="22" Name="Chest" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 1.46115 -0.000449519" />
+            <Bone ID="23" Name="Neck_Base" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 1.81703 -0.0387331" />
+            <Bone ID="24" Name="Neck_Middle" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 1.85221 -0.0250292" />
+            <Bone ID="25" Name="Head" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 1.89211 -0.0160483" />
+            <Bone ID="26" Name="Jaw" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 1.88598 0.0294221" />
+            <Bone ID="27" Name="Chin" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 1.83009 0.110842" />
+            <Bone ID="28" Name="Lip_Lower" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 1.86152 0.120527" />
+            <Bone ID="29" Name="R_Cheek_Lower" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.0499491 1.85804 0.0808022" />
+            <Bone ID="30" Name="R_Lip_Lower" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.0181005 1.86322 0.117534" />
+            <Bone ID="31" Name="Tounge" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 1.8681 0.069745" />
+            <Bone ID="32" Name="L_Cheek_Lower" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.049949 1.85804 0.0808023" />
+            <Bone ID="33" Name="L_Lip_Lower" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.0181004 1.86322 0.117534" />
+            <Bone ID="34" Name="Lip_Upper" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 1.88014 0.12641" />
+            <Bone ID="35" Name="R_Mouth_Corner" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.0326011 1.86914 0.108437" />
+            <Bone ID="36" Name="R_Lip_Upper" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.0181175 1.87666 0.120795" />
+            <Bone ID="37" Name="R_Cheek_Upper" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.0429387 1.91794 0.0971686" />
+            <Bone ID="38" Name="R_Nose" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.015084 1.91061 0.121726" />
+            <Bone ID="39" Name="R_Eye_Expression" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.0633794 1.9221 0.0828506" />
+            <Bone ID="40" Name="R_Eye" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.0362714 1.94335 0.078478" />
+            <Bone ID="41" Name="R_Eyebrow_Outer" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.0527443 1.96146 0.0915313" />
+            <Bone ID="42" Name="R_Eyebrow_Inner" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.0220096 1.96133 0.107945" />
+            <Bone ID="43" Name="R_Eyelid_Upper" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.0376841 1.94852 0.0883097" />
+            <Bone ID="44" Name="R_Eyelid_Lower" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.0366409 1.93721 0.0779195" />
+            <Bone ID="45" Name="Glasses" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 1.95654 -0.007771" />
+            <Bone ID="46" Name="L_Mouth_Corner" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.0326011 1.86914 0.108437" />
+            <Bone ID="47" Name="L_Lip_Upper" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.0181175 1.87666 0.120795" />
+            <Bone ID="48" Name="L_Cheek_Upper" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.0426051 1.91794 0.0971686" />
+            <Bone ID="49" Name="L_Nose" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.0150839 1.91061 0.121726" />
+            <Bone ID="50" Name="L_Eye_Expression" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.0633794 1.9221 0.0828506" />
+            <Bone ID="51" Name="L_Eye" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.0362714 1.94335 0.0784779" />
+            <Bone ID="52" Name="L_Eyebrow_Outer" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.0527443 1.96146 0.0915313" />
+            <Bone ID="53" Name="L_Eyebrow_Inner" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.0220095 1.96133 0.107945" />
+            <Bone ID="54" Name="L_Eyelid_Upper" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.0376841 1.94852 0.0883097" />
+            <Bone ID="55" Name="L_Eyelid_Lower" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.0366409 1.93721 0.0779194" />
+            <Bone ID="56" Name="R_Clavicle" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.0422344 1.60541 -0.0457548" />
+            <Bone ID="57" Name="R_Arm" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.212536 1.65907 -0.0621648" />
+            <Bone ID="58" Name="R_Forearm" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.378212 1.41408 -0.0127405" />
+            <Bone ID="59" Name="R_Wrist" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.466935 1.28688 0.113003" />
+            <Bone ID="60" Name="R_Hand" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.511297 1.22328 0.175876" />
+            <Bone ID="61" Name="R_Finger_Middle1" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.559971 1.16507 0.260492" />
+            <Bone ID="62" Name="R_Finger_Middle2" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.56788 1.12791 0.284413" />
+            <Bone ID="63" Name="R_Finger_Middle3" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.568445 1.09742 0.299045" />
+            <Bone ID="64" Name="R_Finger_Index1" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.534813 1.17165 0.281327" />
+            <Bone ID="65" Name="R_Finger_Index2" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.542155 1.14079 0.310355" />
+            <Bone ID="66" Name="R_Finger_Index3" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.542908 1.11362 0.327958" />
+            <Bone ID="67" Name="R_Finger_Thumb1" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.486445 1.20109 0.216981" />
+            <Bone ID="68" Name="R_Finger_Thumb2" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.471467 1.18522 0.237094" />
+            <Bone ID="69" Name="R_Finger_Thumb3" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.46688 1.15568 0.263341" />
+            <Bone ID="70" Name="R_Finger_Ring1" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.572959 1.15448 0.232588" />
+            <Bone ID="71" Name="R_Finger_Ring2" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.584676 1.12115 0.251653" />
+            <Bone ID="72" Name="R_Finger_Ring3" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.587996 1.09288 0.264444" />
+            <Bone ID="73" Name="R_Finger_Pinky1" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.576536 1.146 0.204479" />
+            <Bone ID="74" Name="R_Finger_Pinky2" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.586513 1.12085 0.218213" />
+            <Bone ID="75" Name="R_Finger_Pinky3" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.591361 1.10145 0.227515" />
+            <Bone ID="76" Name="L_Clavicle" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.0422343 1.60541 -0.0457548" />
+            <Bone ID="77" Name="L_Arm" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.212537 1.65907 -0.0621647" />
+            <Bone ID="78" Name="L_Forearm" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.378213 1.41408 -0.0127405" />
+            <Bone ID="79" Name="L_Wrist" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.466936 1.28688 0.113002" />
+            <Bone ID="80" Name="L_Hand" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.511297 1.22328 0.175876" />
+            <Bone ID="81" Name="L_Finger_Middle1" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.559972 1.16507 0.260492" />
+            <Bone ID="82" Name="L_Finger_Middle2" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.56788 1.12791 0.284414" />
+            <Bone ID="83" Name="L_Finger_Middle3" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.568445 1.09742 0.299045" />
+            <Bone ID="84" Name="L_Finger_Index1" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.534813 1.17165 0.281327" />
+            <Bone ID="85" Name="L_Finger_Index2" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.542154 1.14079 0.310355" />
+            <Bone ID="86" Name="L_Finger_Index3" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.542908 1.11362 0.327958" />
+            <Bone ID="87" Name="L_Finger_Thumb1" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.486445 1.20108 0.216981" />
+            <Bone ID="88" Name="L_Finger_Thumb2" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.471467 1.18522 0.237093" />
+            <Bone ID="89" Name="L_Finger_Thumb3" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.466879 1.15568 0.263341" />
+            <Bone ID="90" Name="L_Finger_Ring1" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.572959 1.15448 0.232588" />
+            <Bone ID="91" Name="L_Finger_Ring2" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.584676 1.12115 0.251652" />
+            <Bone ID="92" Name="L_Finger_Ring3" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.587996 1.09288 0.264443" />
+            <Bone ID="93" Name="L_Finger_Pinky1" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.576536 1.146 0.204479" />
+            <Bone ID="94" Name="L_Finger_Pinky2" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.586512 1.12085 0.218213" />
+            <Bone ID="95" Name="L_Finger_Pinky3" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.591361 1.10145 0.227515" />
+            <Bone ID="96" Name="socket_pad" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.511297 1.22328 0.175876" />
+            <Bone ID="97" Name="L_Thigh" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.126991 1.03895 -0.0176392" />
+            <Bone ID="98" Name="L_Shin" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.155949 0.566692 -0.00313809" />
+            <Bone ID="99" Name="L_Ankle" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.183322 0.12352 -0.0874646" />
+            <Bone ID="100" Name="L_Toes" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.20191 -0.000186495 0.0575837" />
+        </Bones>
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations>
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/AA_Viseme.dae_anim" Name="Viseme_17_1" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/AH_Viseme.dae_anim" Name="Viseme_17_2" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/AO_Viseme.dae_anim" Name="Viseme_17_3" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/AW_Viseme.dae_anim" Name="Viseme_17_4" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/OY_Viseme.dae_anim" Name="Viseme_17_5" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/EH_Viseme.dae_anim" Name="Viseme_17_6" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/IH_Viseme.dae_anim" Name="Viseme_17_7" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/EY_Viseme.dae_anim" Name="Viseme_17_8" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/IY_Viseme.dae_anim" Name="Viseme_17_9" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/ER_Viseme.dae_anim" Name="Viseme_17_10" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/L_Viseme.dae_anim" Name="Viseme_17_11" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/W_Viseme.dae_anim" Name="Viseme_17_12" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/M_Viseme.dae_anim" Name="Viseme_17_13" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/N_Viseme.dae_anim" Name="Viseme_17_14" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/CH_Viseme.dae_anim" Name="Viseme_17_15" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/FV_Viseme.dae_anim" Name="Viseme_17_16" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/visemes/XX_Viseme.dae_anim" Name="Viseme_17_17" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/idle_sit.dae_anim" Name="idle_sit" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/idle_reading.dae_anim" Name="idle_reading" SpecialEventTime="0" Speed="1">
+                <Transition Anim="look_down" MaxTime="-1" MinTime="-1" PrevAnim="looking_idle" />
+            </Animation>
+            <Animation File="entities/character/urban/subway_business_man/animations/look_down.dae_anim" Name="look_down" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/look_up.dae_anim" Name="look_up" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/looking_idle.dae_anim" Name="looking_idle" SpecialEventTime="0" Speed="1">
+                <Transition Anim="look_up" MaxTime="-1" MinTime="-1" PrevAnim="idle_reading" />
+            </Animation>
+            <Animation File="entities/character/urban/subway_business_man/animations/stand_up.dae_anim" Name="stand_up" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/walk.dae_anim" Name="walk" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/swipe_screen.dae_anim" Name="swipe_screen" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/character/urban/subway_business_man/animations/idle_check_station.dae_anim" Name="idle_check_station" SpecialEventTime="0" Speed="1" />
+        </Animations>
+    </ModelData>
+    <UserDefinedVariables EntityType="Agent_Humanoid_NPC">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="VoiceSourceBone" Value="" />
+        <Var Name="CastShadows" Value="true" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="CharBodySize" Value="0.1 1.8 0.1" />
+        <Var Name="MeshPositionOffset" Value="0 0 0" />
+        <Var Name="MeshRotationOffset" Value="0 0 0" />
+        <Var Name="CharBodyPosBone" Value="root" />
+        <Var Name="CharBodyBoneIsFeet" Value="false" />
+        <Var Name="CharBodyBoneYOffset" Value="0" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="Movement_ForwadSpeed" Value="1" />
+        <Var Name="Movement_BackwardSpeed" Value="1" />
+        <Var Name="Movement_SidewaysSpeed" Value="1" />
+        <Var Name="Movement_Acc" Value="4" />
+        <Var Name="Movement_Deacc" Value="3" />
+        <Var Name="CharMover_IdleAnim" Value="walk" />
+        <Var Name="CharMover_WalkAnim" Value="walk" />
+        <Var Name="CharMover_RunAnim" Value="walk" />
+        <Var Name="CharMover_BackwardAnim" Value="walk" />
+        <Var Name="CharMover_IdleExtraAnim" Value="" />
+        <Var Name="CharMover_IdleExtraMinWait" Value="4" />
+        <Var Name="CharMover_IdleExtraMaxWait" Value="10" />
+        <Var Name="CharMover_IdleExtraPauseProcedural" Value="true" />
+        <Var Name="HeadTracker_Bones" Value="Neck_Base" />
+        <Var Name="HeadTracker_BoneMuls" Value="0.5" />
+        <Var Name="HeadTracker_ChestBone" Value="" />
+        <Var Name="HeadTracker_SpeedMul" Value="1" />
+        <Var Name="HeadTracker_MaxSpeed" Value="1" />
+        <Var Name="HeadTracker_MaxAngle" Value="45" />
+    </UserDefinedVariables>
+</Entity>

@@ -1,0 +1,85 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="../../../F:/3pi/swingdoor_apartment/swingdoor_apartment.dae">
+            <SubMesh ID="0" Material="" Name="swingdoor_apartment" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.00404841 -0.0182763 -0.0179926" Rotation="0 0 0" Scale="0.202805 2.74707 1.74939" ShapeType="Box" WorldPos="0.00286099 1.37537 0.0317572" />
+            <Shape ID="2" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.119211 0.0258223 0.735558" Rotation="0 0 0" Scale="0.0198362 0.349994 0.147021" ShapeType="Box" WorldPos="0.118023 1.41947 0.785308" />
+            <Shape ID="3" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.112923 0.0258223 0.735558" Rotation="0 0 0" Scale="0.0233229 0.349994 0.147021" ShapeType="Box" WorldPos="-0.114111 1.41947 0.785308" />
+            <Shape ID="4" Name="Shape_4" RelativeRotation="3.14159 1.5708 3.14159" RelativeScale="1 1 1" RelativeTranslation="0.00810678 0.046559 0.86585" Rotation="3.14159 1.5708 3.14159" Scale="0.0198362 0.231731 0.106393" ShapeType="Box" WorldPos="0.00691935 1.44021 0.9156" />
+            <Shape ID="5" Name="Shape_5" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.119211 0.0640485 0.733591" Rotation="0 0 0" Scale="0.130612 0.0381972 0.0389295" ShapeType="Box" WorldPos="0.118023 1.4577 0.783341" />
+            <Shape ID="6" Name="Shape_6" RelativeRotation="0 1.56084 0" RelativeScale="1 1 1" RelativeTranslation="0.189232 0.0640485 0.645358" Rotation="0 1.56084 0" Scale="0.209946 0.0391303 0.0216462" ShapeType="Box" WorldPos="0.188044 1.4577 0.695108" />
+            <Shape ID="7" Name="Shape_7" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.136552 0.0640485 0.733591" Rotation="0 0 0" Scale="0.0897534 0.0381972 0.0389295" ShapeType="Box" WorldPos="-0.137739 1.4577 0.783341" />
+            <Shape ID="8" Name="Shape_8" RelativeRotation="0 1.56084 0" RelativeScale="1 1 1" RelativeTranslation="-0.189232 0.0640485 0.645358" Rotation="0 1.56084 0" Scale="0.209946 0.0391303 0.0216462" ShapeType="Box" WorldPos="-0.190419 1.4577 0.695108" />
+            <Shape ID="9" Name="Shape_9" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.112642 0.995606 -0.864425" Rotation="0 0 0" Scale="0.0139845 0.162823 0" ShapeType="Cylinder" WorldPos="0.111455 2.38925 -0.814675" />
+            <Shape ID="10" Name="Shape_10" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.108533 -0.995606 -0.862044" Rotation="0 0 0" Scale="0.0139845 0.162823 0" ShapeType="Cylinder" WorldPos="0.107345 0.398043 -0.812294" />
+            <Shape ID="11" Name="Shape_11" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.106324 -0.995606 -0.86585" Rotation="0 0 0" Scale="0.0139845 0.162823 0" ShapeType="Cylinder" WorldPos="-0.107511 0.398043 -0.8161" />
+            <Shape ID="12" Name="Shape_12" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.102103 0.995606 -0.864739" Rotation="0 0 0" Scale="0.0139845 0.162823 0" ShapeType="Cylinder" WorldPos="-0.103291 2.38925 -0.814989" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="13" LinearDamping="0.1" Mass="7" Material="" MaxAngularSpeed="10" MaxLinearSpeed="10" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.00118742 1.39365 0.0497498">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="12" />
+                <Shape ID="9" />
+                <Shape ID="8" />
+                <Shape ID="7" />
+                <Shape ID="3" />
+                <Shape ID="4" />
+                <Shape ID="5" />
+                <Shape ID="2" />
+                <Shape ID="6" />
+                <Shape ID="11" />
+                <Shape ID="10" />
+                <Shape ID="1" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_SwingDoor">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="MoveMaxSpeed" Value="2.0" />
+        <Var Name="MoveSlowDownFactor" Value="5.0" />
+        <Var Name="MoveSpeedFactor" Value="1.0" />
+        <Var Name="CanInteractWithStaticBody" Value="false" />
+        <Var Name="CloseOnSound" Value="" />
+        <Var Name="CloseOffSound" Value="" />
+        <Var Name="LockOnSound" Value="" />
+        <Var Name="LockOffSound" Value="" />
+        <Var Name="InteractLockedSound" Value="" />
+        <Var Name="Breakable" Value="false" />
+        <Var Name="DamageMesh1" Value="" />
+        <Var Name="DamageMesh2" Value="" />
+        <Var Name="BrokenEntity" Value="" />
+        <Var Name="DamageSound" Value="" />
+        <Var Name="DamagePS" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakPS" Value="" />
+        <Var Name="BreakImpulse" Value="3" />
+        <Var Name="HealthDamage1" Value="66" />
+        <Var Name="HealthDamage2" Value="33" />
+    </UserDefinedVariables>
+</Entity>

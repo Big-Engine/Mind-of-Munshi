@@ -1,0 +1,61 @@
+<HPLMapTrack_LensFlare ID="C47507453FC9D79BF0249665D52528043FE6F77" MajorVersion="1" MinorVersion="1">
+    <Section Name="3162489429237727101">
+        <Objects>
+            <LensFlare ID="268436987" Name="LensFlare_27LensFlare_27_(Conflict_Added)" CreStamp="0" ModStamp="1432810289" WorldPos="679.059 520.692 117" Rotation="0.676753 0.489632 -0.800229" Scale="1 1 1" ActiveAnamorphic="false" MaterialAnamorphic="" SizeAnamorphic="1 1" ColorAnamorphic="1 1 1 1" ActiveFlare="true" MaterialFlare="D:/Projects/depth/redist/lights/lensflare/flare_star_simple.mat" SizeFlare="0.4 0.4" ColorFlare="0.914063 0.807615 0.656982 1" ActiveMultiIris="true" MaterialMultiIris="D:/Projects/depth/redist/lights/lensflare/multi_iris_simple.mat" SizeMultiIris="0.3 0.3" ColorMultiIris="0.925781 0.753582 0.509903 1" MultiIrisSeed="9260" MultiIrisCount="20" UseParentMeshForOcclusion="false" ShrinkWhenOccluded="true" MulMultiIrisWithGlare="false" SourceSize="20 20 1" InnerFOV="4.71239" OuterFOV="6.28319" GlareBrightness="10" GlareFOV="0" GlareStareAt="1" SizeChangeBasedOnDistance="0" MultiIrisTextureAtlasGrid="2 2" RangeMax="0 0" RangeMin="0 555" GlareRange="-1 -1" Brightness="15" Static="false" CulledByDistance="false" CulledByFog="false" UID="16 87 268436987" />
+        </Objects>
+    </Section>
+    <Section Name="12842900846329863869">
+        <Objects />
+    </Section>
+    <Section Name="15945596188556043045">
+        <Objects />
+    </Section>
+    <Section Name="10861980699194989444">
+        <Objects />
+    </Section>
+    <Section Name="12832235860626620287">
+        <Objects />
+    </Section>
+    <Section Name="592759162956312619">
+        <Objects />
+    </Section>
+    <Section Name="6156478819529950732">
+        <Objects />
+    </Section>
+    <Section Name="13833073084221543913">
+        <Objects />
+    </Section>
+    <Section Name="8037706082786106749">
+        <Objects />
+    </Section>
+    <Section Name="13338907128802076914">
+        <Objects />
+    </Section>
+    <Section Name="855410697664785853">
+        <Objects />
+    </Section>
+    <Section Name="15438713831384302178">
+        <Objects />
+    </Section>
+    <Section Name="6937444921226728725">
+        <Objects />
+    </Section>
+    <Section Name="12432252782041171907">
+        <Objects />
+    </Section>
+    <Section Name="8292389879337415459">
+        <Objects />
+    </Section>
+    <Section Name="5849815058735395437">
+        <Objects />
+    </Section>
+    <Section Name="10824747931208392861">
+        <Objects />
+    </Section>
+    <Section Name="9184686221738508799">
+        <Objects />
+    </Section>
+    <Section Name="7909075790457549210">
+        <Objects />
+    </Section>
+</HPLMapTrack_LensFlare>

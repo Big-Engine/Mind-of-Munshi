@@ -1,0 +1,119 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="true" Focused="3">
+            <Viewport CameraPos="0.429195 1.55322 200.102" CameraTarget="0.429195 1.55322 0.102254" Controller="Ortho" GridHeights="0.429195 1.55322 0.102254" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="-1.70452" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="200.429 1.55322 0.102254" CameraTarget="0.429195 1.55322 0.102254" Controller="Ortho" GridHeights="0.429195 1.55322 0.102254" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="-1.70452" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="0.429195 201.553 0.102254" CameraTarget="0.429195 1.55322 0.102254" Controller="Ortho" GridHeights="0.429195 1.55322 0.102254" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="-1.70452" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="0.920437 3.5796 1.94593" CameraTarget="0.429195 1.55322 0.102254" Controller="Maya" GridHeights="0.429195 1.55322 0.102254" GridPlane="1" LockToGrid="false" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/door/swingdoor_corridor_damaged/swingdoor_corridor_damaged.dae">
+            <SubMesh ID="0" Material="" Name="polySurface93" Rotation="3.14159 -1.22465e-016 0" Scale="1 1 1" TriCount="88" WorldPos="0 2.93968 0" />
+            <SubMesh ID="1" Material="" Name="polySurface107" Rotation="0 0 0" Scale="1 1 1" TriCount="492" WorldPos="0 0 0" />
+            <SubMesh ID="2" Material="" Name="handle" Rotation="0 0 0" Scale="1 1 1" TriCount="220" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="3" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.26373 -0.012715 -0.00023285" Rotation="0 0 0" Scale="1.31808 2.83064 0.114047" ShapeType="Box" WorldPos="0 1.47391 -0.00459616" />
+            <Shape ID="5" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.721182 -0.7423 0" Rotation="0 0 0" Scale="0.100704 2.84604 0.139508" ShapeType="Box" WorldPos="0.719229 1.45921 0" />
+            <Shape ID="6" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.721182 -0.7276 0" Rotation="0 0 0" Scale="0.100704 2.83064 0.139508" ShapeType="Box" WorldPos="-0.723136 1.47391 0" />
+            <Shape ID="7" Name="Shape_4" RelativeRotation="0 -0 -1.5708" RelativeScale="1 1 1" RelativeTranslation="0.00195351 0.7423 0" Rotation="0 -0 -1.5708" Scale="0.108214 1.54631 0.139508" ShapeType="Box" WorldPos="0 2.94381 0" />
+            <Shape ID="21" Name="Shape_5" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.26373 0.0127151 0.00023285" Rotation="0 0 0" Scale="0.100663 0.228657 0.114047" ShapeType="Box" WorldPos="0.52746 1.49934 -0.00413046" />
+            <Shape ID="26" Name="Shape_6" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0 0 0.108631" Rotation="0 0 0" Scale="0.207893 0.0494466 0.0544239" ShapeType="Box" WorldPos="0.453549 1.55322 0.102254" />
+            <Shape ID="27" Name="Shape_7" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0 0 -0.108631" Rotation="0 0 0" Scale="0.207893 0.0494466 0.0544239" ShapeType="Box" WorldPos="0.453549 1.55322 -0.115008" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="14" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_2" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.00195351 2.20151 0">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="5" />
+                <Shape ID="6" />
+                <Shape ID="7" />
+            </Body>
+            <Body AngularDamping="0.4" BlocksLight="true" BlocksSound="true" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="24" LinearDamping="0.4" Mass="18" Material="" MaxAngularSpeed="10" MaxLinearSpeed="10" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="0.26373 1.48662 -0.00436331">
+                <Children>
+                    <Child ID="1" />
+                </Children>
+                <Shape ID="3" />
+                <Shape ID="21" />
+            </Body>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="false" ID="28" LinearDamping="0.1" Mass="1" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="handle" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="0.453549 1.55322 -0.006377">
+                <Children>
+                    <Child ID="2" />
+                </Children>
+                <Shape ID="27" />
+                <Shape ID="26" />
+            </Body>
+        </Bodies>
+        <Joints>
+            <JointHinge BreakForce="0" BreakSound="" Breakable="false" CollideBodies="false" ConnectedChildBodyID="24" ConnectedParentBodyID="14" ID="20" LimitStepCount="0" MaxAngle="110" MaxLimitMaxSpeed="0" MaxLimitMinSpeed="0" MaxLimitSound="" MaxMoveFreq="1.1" MaxMoveFreqSpeed="0.7" MaxMoveSpeed="2" MaxMoveVolume="0.8" MiddleMoveSpeed="0.5" MiddleMoveVolume="0.5" MinAngle="0" MinLimitMaxSpeed="0" MinLimitMinSpeed="0" MinLimitSound="" MinMoveFreq="0.95" MinMoveFreqSpeed="0.2" MinMoveSpeed="0.1" MinMoveVolume="0.01" MoveSound="" MoveType="Linear" Name="JointHinge_1" Rotation="0 0 0" Scale="1 1 1" StickyMaxLimit="true" StickyMinLimit="true" Stiffness="0" WorldPos="-0.670088 1.49795 0.0249454" />
+            <JointHinge BreakForce="0" BreakSound="" Breakable="false" CollideBodies="false" ConnectedChildBodyID="28" ConnectedParentBodyID="24" ID="25" LimitStepCount="0" MaxAngle="60" MaxLimitMaxSpeed="0" MaxLimitMinSpeed="0" MaxLimitSound="" MaxMoveFreq="1.1" MaxMoveFreqSpeed="0.7" MaxMoveSpeed="2" MaxMoveVolume="0.8" MiddleMoveSpeed="0.5" MiddleMoveVolume="0.5" MinAngle="0" MinLimitMaxSpeed="0" MinLimitMinSpeed="0" MinLimitSound="" MinMoveFreq="0.95" MinMoveFreqSpeed="0.2" MinMoveSpeed="0.1" MinMoveVolume="0.01" MoveSound="" MoveType="Linear" Name="JointHinge_2" Rotation="-1.5708 -0 0" Scale="1 1 1" StickyMaxLimit="true" StickyMinLimit="true" Stiffness="0" WorldPos="0.536833 1.56131 0.0249454" />
+        </Joints>
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_SwingDoor">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="2" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="BlocksLineOfSight" Value="true" />
+        <Var Name="MainPhysicsBody" Value="Body_1" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="3" />
+        <Var Name="CanInteractWithStaticBody" Value="false" />
+        <Var Name="HandleBody" Value="handle" />
+        <Var Name="MoveMaxSpeed" Value="1" />
+        <Var Name="MoveSlowDownFactor" Value="2" />
+        <Var Name="MoveSpeedFactor" Value="1" />
+        <Var Name="CloseOnSound" Value="Entities_Urban/door/swingdoor_scanroom_corridor/Interact_close" />
+        <Var Name="CloseOffSound" Value="Entities_Urban/door/swingdoor_scanroom_corridor/interact_open" />
+        <Var Name="LockOnSound" Value="" />
+        <Var Name="LockOffSound" Value="" />
+        <Var Name="InteractLockedSound" Value="" />
+        <Var Name="BlockOnSound" Value="" />
+        <Var Name="BlockOffSound" Value="" />
+        <Var Name="InteractBlockedSound" Value="" />
+        <Var Name="Breakable" Value="false" />
+        <Var Name="DamageMesh1" Value="" />
+        <Var Name="DamageMesh2" Value="" />
+        <Var Name="BrokenEntity" Value="" />
+        <Var Name="HealthDamage1" Value="66" />
+        <Var Name="HealthDamage2" Value="33" />
+        <Var Name="DamageSound" Value="" />
+        <Var Name="DamagePS" Value="" />
+        <Var Name="BreakPS" Value="" />
+        <Var Name="HandleUpAnimation" Value="" />
+        <Var Name="HandleDownAnimation" Value="" />
+        <Var Name="HandleLockedAnimation" Value="" />
+        <Var Name="HandleMovingAnimation" Value="" />
+        <Var Name="HandleMovingRepetitionMin" Value="0.25" />
+        <Var Name="HandleMovingRepetitionMax" Value="0.5" />
+    </UserDefinedVariables>
+</Entity>

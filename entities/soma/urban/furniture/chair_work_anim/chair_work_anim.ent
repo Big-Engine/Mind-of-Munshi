@@ -1,0 +1,44 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="false" Focused="0">
+            <Viewport CameraPos="0 0 200" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="200 0 0" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="0 200 0" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="10 10 10" CameraTarget="0 0 0" Controller="Maya" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/furniture/chair_work_anim/chair_work.dae">
+            <SubMesh ID="0" Material="" Name="office_chair" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones>
+            <Bone ID="1" Name="office_chair" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+            <Bone ID="2" Name="chair_ctrl" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+            <Bone ID="3" Name="main" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+            <Bone ID="4" Name="chair" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+            <Bone ID="5" Name="j_chair_root" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0.158135 0" />
+            <Bone ID="6" Name="j_chair" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0.340609 0" />
+            <Bone ID="7" Name="j_wheel1" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.390723 0.0898362 0.0962474" />
+            <Bone ID="8" Name="j_wheel2" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.21089 0.0898363 -0.342715" />
+            <Bone ID="9" Name="j_wheel3" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.261025 0.089836 -0.306259" />
+            <Bone ID="10" Name="j_wheel4" Rotation="0 0 0" Scale="1 1 1" WorldPos="-0.372179 0.0898364 0.153006" />
+            <Bone ID="11" Name="j_wheel5" Rotation="0 0 0" Scale="1 1 1" WorldPos="0.0298556 0.0898364 0.401294" />
+        </Bones>
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations>
+            <Animation File="entities/urban/furniture/chair_work_anim/animations/seated_look_left.dae_anim" Name="seated_look_left" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/urban/furniture/chair_work_anim/animations/seated_look_left_tr_tapping_keyboard.dae_anim" Name="eated_look_left_tr_tapping_keyboard" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/urban/furniture/chair_work_anim/animations/tapping_keyboard_tr_seated_look_left.dae_anim" Name="tapping_keyboard_tr_seated_look_left" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/urban/furniture/chair_work_anim/animations/tapping_keyboard_tr_seated_look_right.dae_anim" Name="tapping_keyboard_tr_seated_look_right" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/urban/furniture/chair_work_anim/animations/seated_look_right.dae_anim" Name="seated_look_right" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/urban/furniture/chair_work_anim/animations/seated_look_right_tr_tapping_keyboard.dae_anim" Name="seated_look_right_tr_tapping_keyboard" SpecialEventTime="0" Speed="1" />
+            <Animation File="entities/urban/furniture/chair_work_anim/animations/sit_down.dae_anim" Name="sit_down" SpecialEventTime="0" Speed="1" />
+        </Animations>
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp">
+        <Var Name="ShowMesh" Value="true" />
+    </UserDefinedVariables>
+</Entity>

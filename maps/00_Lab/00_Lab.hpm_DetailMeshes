@@ -1,0 +1,25 @@
+<HPLMapTrack_DetailMeshes ID="C47507453FC9D79BF0249665D52528043FE6F77" MajorVersion="1" MinorVersion="1">
+    <DetailMeshes MaxRange="1e+07">
+        <Sections>
+            <Section Name="3162489429237727101" />
+            <Section Name="12842900846329863869" />
+            <Section Name="15945596188556043045" />
+            <Section Name="10861980699194989444" />
+            <Section Name="12832235860626620287" />
+            <Section Name="592759162956312619" />
+            <Section Name="6156478819529950732" />
+            <Section Name="13833073084221543913" />
+            <Section Name="8037706082786106749" />
+            <Section Name="13338907128802076914" />
+            <Section Name="855410697664785853" />
+            <Section Name="15438713831384302178" />
+            <Section Name="6937444921226728725" />
+            <Section Name="12432252782041171907" />
+            <Section Name="8292389879337415459" />
+            <Section Name="7523404221519703926" />
+            <Section Name="10824747931208392861" />
+            <Section Name="10298413577621440459" />
+            <Section Name="7909075790457549210" />
+        </Sections>
+    </DetailMeshes>
+</HPLMapTrack_DetailMeshes>

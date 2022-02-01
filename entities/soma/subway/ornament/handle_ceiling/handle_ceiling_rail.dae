@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>illerulf</author>
+      <authoring_tool>OpenCOLLADA2011 x64</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=0;relativePaths=0;copyTextures=0;exportTriangles=1;exportCgfxFileReferences=1;
+			isSampling=0;curveConstrainSampling=0;removeStaticCurves=1;exportPolygonMeshes=1;exportLights=0;
+			exportCameras=0;exportJointsAndSkin=1;exportAnimations=0;exportInvisibleNodes=0;exportDefaultCameras=0;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=1;exportVertexColors=1;exportVertexColorsPerVertex=1;
+			exportTexTangents=0;exportTangents=0;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=1;dereferenceXRefs=1;exportCameraAsLookat=0;cameraXFov=0;cameraYFov=1;doublePrecision=0
+		</comments>
+      <source_data>file:///E:/Maya/deeper/laptop/subway.mb</source_data>
+    </contributor>
+    <created>2012-10-11T09:02:48</created>
+    <modified>2012-10-11T09:02:48</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="mat" name="mat">
+      <instance_effect url="#mat-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="mat-fx">
+      <profile_COMMON>
+        <newparam sid="file17-surface">
+          <surface type="2D">
+            <init_from>file17</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file17-sampler">
+          <sampler2D>
+            <source>file17-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file17-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="file17" name="file17">
+      <init_from>file://subway_carriage.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>file17</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_geometries>
+    <geometry id="polySurfaceShape166" name="polySurfaceShape166">
+      <mesh>
+        <source id="polySurfaceShape166-positions" name="polySurfaceShape166-positions">
+          <float_array id="polySurfaceShape166-positions-array" count="48">-100.678 -2.560812 -2.560796 -100.678 0 -3.621555 -100.678 2.560811 -2.560796 -100.678 3.621555 0 -100.678 2.560811 2.560796 -100.678 0 3.621555 -100.678 -2.560908 2.560796 -100.678 -3.621561 0 100.6779 -2.560791 -2.560796 100.6779 0 -3.621555 100.6779 2.56073 -2.560796 100.6779 3.622009 0 100.6779 2.56073 2.560796 100.6779 0 3.621555 100.6779 -2.560913 2.560796 100.6779 -3.62204 0</float_array>
+          <technique_common>
+            <accessor source="#polySurfaceShape166-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurfaceShape166-normals" name="polySurfaceShape166-normals">
+          <float_array id="polySurfaceShape166-normals-array" count="96">0 -0.7071028 -0.7071108 0 -0.7071028 -0.7071108 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.7071058 -0.7071078 0 0.7071058 -0.7071078 0 0.7071058 -0.7071078 0 0.7071058 -0.7071078 0 1 0 0 1 0 0 1 0 0 1 0 0 0.7071058 0.7071078 0 0.7071058 0.7071078 0 0.7071058 0.7071078 0 0.7071058 0.7071078 0 0 1 0 0 1 0 0 1 0 0 1 0 -0.7071048 0.7071088 0 -0.7071048 0.7071088 0 -0.7071048 0.7071088 0 -0.7071048 0.7071088 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.7071028 -0.7071108 0 -0.7071028 -0.7071108</float_array>
+          <technique_common>
+            <accessor source="#polySurfaceShape166-normals-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurfaceShape166-polySurfaceShape166-polySurfaceShape166-map1" name="polySurfaceShape166-polySurfaceShape166-polySurfaceShape166-map1">
+          <float_array id="polySurfaceShape166-polySurfaceShape166-polySurfaceShape166-map1-array" count="36">0.9338591 0.5278949 0.9374927 0.5278944 0.933857 0.721303 0.937477 0.721302 0.9411297 0.5278932 0.941107 0.7212999 0.9447644 0.5278956 0.944739 0.721302 0.9156906 0.5279009 0.9193265 0.5278997 0.915686 0.721307 0.919333 0.721307 0.9229592 0.5278985 0.922981 0.721307 0.9265917 0.5278966 0.926617 0.721305 0.9302257 0.5278957 0.930241 0.721304</float_array>
+          <technique_common>
+            <accessor source="#polySurfaceShape166-polySurfaceShape166-polySurfaceShape166-map1-array" count="18" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurfaceShape166-vertices" name="polySurfaceShape166-vertices">
+          <input semantic="POSITION" source="#polySurfaceShape166-positions"/>
+        </vertices>
+        <triangles material="matSG" count="16">
+          <input semantic="VERTEX" source="#polySurfaceShape166-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#polySurfaceShape166-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#polySurfaceShape166-polySurfaceShape166-polySurfaceShape166-map1" offset="2" set="1"/>
+          <p>8 0 2 0 1 0 9 3 3 9 3 3 0 1 0 1 2 1 9 4 3 1 5 1 10 7 5 10 7 5 1 5 1 2 6 4 10 8 5 2 9 4 11 11 7 11 11 7 2 9 4 3 10 6 11 12 10 3 13 8 12 15 11 12 15 11 3 13 8 4 14 9 12 16 11 4 17 9 13 19 13 13 19 13 4 17 9 5 18 12 13 20 13 5 21 12 14 23 15 14 23 15 5 21 12 6 22 14 14 24 15 6 25 14 15 27 17 15 27 17 6 25 14 7 26 16 15 28 17 7 29 16 8 31 2 8 31 2 7 29 16 0 30 0</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>polySurfaceShape166</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="subway">
+      <node id="polySurface166" name="polySurface166" type="NODE">
+        <translate sid="translate">0 0 0</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#polySurfaceShape166">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="matSG" target="#mat">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="1"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>polySurface166</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

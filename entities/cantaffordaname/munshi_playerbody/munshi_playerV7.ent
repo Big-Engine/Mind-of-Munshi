@@ -1,0 +1,302 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="mods/TBDName/entities/cantaffordaname/munshi_playerbody/munshi_playerV7.fbx">
+            <SubMesh ID="109" Name="mesh_body" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="5901" Material="" Static="true" />
+            <SubMesh ID="110" Name="mesh_head" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="2011" Material="" Static="true" />
+            <SubMesh ID="111" Name="mesh_mouth_lower" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="212" Material="" Static="true" />
+            <SubMesh ID="112" Name="mesh_mouth_upper" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="234" Material="" Static="true" />
+            <SubMesh ID="113" Name="mesh_mouth_tongue" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="66" Material="" Static="true" />
+            <SubMesh ID="114" Name="mesh_eye_left" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="81" Material="" Static="true" />
+            <SubMesh ID="115" Name="mesh_eye_right" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="81" Material="" Static="true" />
+        </Mesh>
+        <Bones>
+            <Bone ID="116" Name="Root" />
+            <Bone ID="117" Name="Pelvis" />
+            <Bone ID="118" Name="Hip" />
+            <Bone ID="119" Name="Chest" />
+            <Bone ID="120" Name="Shoulders" />
+            <Bone ID="121" Name="Neck_Base" />
+            <Bone ID="122" Name="Neck_Middle" />
+            <Bone ID="123" Name="Head">
+                <Sockets>
+                    <Socket ID="217" Name="L_Hand" CreStamp="0" ModStamp="1641444319" WorldPos="-5.32907e-15 1.89257 0.25" Rotation="0 0 0" Scale="1 1 1" SourceBoneName="" />
+                </Sockets>
+            </Bone>
+            <Bone ID="124" Name="Jaw" />
+            <Bone ID="125" Name="Chin" />
+            <Bone ID="126" Name="L_Lip_Lower" />
+            <Bone ID="127" Name="Lip_Lower" />
+            <Bone ID="128" Name="L_Cheek_Lower" />
+            <Bone ID="129" Name="R_Cheek_Lower" />
+            <Bone ID="130" Name="R_Lip_Lower" />
+            <Bone ID="131" Name="L_Mouth_Corner" />
+            <Bone ID="132" Name="Lip_Upper" />
+            <Bone ID="133" Name="L_Lip_Upper" />
+            <Bone ID="134" Name="L_Eyebrow_Inner" />
+            <Bone ID="135" Name="L_Eyebrow_Outer" />
+            <Bone ID="136" Name="L_Nose" />
+            <Bone ID="137" Name="L_Cheek_Upper" />
+            <Bone ID="138" Name="L_Eye_Expression" />
+            <Bone ID="139" Name="L_Eyelid_Upper" />
+            <Bone ID="140" Name="L_Eyelid_Lower" />
+            <Bone ID="141" Name="R_Mouth_Corner" />
+            <Bone ID="142" Name="R_Lip_Upper" />
+            <Bone ID="143" Name="R_Cheek_Upper" />
+            <Bone ID="144" Name="R_Nose" />
+            <Bone ID="145" Name="R_Eye_Expression" />
+            <Bone ID="146" Name="R_Eyebrow_Outer" />
+            <Bone ID="147" Name="R_Eyebrow_Inner" />
+            <Bone ID="148" Name="R_Eyelid_Lower" />
+            <Bone ID="149" Name="R_Eyelid_Upper" />
+            <Bone ID="150" Name="R_Eye" />
+            <Bone ID="151" Name="L_Eye" />
+            <Bone ID="152" Name="CameraJoint">
+                <Sockets>
+                    <Socket ID="218" Name="CameraSocket" CreStamp="0" ModStamp="1641446147" WorldPos="-0.2955 2 -0.4287" Rotation="0 0 0" Scale="1 1 1" SourceBoneName="" />
+                </Sockets>
+            </Bone>
+            <Bone ID="153" Name="L_Clavicle" />
+            <Bone ID="154" Name="L_Arm" />
+            <Bone ID="155" Name="L_Forearm" />
+            <Bone ID="156" Name="L_Hand" />
+            <Bone ID="157" Name="L_Finger_PinkyRingBase" />
+            <Bone ID="158" Name="L_Finger_Ring1" />
+            <Bone ID="159" Name="L_Finger_Ring2" />
+            <Bone ID="160" Name="L_Finger_Ring3" />
+            <Bone ID="161" Name="L_Finger_Pinky1" />
+            <Bone ID="162" Name="L_Finger_Pinky2" />
+            <Bone ID="163" Name="L_Finger_Pinky3" />
+            <Bone ID="164" Name="L_Finger_Middle1" />
+            <Bone ID="165" Name="L_Finger_Middle2" />
+            <Bone ID="166" Name="L_Finger_Middle3" />
+            <Bone ID="167" Name="L_Finger_Index1" />
+            <Bone ID="168" Name="L_Finger_Index2" />
+            <Bone ID="169" Name="L_Finger_Index3" />
+            <Bone ID="170" Name="L_Finger_Thumb1" />
+            <Bone ID="171" Name="L_Finger_Thumb2" />
+            <Bone ID="172" Name="L_Finger_Thumb3" />
+            <Bone ID="173" Name="L_Wrist" />
+            <Bone ID="174" Name="L_Armpit" />
+            <Bone ID="175" Name="R_Clavicle" />
+            <Bone ID="176" Name="R_Arm" />
+            <Bone ID="177" Name="R_Forearm" />
+            <Bone ID="178" Name="R_Hand" />
+            <Bone ID="179" Name="R_Finger_PinkyRingBase" />
+            <Bone ID="180" Name="R_Finger_Ring1" />
+            <Bone ID="181" Name="R_Finger_Ring2" />
+            <Bone ID="182" Name="R_Finger_Ring3" />
+            <Bone ID="183" Name="R_Finger_Pinky1" />
+            <Bone ID="184" Name="R_Finger_Pinky2" />
+            <Bone ID="185" Name="R_Finger_Pinky3" />
+            <Bone ID="186" Name="R_Finger_Middle1" />
+            <Bone ID="187" Name="R_Finger_Middle2" />
+            <Bone ID="188" Name="R_Finger_Middle3" />
+            <Bone ID="189" Name="R_Finger_Index1" />
+            <Bone ID="190" Name="R_Finger_Index2" />
+            <Bone ID="191" Name="R_Finger_Index3" />
+            <Bone ID="192" Name="R_Finger_Thumb1" />
+            <Bone ID="193" Name="R_Finger_Thumb2" />
+            <Bone ID="194" Name="R_Finger_Thumb3" />
+            <Bone ID="195" Name="R_Wrist" />
+            <Bone ID="196" Name="R_Armpit" />
+            <Bone ID="197" Name="L_Thigh" />
+            <Bone ID="198" Name="L_Shin" />
+            <Bone ID="199" Name="L_Ankle">
+                <Sockets>
+                    <Socket ID="223" Name="L_Foot" CreStamp="0" ModStamp="1641949131" WorldPos="0.179269 0.135775 -0.0801311" Rotation="0 0 0" Scale="1 1 1" SourceBoneName="" />
+                </Sockets>
+            </Bone>
+            <Bone ID="200" Name="L_Toes" />
+            <Bone ID="201" Name="R_Thigh" />
+            <Bone ID="202" Name="R_Shin" />
+            <Bone ID="203" Name="R_Ankle">
+                <Sockets>
+                    <Socket ID="222" Name="R_Foot" CreStamp="0" ModStamp="1641949120" WorldPos="-0.179268 0.135775 -0.0801312" Rotation="0 0 0" Scale="1 1 1" SourceBoneName="" />
+                </Sockets>
+            </Bone>
+            <Bone ID="204" Name="R_Toes" />
+            <Bone ID="205" Name="Meshes_null" />
+            <Bone ID="206" Name="mesh_professor" />
+            <Bone ID="207" Name="mesh_body" />
+            <Bone ID="208" Name="mesh_head" />
+            <Bone ID="209" Name="mesh_mouth_lower" />
+            <Bone ID="210" Name="mesh_mouth_upper" />
+            <Bone ID="211" Name="mesh_mouth_tongue" />
+            <Bone ID="212" Name="mesh_eye_left" />
+            <Bone ID="213" Name="mesh_eye_right" />
+            <Bone ID="214" Name="Controllers_null" />
+            <Bone ID="215" Name="Master_Controller" />
+        </Bones>
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations>
+            <Animation Name="walk_fwd" File="mods/TBDName/entities/character/player/player_body/animation/walk_fwd.fbx" Layer="Default" Speed="1">
+                <Event Name="Step_Left" Time="0.343071" Direction="Both" Type="Step" DestSocket="L_Foot" Value="" />
+                <Event Name="Step_Right" Time="0.998631" Direction="Both" Type="Step" DestSocket="R_Foot" Value="" />
+            </Animation>
+            <Animation Name="idle_stand" File="mods/TBDName/entities/character/player/player_body/animation/idle_stand.fbx" Layer="Default" Speed="1" />
+            <Animation Name="walk_left" File="mods/TBDName/entities/character/player/player_body/animation/walk_left.fbx" Layer="Default" Speed="1">
+                <Event Name="Step_Right" Time="0.573566" Direction="Both" Type="Step" DestSocket="R_Foot" Value="" />
+                <Event Name="Step_Left" Time="0.031358" Direction="Both" Type="Step" DestSocket="L_Foot" Value="" />
+            </Animation>
+            <Animation Name="walk_right" File="mods/TBDName/entities/character/player/player_body/animation/walk_right.fbx" Layer="Default" Speed="1">
+                <Event Name="Step_Left" Time="0.583829" Direction="Both" Type="Step" DestSocket="L_Foot" Value="" />
+                <Event Name="Step_Right" Time="0" Direction="Both" Type="Step" DestSocket="R_Foot" Value="" />
+            </Animation>
+            <Animation Name="walk_back" File="mods/TBDName/entities/character/player/player_body/animation/walk_bkwd.fbx" Layer="Default" Speed="1">
+                <Event Name="Step_Left" Time="0.420461" Direction="Both" Type="Step" DestSocket="L_Foot" Value="" />
+                <Event Name="Step_Right" Time="1.11735" Direction="Both" Type="Step" DestSocket="R_Foot" Value="" />
+            </Animation>
+            <Animation Name="walk_back_left" File="mods/TBDName/entities/character/player/player_body/animation/walk_left_bkwd.fbx" Layer="Default" Speed="1">
+                <Event Name="Step_Left" Time="1.026" Direction="Both" Type="Step" DestSocket="L_Foot" Value="" />
+                <Event Name="Step_Right" Time="0.343" Direction="Both" Type="Step" DestSocket="R_Foot" Value="" />
+            </Animation>
+            <Animation Name="walk_fwd_left" File="mods/TBDName/entities/character/player/player_body/animation/walk_left_fwd.fbx" Layer="Default" Speed="1">
+                <Event Name="Step_Left" Time="0.352524" Direction="Both" Type="Step" DestSocket="L_Foot" Value="" />
+                <Event Name="Step_Right" Time="1.0231" Direction="Both" Type="Step" DestSocket="R_Foot" Value="" />
+            </Animation>
+            <Animation Name="walk_back_right" File="mods/TBDName/entities/character/player/player_body/animation/walk_right_bkwd.fbx" Layer="Default" Speed="1">
+                <Event Name="Step_Left" Time="0.347524" Direction="Both" Type="Step" DestSocket="L_Foot" Value="" />
+                <Event Name="Step_Right" Time="1.04625" Direction="Both" Type="Step" DestSocket="R_Foot" Value="" />
+            </Animation>
+            <Animation Name="walk_fwd_right" File="mods/TBDName/entities/character/player/player_body/animation/walk_right_fwd.fbx" Layer="Default" Speed="1">
+                <Event Name="Step_Left" Time="0.375321" Direction="Both" Type="Step" DestSocket="L_Foot" Value="" />
+                <Event Name="Step_Right" Time="1.00975" Direction="Both" Type="Step" DestSocket="R_Foot" Value="" />
+            </Animation>
+            <Animation Name="run_fwd" File="mods/TBDName/entities/character/player/player_body/animation/run_fwd.fbx" Layer="Default" Speed="1">
+                <Event Name="Step_Left" Time="0.227612" Direction="Both" Type="Step" DestSocket="L_Foot" Value="" />
+                <Event Name="Step_Right" Time="0.564956" Direction="Both" Type="Step" DestSocket="R_Foot" Value="" />
+            </Animation>
+            <Animation Name="run_fwd_left" File="mods/TBDName/entities/character/player/player_body/animation/run_left_fwd.fbx" Layer="Default" Speed="1">
+                <Event Name="Step_Left" Time="0.208" Direction="Both" Type="Step" DestSocket="L_Foot" Value="" />
+                <Event Name="Step_Right" Time="0.58408" Direction="Both" Type="Step" DestSocket="R_Foot" Value="" />
+            </Animation>
+            <Animation Name="run_fwd_right" File="mods/TBDName/entities/character/player/player_body/animation/run_right_fwd.fbx" Layer="Default" Speed="1">
+                <Event Name="Step_Left" Time="0.225731" Direction="Both" Type="Step" DestSocket="L_Foot" Value="" />
+                <Event Name="Step_Right" Time="0.546145" Direction="Both" Type="Step" DestSocket="R_Foot" Value="" />
+            </Animation>
+            <Animation Name="run_left" File="mods/TBDName/entities/character/player/player_body/animation/walk_left.fbx" Layer="Default" Speed="2">
+                <Event Name="Step_Right" Time="0.575277" Direction="Both" Type="Step" DestSocket="R_Foot" Value="" />
+                <Event Name="Step_Left" Time="1.28967" Direction="Both" Type="Step" DestSocket="L_Foot" Value="" />
+            </Animation>
+            <Animation Name="run_right" File="mods/TBDName/entities/character/player/player_body/animation/walk_right.fbx" Layer="Default" Speed="2">
+                <Event Name="Step_Left" Time="0.601503" Direction="Both" Type="Step" DestSocket="L_Foot" Value="" />
+                <Event Name="Step_Right" Time="1.29765" Direction="Both" Type="Step" DestSocket="R_Foot" Value="" />
+            </Animation>
+            <Animation Name="crouch_idle" File="mods/TBDName/entities/character/player/player_body/animation/crouch_idle.fbx" Layer="Default" Speed="1" />
+            <Animation Name="crouch_fwd" File="mods/TBDName/entities/character/player/player_body/animation/crouch_fwd.fbx" Layer="Default" Speed="1" />
+            <Animation Name="intro_wakeup" File="mods/TBDName/entities/character/player/player_body/animation/intro_wakeup.fbx" Layer="FullBody" Speed="1" />
+            <Animation Name="jump_launch" File="mods/TBDName/entities/character/player/player_body/animation/run_fwd.fbx" Layer="Default" Speed="1" />
+            <Animation Name="jump_fall" File="mods/TBDName/entities/character/player/player_body/animation/walk_bkwd.fbx" Layer="Default" Speed="1" />
+            <Animation Name="jump_land" File="mods/TBDName/entities/character/player/player_body/animation/walk_fwd.fbx" Layer="Default" Speed="1" />
+            <Animation Name="stand_turn_left" File="mods/TBDName/entities/character/player/player_body/animation/stand_turn.fbx" Layer="Default" Speed="1" />
+            <Animation Name="stand_turn_right" File="mods/TBDName/entities/character/player/player_body/animation/stand_turn.fbx" Layer="Default" Speed="1" />
+            <Animation Name="stand_turn" File="mods/TBDName/entities/character/player/player_body/animation/stand_turn.fbx" Layer="Default" Speed="1" />
+            <Animation Name="intro_flee" File="mods/TBDName/entities/character/player/player_body/animation/intro_flee.fbx" Layer="Default" Speed="1" />
+            <Animation Name="intro_scream" File="mods/TBDName/entities/character/player/player_body/animation/intro_scream.fbx" Layer="Default" Speed="1" />
+        </Animations>
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_PlayerBody">
+        <Var ObjectId="4294967295" Name="Health" Value="1.0" />
+        <Var ObjectId="4294967295" Name="Toughness" Value="0" />
+        <Var ObjectId="4294967295" Name="MaxInteractDistance" Value="0" />
+        <Var ObjectId="4294967295" Name="EventTag" Value="" />
+        <Var ObjectId="4294967295" Name="ShowHints" Value="true" />
+        <Var ObjectId="4294967295" Name="LifeLength" Value="0" />
+        <Var ObjectId="4294967295" Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var ObjectId="4294967295" Name="QuickSave" Value="false" />
+        <Var ObjectId="4294967295" Name="FullGameSave" Value="false" />
+        <Var ObjectId="4294967295" Name="BlocksLineOfSight" Value="MaterialBased" />
+        <Var ObjectId="4294967295" Name="MainPhysicsBody" Value="" />
+        <Var ObjectId="4294967295" Name="NoGravityWhenUnderwater" Value="false" />
+        <Var ObjectId="4294967295" Name="DisableFreezeAtStart" Value="false" />
+        <Var ObjectId="4294967295" Name="CustomScriptFile" Value="" />
+        <Var ObjectId="4294967295" Name="CustomScriptClass" Value="" />
+        <Var ObjectId="4294967295" Name="ShowMesh" Value="true" />
+        <Var ObjectId="4294967295" Name="DissolveOnDestruction" Value="false" />
+        <Var ObjectId="4294967295" Name="DissolveTime" Value="1.0" />
+        <Var ObjectId="4294967295" Name="RandomizeAnimationStart" Value="true" />
+        <Var ObjectId="4294967295" Name="RootMotionBone" Value="Root" />
+        <Var ObjectId="4294967295" Name="EffectsOnSound" Value="" />
+        <Var ObjectId="4294967295" Name="EffectsOffSound" Value="" />
+        <Var ObjectId="4294967295" Name="EffectsOnTime" Value="2" />
+        <Var ObjectId="4294967295" Name="EffectsOffTime" Value="1" />
+        <Var ObjectId="4294967295" Name="StaticMoveCheckCollision" Value="false" />
+        <Var ObjectId="4294967295" Name="StaticMoveStartSound" Value="" />
+        <Var ObjectId="4294967295" Name="StaticMoveStopSound" Value="" />
+        <Var ObjectId="4294967295" Name="StaticMoveLoopSound" Value="" />
+        <Var ObjectId="4294967295" Name="StaticMoveLoopSoundFade" Value="true" />
+        <Var ObjectId="4294967295" Name="BreakActive" Value="false" />
+        <Var ObjectId="4294967295" Name="CustomBreakBehaviour" Value="false" />
+        <Var ObjectId="4294967295" Name="BreakOnlyOnMainBody" Value="false" />
+        <Var ObjectId="4294967295" Name="BreakDestroyJoints" Value="false" />
+        <Var ObjectId="4294967295" Name="BreakMinEnergy" Value="100" />
+        <Var ObjectId="4294967295" Name="BreakEntity" Value="" />
+        <Var ObjectId="4294967295" Name="BreakEntityAlignBody" Value="" />
+        <Var ObjectId="4294967295" Name="BreakSound" Value="" />
+        <Var ObjectId="4294967295" Name="BreakParticleSystem" Value="" />
+        <Var ObjectId="4294967295" Name="BreakImpulse" Value="4" />
+        <Var ObjectId="4294967295" Name="PlayerBody_YawSoftLimit" Value="10000.002" />
+        <Var ObjectId="4294967295" Name="PlayerBody_YawHardLimit" Value="10000.002" />
+        <Var ObjectId="4294967295" Name="PlayerBody_YawSoftLimit_Crouch" Value="0" />
+        <Var ObjectId="4294967295" Name="PlayerBody_YawHardLimit_Crouch" Value="0" />
+        <Var ObjectId="4294967295" Name="PlayerBody_MinRunSpeed" Value="3" />
+        <Var ObjectId="4294967295" Name="PlayerBody_YawBones" Value="" />
+        <Var ObjectId="4294967295" Name="PlayerBody_YawBoneWeights" Value="" />
+        <Var ObjectId="4294967295" Name="PlayerBody_YawBoneAxes" Value="0 1 0" />
+        <Var ObjectId="4294967295" Name="PlayerBody_PitchBones" Value="Hip Chest Shoulders Neck_Base Neck_Middle Head" />
+        <Var ObjectId="4294967295" Name="PlayerBody_PitchBoneWeights" Value="0.1 0.1 0.1 0.125 0.1 0.35" />
+        <Var ObjectId="4294967295" Name="PlayerBody_PitchBoneAxes" Value="0 0 -1" />
+        <Var ObjectId="4294967295" Name="PlayerBody_ShakeBones" Value="CameraJoint" />
+        <Var ObjectId="4294967295" Name="PlayerBody_ShakeBoneWeights" Value="1.0" />
+        <Var ObjectId="4294967295" Name="PlayerBody_ShakeBoneAxes" Value="0 1 1" />
+        <Var ObjectId="4294967295" Name="PlayerBody_LeftArmControlBone" Value="" />
+        <Var ObjectId="4294967295" Name="PlayerBody_LeftArmPitchAxis" Value="-1 0 0" />
+        <Var ObjectId="4294967295" Name="PlayerBody_LeftArmYawAxis" Value="0 1 0" />
+        <Var ObjectId="4294967295" Name="PlayerBody_RightArmControlBone" Value="" />
+        <Var ObjectId="4294967295" Name="PlayerBody_RightArmPitchAxis" Value="1 0 0" />
+        <Var ObjectId="4294967295" Name="PlayerBody_RightArmYawAxis" Value="0 1 0" />
+        <Var ObjectId="4294967295" Name="PlayerBodyAnim_Idle" Value="idle_stand" />
+        <Var ObjectId="4294967295" Name="PlayerBodyAnim_Walk_Base" Value="walk" />
+        <Var ObjectId="4294967295" Name="PlayerBodyAnim_CrouchWalk_Base" Value="crouch" />
+        <Var ObjectId="4294967295" Name="PlayerBodyAnim_Run_Base" Value="run" />
+        <Var ObjectId="4294967295" Name="PlayerBodyAnim_TurnRight" Value="stand_turn_right" />
+        <Var ObjectId="4294967295" Name="PlayerBodyAnim_TurnLeft" Value="stand_turn_left" />
+        <Var ObjectId="4294967295" Name="PlayerBodyAnim_CrouchIdle" Value="crouch_idle" />
+        <Var ObjectId="4294967295" Name="PlayerBodyAnim_CrouchTurnRight" Value="crouch_turn_right" />
+        <Var ObjectId="4294967295" Name="PlayerBodyAnim_CrouchTurnLeft" Value="crouch_turn_left" />
+        <Var ObjectId="4294967295" Name="PlayerBodyAnim_StandToCrouch" Value="" />
+        <Var ObjectId="4294967295" Name="PlayerBodyAnim_CrouchToStand" Value="" />
+        <Var ObjectId="4294967295" Name="PlayerBodyAnim_JumpLaunch" Value="jump_launch" />
+        <Var ObjectId="4294967295" Name="PlayerBodyAnim_JumpFall" Value="jump_fall" />
+        <Var ObjectId="4294967295" Name="PlayerBodyAnim_JumpLand" Value="jump_land" />
+        <Var ObjectId="4294967295" Name="PlayerBodyAnim_PermafailWakeUpAnims" Value="" />
+        <Var ObjectId="4294967295" Name="PlayerBodyAnim_PermafailCrouchWakeUpAnims" Value="" />
+        <Var ObjectId="4294967295" Name="FootPlacement_AlignPelvis" Value="true" />
+        <Var ObjectId="4294967295" Name="FootPlacement_MaxPelvisAlign" Value="0.5" />
+        <Var ObjectId="4294967295" Name="FootPlacement_AlignToes" Value="false" />
+        <Var ObjectId="4294967295" Name="FootPlacement_FootDepth" Value="0.05" />
+        <Var ObjectId="4294967295" Name="FootPlacement_MaxFootHeight" Value="0.25" />
+        <Var ObjectId="4294967295" Name="FootPlacement_FadeSpeed" Value="8" />
+        <Var ObjectId="4294967295" Name="FootPlacement_LeftFoot" Value="" />
+        <Var ObjectId="4294967295" Name="FootPlacement_RightFoot" Value="" />
+        <Var ObjectId="4294967295" Name="FootPlacement_FrontLeftFoot" Value="" />
+        <Var ObjectId="4294967295" Name="FootPlacement_FrontRightFoot" Value="" />
+        <Var ObjectId="4294967295" Name="FootPlacement_FootOffset" Value="0 0 0" />
+        <Var ObjectId="4294967295" Name="HandPlacement_FadeSpeed" Value="4.0" />
+        <Var ObjectId="4294967295" Name="HandPlacement_MaxAngleToTarget" Value="180.0" />
+        <Var ObjectId="4294967295" Name="HandPlacement_LeftHand" Value="" />
+        <Var ObjectId="4294967295" Name="HandPlacement_LeftHandOffset" Value="0 0 0" />
+        <Var ObjectId="4294967295" Name="HandPlacement_LeftHandRotation" Value="0 0 0" />
+        <Var ObjectId="4294967295" Name="HandPlacement_LeftHandTwist" Value="0 0 0" />
+        <Var ObjectId="4294967295" Name="HandPlacement_LeftHandTest" Value="0 0 0" />
+        <Var ObjectId="4294967295" Name="HandPlacement_RightHand" Value="" />
+        <Var ObjectId="4294967295" Name="HandPlacement_RightHandOffset" Value="0 0 0" />
+        <Var ObjectId="4294967295" Name="HandPlacement_RightHandRotation" Value="0 0 0" />
+        <Var ObjectId="4294967295" Name="HandPlacement_RightHandTwist" Value="0 0 0" />
+        <Var ObjectId="4294967295" Name="HandPlacement_RightHandTest" Value="0 0 0" />
+    </UserDefinedVariables>
+</Entity>

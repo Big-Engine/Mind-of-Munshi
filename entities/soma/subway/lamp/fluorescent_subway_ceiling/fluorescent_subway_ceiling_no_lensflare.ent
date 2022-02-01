@@ -1,0 +1,77 @@
+<Entity>
+    <ModelData>
+        <Entities>
+            <LensFlare ID="3" Name="LensFlare_1" CreStamp="0" ModStamp="1434107353" WorldPos="0 -0.0827849 -0.00624079" Rotation="1.59827 -0 -3.14159" Scale="1 1 1" ActiveAnamorphic="true" MaterialAnamorphic="flare_star_simple.mat" SizeAnamorphic="0.5 0.5" ColorAnamorphic="0.941176 1 0.941176 0.588235" ActiveFlare="true" MaterialFlare="lampglow_generic_no_depth.mat" SizeFlare="0.4 0.4" ColorFlare="0.588235 0.784314 1 0.196078" ActiveMultiIris="false" MaterialMultiIris="D:/SVN/depth_trunk/redist/lights/lensflare/multi_iris_simple.mat" SizeMultiIris="0.1 0.1" ColorMultiIris="0.588235 0.784314 1 0.046875" MultiIrisSeed="17578" MultiIrisCount="19" UseParentMeshForOcclusion="false" ShrinkWhenOccluded="false" MulMultiIrisWithGlare="true" SourceSize="1 0.25 0.1" InnerFOV="0" OuterFOV="2.96706" GlareBrightness="0.3" GlareFOV="1.5708" GlareStareAt="0.6" SizeChangeBasedOnDistance="0.2" MultiIrisTextureAtlasGrid="2 2" RangeMax="3 7" RangeMin="0 0" GlareRange="-1 -1" Brightness="3" CulledByDistance="false" CulledByFog="true" />
+            <PointLight ID="4" Name="PointLight_1" CreStamp="0" ModStamp="0" WorldPos="0 -0.161504 -0.0222701" Rotation="0 0 0" Scale="1 1 1" CastShadows="false" ShadowResolution="High" ShadowsAffectStatic="true" ShadowsAffectDynamic="true" Radius="1" Gobo="" GoboType="Diffuse" GoboAnimMode="None" GoboAnimFrameTime="1" GoboAnimStartTime="0" DiffuseColor="0.588235 0.784314 1 0.196078" FlickerActive="false" FlickerOnMinLength="0" FlickerOnMaxLength="0" FlickerOnPS="" FlickerOnSound="" FlickerOffMinLength="0" FlickerOffMaxLength="0" FlickerOffPS="" FlickerOffSound="" FlickerOffColor="0 0 0 1" FlickerOffRadius="0" FlickerFade="false" FlickerOnFadeMinLength="0" FlickerOnFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffFadeMaxLength="0" AffectedBySSAO="true" Brightness="1" CulledByDistance="true" CulledByFog="true" FalloffPow="1" ConnectedLightMaskID="4294967295" />
+            <Billboard ID="7" Name="Billboard_1" CreStamp="0" ModStamp="0" WorldPos="-0.00076137 -0.738957 -2.99653e-006" Rotation="0 0 0" Scale="1 1 1" BillboardType="FixedAxis" MaterialFile="lampglow_cone01.mat" IsHalo="false" BillboardSize="4 1.5" HaloSourceSize="0.3 0.3 0.3" BillboardOffset="0" BillboardColor="0.746613 0.825239 0.910156 0.196078" Brightness="1" CulledByDistance="false" CulledByFog="true" ConnectLight="PointLight_1" RangeMinStart="-1" RangeMinEnd="-1" RangeMaxStart="-1" RangeMaxEnd="-1" />
+        </Entities>
+        <Mesh Filename="entities/subway/lamp/fluorescent_subway_ceiling/fluorescent_subway_ceiling.dae">
+            <SubMesh ID="0" Name="polySurface90" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="166" Material="" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" CreStamp="0" ModStamp="0" WorldPos="0 -0.055 0" Rotation="0 0 0" Scale="1.25082 0.11 0.255236" RelativeTranslation="0 0 0" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+        </Shapes>
+        <Bodies>
+            <Body ID="2" Name="Body_1" CreStamp="0" ModStamp="0" WorldPos="0 -0.055 0" Rotation="0 0 0" Scale="1 1 1" Material="Metal Compact" Mass="0" AngularDamping="0" LinearDamping="0" MaxAngularSpeed="0" MaxLinearSpeed="0" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="true" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="false" BlocksLight="true">
+                <Children>
+                    <Child ID="0" />
+                    <Child ID="3" />
+                    <Child ID="4" />
+                    <Child ID="7" />
+                </Children>
+                <Shape ID="1" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Lamp">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="BlocksLineOfSight" Value="true" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="NoGravityWhenUnderwater" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="StaticMoveLoopSoundFade" Value="true" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="CanBeLitByPlayer" Value="false" />
+        <Var Name="CanBeGrabbed" Value="false" />
+        <Var Name="FlickerMinOnTime" Value="0.05" />
+        <Var Name="FlickerMaxOnTime" Value="1" />
+        <Var Name="FlickerMinOffTime" Value="0.025" />
+        <Var Name="FlickerMaxOffTime" Value="0.15" />
+        <Var Name="FlickerFade" Value="false" />
+        <Var Name="FlickerOnSound" Value="" />
+        <Var Name="FlickerOffSound" Value="" />
+        <Var Name="FlickerOnPS" Value="" />
+        <Var Name="FlickerOffPS" Value="" />
+    </UserDefinedVariables>
+</Entity>

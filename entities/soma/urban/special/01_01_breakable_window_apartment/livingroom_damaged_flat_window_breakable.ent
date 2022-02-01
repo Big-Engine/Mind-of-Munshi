@@ -1,0 +1,79 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="true" Focused="3">
+            <Viewport CameraPos="-1.3899 2.05999 199.875" CameraTarget="-1.3899 2.05999 -0.124766" Controller="Ortho" GridHeights="-1.3899 2.05999 -0.124766" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="6.67887" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="198.61 2.05999 -0.124766" CameraTarget="-1.3899 2.05999 -0.124766" Controller="Ortho" GridHeights="-1.3899 2.05999 -0.124766" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="6.67887" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="-1.3899 202.06 -0.124766" CameraTarget="-1.3899 2.05999 -0.124766" Controller="Ortho" GridHeights="-1.3899 2.05999 -0.124766" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="6.67887" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="-1.61833 3.96868 2.19264" CameraTarget="-0.00436226 2.05999 -0.764415" Controller="Maya" GridHeights="-1.3899 2.05999 -0.124766" GridPlane="1" LockToGrid="true" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="static_objects/urban/walls/livingroom_damaged_flat_window_no_blinds.dae">
+            <SubMesh ID="3" Material="" Name="polySurface139" Rotation="0 0 0" Scale="1 1 1" WorldPos="7 0 0" />
+            <SubMesh ID="4" Material="" Name="pPlane13" Rotation="1.5708 -0 0" Scale="1 1 1" WorldPos="0 2.13919 -0.118702" />
+            <SubMesh ID="5" Material="" Name="window" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="6" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0 0 0" Rotation="0 0 0" Scale="1.63757 1.56253 0.0805792" ShapeType="Box" WorldPos="-0.00433105 2.03652 -0.155062" />
+            <Shape ID="7" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.003865 -1.40825 0" Rotation="0 0 0" Scale="4 1.224 0.262" ShapeType="Box" WorldPos="0 0.607 -0.124766" />
+            <Shape ID="8" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.003865 1.40826 0" Rotation="0 0 0" Scale="4 1.16496 0.262" ShapeType="Box" WorldPos="0 3.42351 -0.124766" />
+            <Shape ID="9" Name="Shape_4" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-1.43455 0.009655 0" Rotation="0 0 0" Scale="1.13933 1.62718 0.262" ShapeType="Box" WorldPos="-1.43068 2.02491 -0.124766" />
+            <Shape ID="10" Name="Shape_5" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="1.43455 0.009655 0" Rotation="0 0 0" Scale="1.13933 1.62718 0.262" ShapeType="Box" WorldPos="1.43841 2.02491 -0.124766" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="false" ID="11" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="0.003865 2.01525 -0.124766">
+                <Children>
+                    <Child ID="5" />
+                    <Child ID="3" />
+                </Children>
+                <Shape ID="10" />
+                <Shape ID="7" />
+                <Shape ID="8" />
+                <Shape ID="9" />
+            </Body>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="false" ID="12" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_2" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.00433105 2.03652 -0.155062">
+                <Shape ID="6" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Rigid">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="BlocksLineOfSight" Value="true" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="Body_2" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="BreakActive" Value="true" />
+        <Var Name="BreakOnlyOnMainBody" Value="true" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="1" />
+        <Var Name="BreakEntity" Value="livingroom_damaged_flat_window_broken.ent" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="Climb_Active" Value="false" />
+        <Var Name="Climb_MustBeUp" Value="false" />
+    </UserDefinedVariables>
+</Entity>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>user</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=1;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=0;exportPhysics=0;exportXRefs=0;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Users/user/Documents/maya/projects/default/untitled</source_data>
+    </contributor>
+    <created>2011-12-28T06:38:43Z</created>
+    <modified>2011-12-28T06:38:43Z</modified>
+    <unit meter="1" name="meter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="note_internet_notice_1" name="note_internet_notice_1">
+      <init_from>file:///D:/SVN_Server/application/entities/urban/desk/note_internet_notice/note_internet_notice.DDS</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="note_internet_notice_nrm_1" name="note_internet_notice_nrm_1">
+      <init_from>file:///D:/SVN_Server/application/entities/urban/desk/note_internet_notice/note_internet_notice_nrm.DDS</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="note_internet_notice_spec_1" name="note_internet_notice_spec_1">
+      <init_from>file:///D:/SVN_Server/application/entities/urban/desk/note_internet_notice/note_internet_notice_spec.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn3" name="blinn3">
+      <instance_effect url="#blinn3-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn3-fx">
+      <profile_COMMON>
+        <newparam sid="note_internet_notice_1-surface">
+          <surface type="2D">
+            <init_from>note_internet_notice_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="note_internet_notice_1-sampler">
+          <sampler2D>
+            <source>note_internet_notice_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="note_internet_notice_nrm_1-surface">
+          <surface type="2D">
+            <init_from>note_internet_notice_nrm_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="note_internet_notice_nrm_1-sampler">
+          <sampler2D>
+            <source>note_internet_notice_nrm_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="note_internet_notice_spec_1-surface">
+          <surface type="2D">
+            <init_from>note_internet_notice_spec_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="note_internet_notice_spec_1-sampler">
+          <sampler2D>
+            <source>note_internet_notice_spec_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="note_internet_notice_1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <texture texture="note_internet_notice_spec_1-sampler" texcoord="TEX2">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="note_internet_notice_nrm_1-sampler" texcoord="TEX1">
+                  <extra>
+                    <technique profile="MAYA">
+                      <wrapU>1</wrapU>
+                      <wrapV>1</wrapV>
+                      <mirrorU>0</mirrorU>
+                      <mirrorV>0</mirrorV>
+                      <coverageU>1</coverageU>
+                      <coverageV>1</coverageV>
+                      <translateFrameU>0</translateFrameU>
+                      <translateFrameV>0</translateFrameV>
+                      <rotateFrame>0</rotateFrame>
+                      <stagger>0</stagger>
+                      <fast>0</fast>
+                      <repeatU>1</repeatU>
+                      <repeatV>1</repeatV>
+                      <offsetU>0</offsetU>
+                      <offsetV>0</offsetV>
+                      <rotateUV>0</rotateUV>
+                      <noiseU>0</noiseU>
+                      <noiseV>0</noiseV>
+                      <blend_mode>NONE</blend_mode>
+                    </technique>
+                    <technique profile="MAX3D">
+                      <amount>1</amount>
+                      <bumpInterp>1</bumpInterp>
+                    </technique>
+                  </extra>
+                </texture>
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="note_internet_noticeShape" name="note_internet_noticeShape">
+      <mesh>
+        <source id="note_internet_noticeShape-positions" name="position">
+          <float_array id="note_internet_noticeShape-positions-array" count="96">0.076114 0.014191 -0.049281 0.105373 0.010104 -0.030086 0.104395 0.018835 -0.073502 0.05946 0.004576 -0.00259 0.10517 0.004516 0.023571 0.053035 0.006296 0.075123 0.105326 0.003414 0.075355 0.049877 0.009314 -0.074436 0.023024 0.002612 -0.024434 0.017454 0.005802 0.075138 -0.039878 0.005861 0.003503 -0.103343 0.002209 0.005473 -0.104737 0.003926 0.074819 -0.03708 0.00159 0.075493 -0.038814 0.008003 -0.074886 -0.10512 0.002102 -0.075925 0.076114 0.013961 -0.049281 0.105373 0.009875 -0.030086 0.104395 0.018606 -0.073502 0.05946 0.004346 -0.00259 0.10517 0.004287 0.023571 0.053035 0.006067 0.075123 0.105326 0.003185 0.075355 0.049877 0.009085 -0.074436 0.023024 0.002383 -0.024434 0.017454 0.005572 0.075138 -0.039878 0.005632 0.003503 -0.103343 0.001979 0.005473 -0.104737 0.003697 0.074819 -0.03708 0.001361 0.075493 -0.038814 0.007774 -0.074886 -0.10512 0.001873 -0.075925</float_array>
+          <technique_common>
+            <accessor source="#note_internet_noticeShape-positions-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="note_internet_noticeShape-normals" name="normal">
+          <float_array id="note_internet_noticeShape-normals-array" count="228">0.007691 0.980377 0.196984 0.007691 0.980377 0.196984 0.007691 0.980377 0.196984 -0.032642 0.988988 0.144352 -0.032642 0.988988 0.144352 -0.032642 0.988988 0.144352 -0.032642 0.988988 0.144352 0.030884 0.999518 -0.003275 0.030884 0.999518 -0.003275 0.030884 0.999518 -0.003275 0.030884 0.999518 -0.003275 -0.171828 0.985057 -0.01173 -0.171828 0.985057 -0.01173 -0.171828 0.985057 -0.01173 -0.025195 0.999251 -0.029376 -0.025195 0.999251 -0.029376 -0.025195 0.999251 -0.029376 -0.025195 0.999251 -0.029376 -0.009858 0.999786 0.018161 -0.009858 0.999786 0.018161 -0.009858 0.999786 0.018161 -0.009858 0.999786 0.018161 -0.172874 0.981026 0.087764 -0.172874 0.981026 0.087764 -0.172874 0.981026 0.087764 -0.172874 0.981026 0.087764 0.026226 0.996886 0.074368 0.026226 0.996886 0.074368 0.026226 0.996886 0.074368 0.026226 0.996886 0.074368 -0.006704 0.999958 0.006198 -0.006704 0.999958 0.006198 -0.006704 0.999958 0.006198 -0.006704 0.999958 0.006198 -0.073319 0.997223 0.01303 -0.073319 0.997223 0.01303 -0.073319 0.997223 0.01303 -0.073319 0.997223 0.01303 -0.007691 -0.980377 -0.196984 -0.007691 -0.980377 -0.196984 -0.007691 -0.980377 -0.196984 0.032642 -0.988988 -0.144352 0.032642 -0.988988 -0.144352 0.032642 -0.988988 -0.144352 0.032642 -0.988988 -0.144352 -0.030884 -0.999518 0.003275 -0.030884 -0.999518 0.003275 -0.030884 -0.999518 0.003275 -0.030884 -0.999518 0.003275 0.171828 -0.985057 0.01173 0.171828 -0.985057 0.01173 0.171828 -0.985057 0.01173 0.025195 -0.999251 0.029376 0.025195 -0.999251 0.029376 0.025195 -0.999251 0.029376 0.025195 -0.999251 0.029376 0.009858 -0.999786 -0.018161 0.009858 -0.999786 -0.018161 0.009858 -0.999786 -0.018161 0.009858 -0.999786 -0.018161 0.172874 -0.981026 -0.087764 0.172874 -0.981026 -0.087764 0.172874 -0.981026 -0.087764 0.172874 -0.981026 -0.087764 -0.026226 -0.996886 -0.074368 -0.026226 -0.996886 -0.074368 -0.026226 -0.996886 -0.074368 -0.026226 -0.996886 -0.074368 0.006704 -0.999958 -0.006198 0.006704 -0.999958 -0.006198 0.006704 -0.999958 -0.006198 0.006704 -0.999958 -0.006198 0.073319 -0.997223 -0.01303 0.073319 -0.997223 -0.01303 0.073319 -0.997223 -0.01303 0.073319 -0.997223 -0.01303</float_array>
+          <technique_common>
+            <accessor source="#note_internet_noticeShape-normals-array" count="76" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="note_internet_noticeShape-map1" name="map1">
+          <float_array id="note_internet_noticeShape-map1-array" count="64">0.747495 0.829707 0.849284 0.701914 0.841522 0.991168 0.694212 0.519066 0.853867 0.349739 0.681677 0.010846 0.860685 0.011433 0.652327 0.990331 0.566622 0.660011 0.560031 0.009363 0.354576 0.47609 0.137684 0.45943 0.141905 0.005536 0.373232 0.004471 0.348879 0.989212 0.121137 0.991574 0.747495 0.829707 0.841522 0.991168 0.849284 0.701914 0.694212 0.519066 0.853867 0.349739 0.681677 0.010846 0.860685 0.011433 0.652327 0.990331 0.560031 0.009363 0.566622 0.660011 0.354576 0.47609 0.373232 0.004471 0.141905 0.005536 0.137684 0.45943 0.348879 0.989212 0.121137 0.991574</float_array>
+          <technique_common>
+            <accessor source="#note_internet_noticeShape-map1-array" count="32" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="note_internet_noticeShape-vertices">
+          <input semantic="POSITION" source="#note_internet_noticeShape-positions"/>
+        </vertices>
+        <triangles material="blinn3SG" count="36">
+          <input semantic="VERTEX" source="#note_internet_noticeShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#note_internet_noticeShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#note_internet_noticeShape-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 4 4 4 1 5 1 3 3 3 3 3 3 1 5 1 0 6 0 6 8 6 4 9 4 5 7 5 5 7 5 4 9 4 3 10 3 7 11 7 0 12 0 2 13 2 8 15 8 9 16 9 3 14 3 3 14 3 9 16 9 5 17 5 10 18 10 11 19 11 13 21 13 13 21 13 11 19 11 12 20 12 3 23 3 0 24 0 8 22 8 8 22 8 0 24 0 7 25 7 10 27 10 8 28 8 14 26 14 14 26 14 8 28 8 7 29 7 8 31 8 10 32 10 9 30 9 9 30 9 10 32 10 13 33 13 14 35 14 15 36 15 10 34 10 10 34 10 15 36 15 11 37 11 16 38 16 18 39 17 17 40 18 16 42 16 17 43 18 19 41 19 19 41 19 17 43 18 20 44 20 19 46 19 20 47 20 21 45 21 21 45 21 20 47 20 22 48 22 23 49 23 18 50 17 16 51 16 21 53 21 25 54 24 19 52 19 19 52 19 25 54 24 24 55 25 26 56 26 29 57 27 27 59 29 27 59 29 29 57 27 28 58 28 23 61 23 16 62 16 24 60 25 24 60 25 16 62 16 19 63 19 23 65 23 24 66 25 30 64 30 30 64 30 24 66 25 26 67 26 29 69 27 26 70 26 25 68 24 25 68 24 26 70 26 24 71 25 27 73 29 31 74 31 26 72 26 26 72 26 31 74 31 30 75 30</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="note_internet_notice" name="note_internet_notice" type="NODE">
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <instance_geometry url="#note_internet_noticeShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn3SG" target="#blinn3">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="TEX2" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

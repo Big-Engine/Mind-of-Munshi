@@ -1,0 +1,84 @@
+<Entity>
+	<EditorSession>
+		<ViewportConfig Enlarged="true" Focused="3">
+			<Viewport CameraPos="-0.377542 1.34869 200.012" CameraTarget="-0.377542 1.34869 0.012164" Controller="Ortho" GridHeights="-0.377542 1.34869 0.012164" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="0.44966" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+			<Viewport CameraPos="199.623 1.34869 0.012164" CameraTarget="-0.377542 1.34869 0.012164" Controller="Ortho" GridHeights="-0.377542 1.34869 0.012164" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="0.44966" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+			<Viewport CameraPos="-0.377542 201.349 0.012164" CameraTarget="-0.377542 1.34869 0.012164" Controller="Ortho" GridHeights="-0.377542 1.34869 0.012164" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="0.44966" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+			<Viewport CameraPos="-1.5692 2.67092 1.589" CameraTarget="-0.210854 1.34869 -0.517118" Controller="Maya" GridHeights="-0.377542 1.34869 0.012164" GridPlane="1" LockToGrid="true" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+		</ViewportConfig>
+	</EditorSession>
+	<ModelData>
+		<Entities />
+		<Mesh Filename="entities/urban/door/exit_waitroom_02/exit_waitroom_02.dae">
+			<SubMesh ID="0" Material="" Name="polySurface229" Rotation="0 0 0" Scale="1 1 1" TriCount="246" WorldPos="0 0 0" />
+			<SubMesh ID="1" Material="" Name="handle" Rotation="0 0 0" Scale="1 1 1" TriCount="186" WorldPos="0 0 0" />
+		</Mesh>
+		<Bones />
+		<Shapes>
+			<Shape ID="2" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.377225 0.0328699 0" Rotation="0 0 0" Scale="1.70199 2.63187 0.121749" ShapeType="Box" WorldPos="0 1.41108 0.0126915" />
+			<Shape ID="3" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.377225 -0.0328701 0" Rotation="0 0 0" Scale="0.108605 0.34359 0.196473" ShapeType="Box" WorldPos="-0.754451 1.34534 0.0126915" />
+			<Shape ID="4" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.080556 -0.00692999 0.000527496" Rotation="0 0 0" Scale="0.0382322 0.038224 0.3389" ShapeType="Box" WorldPos="-0.755083 1.28629 0.0126915" />
+			<Shape ID="5" Name="Shape_4" RelativeRotation="0 -0 0.182592" RelativeScale="1 1 1" RelativeTranslation="-0.025121 0.00522995 -0.148096" Rotation="0 -0 0.182592" Scale="0.110795 0.038224 0.0389981" ShapeType="Box" WorldPos="-0.699648 1.29845 -0.135932" />
+			<Shape ID="6" Name="Shape_5" RelativeRotation="0 -0 -0.14125" RelativeScale="1 1 1" RelativeTranslation="0.080556 0.00692999 -0.148096" Rotation="0 -0 -0.14125" Scale="0.118552 0.038224 0.0399222" ShapeType="Box" WorldPos="-0.593971 1.30015 -0.135932" />
+			<Shape ID="7" Name="Shape_6" RelativeRotation="0 -0 0.182592" RelativeScale="1 1 1" RelativeTranslation="-0.025121 0.00522995 0.148096" Rotation="0 -0 0.182592" Scale="0.110795 0.038224 0.0375783" ShapeType="Box" WorldPos="-0.699648 1.29845 0.16026" />
+			<Shape ID="8" Name="Shape_7" RelativeRotation="0 -0 -0.14125" RelativeScale="1 1 1" RelativeTranslation="0.080556 0.00692999 0.148096" Rotation="0 -0 -0.14125" Scale="0.118552 0.038224 0.0390058" ShapeType="Box" WorldPos="-0.593971 1.30015 0.16026" />
+		</Shapes>
+		<Bodies>
+			<Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="11" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.377225 1.37821 0.0126915">
+				<Children>
+					<Child ID="0" />
+				</Children>
+				<Shape ID="3" />
+				<Shape ID="2" />
+			</Body>
+			<Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="false" ID="12" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Handle" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.674527 1.29322 0.012164">
+				<Children>
+					<Child ID="1" />
+				</Children>
+				<Shape ID="7" />
+				<Shape ID="8" />
+				<Shape ID="4" />
+				<Shape ID="5" />
+				<Shape ID="6" />
+			</Body>
+		</Bodies>
+		<Joints />
+		<Animations />
+	</ModelData>
+	<UserDefinedVariables EntityType="Prop_LevelDoor">
+		<Var Name="Health" Value="100" />
+		<Var Name="Toughness" Value="0" />
+		<Var Name="MaxInteractDistance" Value="0" />
+		<Var Name="EventTag" Value="" />
+		<Var Name="ShowHints" Value="true" />
+		<Var Name="LifeLength" Value="0" />
+		<Var Name="DissolveDuringLifeDecrease" Value="true" />
+		<Var Name="BlocksLineOfSight" Value="true" />
+		<Var Name="MainPhysicsBody" Value="" />
+		<Var Name="CustomScriptFile" Value="" />
+		<Var Name="CustomScriptClass" Value="" />
+		<Var Name="ShowMesh" Value="true" />
+		<Var Name="DissolveOnDestruction" Value="false" />
+		<Var Name="DissolveTime" Value="1.0" />
+		<Var Name="RandomizeAnimationStart" Value="true" />
+		<Var Name="EffectsOnSound" Value="" />
+		<Var Name="EffectsOffSound" Value="" />
+		<Var Name="EffectsOnTime" Value="1" />
+		<Var Name="EffectsOffTime" Value="1" />
+		<Var Name="StaticMoveCheckCollision" Value="false" />
+		<Var Name="StaticMoveStartSound" Value="" />
+		<Var Name="StaticMoveStopSound" Value="" />
+		<Var Name="StaticMoveLoopSound" Value="" />
+		<Var Name="BreakActive" Value="false" />
+		<Var Name="BreakOnlyOnMainBody" Value="false" />
+		<Var Name="BreakDestroyJoints" Value="false" />
+		<Var Name="BreakMinEnergy" Value="100" />
+		<Var Name="BreakEntity" Value="" />
+		<Var Name="BreakEntityAlignBody" Value="" />
+		<Var Name="BreakSound" Value="" />
+		<Var Name="BreakParticleSystem" Value="" />
+		<Var Name="BreakImpulse" Value="3" />
+		<Var Name="EnterSound" Value="Entities_Urban/door/exit_apartment/interact_openclose" />
+		<Var Name="ExitSound" Value="" />
+	</UserDefinedVariables>
+</Entity>
