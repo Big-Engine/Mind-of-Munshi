@@ -1,0 +1,8 @@
+<HPLMapTrack_Decal ID="15939D64EAA16726337A2001EA6C25CD8D7C6804" MajorVersion="1" MinorVersion="1">
+    <Section Name="13733002251564882997">
+        <FileIndex_Decals NumOfFiles="1">
+            <File Id="0" Path="textures/decals/grass/decal_grass_variation.mat" />
+        </FileIndex_Decals>
+        <Objects />
+    </Section>
+</HPLMapTrack_Decal>

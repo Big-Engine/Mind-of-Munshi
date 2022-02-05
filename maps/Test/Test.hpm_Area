@@ -1,0 +1,65 @@
+<HPLMapTrack_Area ID="9A7B5709DB1A98CD4B3DB23A3BFEF296B3FA772A" MajorVersion="1" MinorVersion="1">
+    <Section Name="13733002251564882997">
+        <Objects>
+            <Area ID="268435456" Name="Start_Begin" CreStamp="1643829020" ModStamp="1643860478" WorldPos="7 126 0" Rotation="0 0 0" Scale="0.7 1.9 0.7" Active="true" Mesh="" UID="16 15 268435456" AreaType="PlayerStart">
+                <UserVariables>
+                    <Var ObjectId="268435456" Name="Note" Value="" />
+                    <Var ObjectId="268435456" Name="Crouching" Value="false" />
+                </UserVariables>
+            </Area>
+            <Area ID="268435457" Name="Liquid_1" CreStamp="1643854413" ModStamp="1643855579" WorldPos="0 45 0" Rotation="0 0 0" Scale="1024 25 1024" Active="true" Mesh="" UID="16 24 268435457" AreaType="Liquid">
+                <UserVariables>
+                    <Var ObjectId="268435457" Name="Note" Value="" />
+                    <Var ObjectId="268435457" Name="BlocksLineOfSight" Value="false" />
+                    <Var ObjectId="268435457" Name="EventInstanceTag" Value="" />
+                    <Var ObjectId="268435457" Name="UserVar" Value="" />
+                    <Var ObjectId="268435457" Name="Static" Value="false" />
+                    <Var ObjectId="268435457" Name="QuickSave" Value="false" />
+                    <Var ObjectId="268435457" Name="FullGameSave" Value="false" />
+                    <Var ObjectId="268435457" Name="CC_Entities" Value="" />
+                    <Var ObjectId="268435457" Name="CC_Funcs" Value="" />
+                    <Var ObjectId="268435457" Name="ParentAttachEntity" Value="" />
+                    <Var ObjectId="268435457" Name="ParentAttachUseRotation" Value="true" />
+                    <Var ObjectId="268435457" Name="ParentAttachBody" Value="" />
+                    <Var ObjectId="268435457" Name="ParentAttachLocked" Value="false" />
+                    <Var ObjectId="268435457" Name="Density" Value="100" />
+                    <Var ObjectId="268435457" Name="LinearViscosity" Value="1" />
+                    <Var ObjectId="268435457" Name="AngularViscosity" Value="1" />
+                    <Var ObjectId="268435457" Name="PhysicsMaterial" Value="water" />
+                    <Var ObjectId="268435457" Name="PlayerSpeedMul" Value="0.8" />
+                    <Var ObjectId="268435457" Name="BuoyancyOnPlayerOnly" Value="false" />
+                    <Var ObjectId="268435457" Name="HasWaves" Value="true" />
+                    <Var ObjectId="268435457" Name="WaveAmp" Value="100" />
+                    <Var ObjectId="268435457" Name="WaveFreq" Value="100" />
+                    <Var ObjectId="268435457" Name="MaxWaveDistance" Value="100" />
+                    <Var ObjectId="268435457" Name="UpperMaterial" Value="D:/Steam/steamapps/common/Amnesia Rebirth/textures/liquid/water/waterplane_oasis.mat" />
+                    <Var ObjectId="268435457" Name="LowerMaterial" Value="D:/Steam/steamapps/common/Amnesia Rebirth/textures/liquid/water/waterplane_underwater.mat" />
+                    <Var ObjectId="268435457" Name="GridSize" Value="20" />
+                    <Var ObjectId="268435457" Name="TextureTileSize" Value="1" />
+                    <Var ObjectId="268435457" Name="StaticMesh" Value="true" />
+                    <Var ObjectId="268435457" Name="EnvParticlesToClip" Value="" />
+                    <Var ObjectId="268435457" Name="ReflectionColor" Value="1 1 1 1" />
+                    <Var ObjectId="268435457" Name="ReflectionBrightness" Value="1" />
+                    <Var ObjectId="268435457" Name="UseFog" Value="false" />
+                    <Var ObjectId="268435457" Name="FogColor" Value="1 1 1 1" />
+                    <Var ObjectId="268435457" Name="FogStart" Value="0" />
+                    <Var ObjectId="268435457" Name="FogEnd" Value="50" />
+                    <Var ObjectId="268435457" Name="FogFalloffExp" Value="2" />
+                    <Var ObjectId="268435457" Name="FogBrightness" Value="1" />
+                    <Var ObjectId="268435457" Name="FogExponential" Value="false" />
+                    <Var ObjectId="268435457" Name="FogDensity" Value="0.25" />
+                    <Var ObjectId="268435457" Name="FogHeightBased" Value="false" />
+                    <Var ObjectId="268435457" Name="FogHeightDensity" Value="0.25" />
+                    <Var ObjectId="268435457" Name="FogHeightHorizon" Value="1" />
+                    <Var ObjectId="268435457" Name="FogUnderwater" Value="false" />
+                    <Var ObjectId="268435457" Name="FogSkybox" Value="false" />
+                    <Var ObjectId="268435457" Name="EffectOnExit" Value="true" />
+                    <Var ObjectId="268435457" Name="CameraCollideCallback" Value="" />
+                    <Var ObjectId="268435457" Name="CameraEnterEffectPreset" Value="" />
+                    <Var ObjectId="268435457" Name="CameraExitEffectPreset" Value="" />
+                    <Var ObjectId="268435457" Name="UnderwaterLightColor" Value="0.181 0.224 0.264 1" />
+                </UserVariables>
+            </Area>
+        </Objects>
+    </Section>
+</HPLMapTrack_Area>

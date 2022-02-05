@@ -1,0 +1,11 @@
+<HPLMapTrack_StaticObject ID="9A7B5709DB1A98CD4B3DB23A3BFEF296B3FA772A" MajorVersion="1" MinorVersion="1">
+    <Section Name="13733002251564882997">
+        <FileIndex_StaticObjects NumOfFiles="4">
+            <File Id="0" Path="static_objects/darkworld/organic/roots/undercity_nursery_tree/undercity_nursery_tree.dae" />
+            <File Id="1" Path="static_objects/darkworld/organic/roots/undercity_roots/undercity_roots_tree_moss.dae" />
+            <File Id="2" Path="static_objects/darkworld/organic/roots/undercity_roots/undercity_roots_tree_wall.dae" />
+            <File Id="3" Path="static_objects/darkworld/organic/roots/undercity_roots/undercity_roots_tree.dae" />
+        </FileIndex_StaticObjects>
+        <Objects />
+    </Section>
+</HPLMapTrack_StaticObject>

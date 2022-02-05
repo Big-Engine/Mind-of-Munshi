@@ -1,0 +1,9 @@
+<Material>
+    <Main BlendMode="Add" DepthTest="true" ForceFullScaleTextures="true" PhysicsMaterial="rock solid" Type="terrain" UVSubDivs="1 1" UseAlpha="false" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="1" AnimMode="None" AnimStartTime="0" Compress="false" File="textures/terrain/rock/rockwall_forest.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <NMap AnimFrameTime="1" AnimMode="None" AnimStartTime="0" Compress="false" File="textures/terrain/rock/rockwall_forest_nrm.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <Specular AnimFrameTime="1" AnimMode="None" AnimStartTime="0" Compress="false" File="textures/terrain/rock/rockwall_forest_spec.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+    </TextureUnits>
+    <SpecificVariables />
+</Material>

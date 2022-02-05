@@ -1,0 +1,16 @@
+<HPLMap ID="9A7B5709DB1A98CD4B3DB23A3BFEF296B3FA772A" MajorVersion="1" MinorVersion="1">
+    <GlobalSettings>
+        <Fog Active="true" Culling="false" Color="0.890196 0.647059 0.521569 1" Brightness="1" FadeStart="50" FadeEnd="2048" FalloffExp="1" Underwater="false" Lighten="false" UseSkybox="false" NoiseStrength="0" NoiseSize="0.025" NoiseTurbulence="10 -0.5 0.5" ApplyAfterFogAreas="false" HeightBased="false" Exponential="false" Density="0" HeightDensity="0.15" HeightHorizon="100" SecondaryActive="false" SecondaryColor="1 1 1 1" SecondaryFadeStart="25" SecondaryFadeEnd="100" SecondaryFalloffExp="1" SecondaryDensity="0.01" SecondaryHeightDensity="0.25" SecondaryHeightHorizon="5" />
+        <SkyBox Active="true" Color="1 0.941177 0.792157 1" Texture="skybox_town.dds" Brightness="2" />
+        <DirLight Active="true" ShadowCasterDist="35" ShadowDistance="200" DiffuseColor="1 0.913726 0.788235 1" Brightness="1 1 1 1" Gobo="" GoboAnimMode="None" GoboAnimStartTime="0" GoboAnimFrameTime="0" GoboScale="1 1" Direction="-0.644 -0.462 0.61" CastShadows="false" SkyCol="0.301961 0.168627 0.0666667 1" GroundCol="0 0 0 1" ShadowMapBiasMul="3" ShadowMapSlopeScaleBiasMul="2.5" AutoShadowSliceSettings="true" AutoShadowSliceLogTerm="0.9" />
+        <SSAO NormalMap="false" NumOfDirections="0" NumOfSteps="0" AngleBias="0" Power="4.4" Radius="2" BufferSizeDiv="2" />
+        <EnvParticles Active="false">
+            <EnvParticle Name="" Color="1 1 1 1" Brightness="1" BoxDistance="30" GravityVelocity="0 0 0" GravitySpeedRandomAmount="0" WindVelocity="0 0 0" WindSpeedRandomAmount="0" WindDirRandomAmount="0" RotateVelocity="0 0 0" RotateSpeedRandomAmount="0" RotateBothDirs="false" NumIterations="1" FadeInStart="0.2" FadeInEnd="1" FadeOutStart="10" FadeOutEnd="20" BoxSize="30" NumParticles="100" ParticleSize="1 1" SubDivUV="1 1" AffectedByLight="false" Texture="" Visible="false" />
+        </EnvParticles>
+        <PostEffects ToneMappingKey="0.5" ToneMappingExposure="0" ToneMappingWhiteCut="3.5" ColorGradingTexture="" />
+        <DistanceCulling Active="true" MinRange="100" ScreenSize="0.05" RandomSize="0.25" />
+    </GlobalSettings>
+    <RegisteredUsers>
+        <User ID="13733002251564882997" RegistrationTimestamp="0" />
+    </RegisteredUsers>
+</HPLMap>

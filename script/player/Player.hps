@@ -830,7 +830,7 @@ class cScrPlayer : iScrPlayerBase, iScrPlayer_Interface
 		SetCharacterBodyDefaults();
 
 		//Create extra sizes
-		pCharBody.AddExtraSize(cVector3f(gvBodyCrouchSize.x*1.75, gvBodyCrouchSize.y*0.5, gvBodyCrouchSize.z*1.75));
+		pCharBody.AddExtraSize(cVector3f(gvBodyCrouchSize.x*1.75, gvBodyCrouchSize.y*1.2, gvBodyCrouchSize.z*1.75));
 		pCharBody.AddExtraSize(cVector3f(gvBodySize.x*0.7, gvBodySize.y*1.1,gvBodySize.z*0.7)); //This is a special climb size
 		pCharBody.AddExtraSize(cVector3f(0.7));
 		pCharBody.AddExtraSize(gvBodyHideSize);
