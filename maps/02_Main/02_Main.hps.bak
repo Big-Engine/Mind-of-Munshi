@@ -1,5 +1,5 @@
 #include "interfaces/Map_Interface.hps"
-#include "base/Inputhandler_Types.hps"
+#include "base/InputHandler_Types.hps"
 
 #include "helpers/helper_map.hps"
 #include "helpers/helper_props.hps"
@@ -10,6 +10,8 @@
 #include "helpers/helper_game.hps"
 #include "helpers/helper_modules.hps"
 #include "helpers/helper_ai.hps"
+#include "helpers/helper_player.hps"
+#include "helpers/helper_areas.hps"
 
 //--------------------------------------------------
  
@@ -88,7 +90,7 @@ class cScrMap : iScrMap
 		Player_SetAllowCheckBaby(false);
 		
 		//Default Camera Settings
-		Player_SetPitchLimits(-50.0f, 15.0f);
+		Player_SetPitchLimits(-50.0f, 50.0f);
 	}
 
 	//-------------------------------------------------------

@@ -36,7 +36,7 @@
                     <Var ObjectId="268435457" Name="RenderLayer" Value="0" />
                 </UserVariables>
             </Entity>
-            <Entity ID="268435458" Name="paris_tree_01_1" CreStamp="1643839024" ModStamp="1643840250" WorldPos="1.75 99.25 432.5" Rotation="0 0 0" Scale="5 5 5" FileIndex="8" Active="true" Important="false" Static="true" CulledByDistance="false" CulledByFog="true" UID="16 26 268435458">
+            <Entity ID="268435458" Name="paris_tree_01_1" CreStamp="1643839024" ModStamp="1644446656" WorldPos="1.75 99.25 437.25" Rotation="0 0 0" Scale="5 5 5" FileIndex="8" Active="true" Important="false" Static="true" CulledByDistance="false" CulledByFog="true" UID="16 26 268435458">
                 <UserVariables>
                     <Var ObjectId="268435458" Name="Note" Value="" />
                     <Var ObjectId="268435458" Name="EventInstanceTag" Value="" />
@@ -103,7 +103,7 @@
                     <Var ObjectId="268435458" Name="Threat_DeactivationCallback" Value="" />
                 </UserVariables>
             </Entity>
-            <Entity ID="268435459" Name="paris_tree_01_2" CreStamp="1643840355" ModStamp="1643840374" WorldPos="30 99.25 432.5" Rotation="-0.087266 1.5708 0" Scale="6 6 6" FileIndex="8" Active="true" Important="false" Static="true" CulledByDistance="false" CulledByFog="true" UID="16 25 268435459">
+            <Entity ID="268435459" Name="paris_tree_01_2" CreStamp="1643840355" ModStamp="1644446653" WorldPos="30 99.25 437.75" Rotation="-0.087266 1.5708 0" Scale="6 6 6" FileIndex="8" Active="true" Important="false" Static="true" CulledByDistance="false" CulledByFog="true" UID="16 25 268435459">
                 <UserVariables>
                     <Var ObjectId="268435459" Name="Note" Value="" />
                     <Var ObjectId="268435459" Name="EventInstanceTag" Value="" />

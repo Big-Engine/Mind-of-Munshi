@@ -90,7 +90,7 @@ class cScrMap : iScrMap
 		Player_SetAllowCheckBaby(false);
 		
 		//Default Camera Settings
-		Player_SetPitchLimits(-50.0f, 15.0f);
+		Player_SetPitchLimits(-50.0f, 30.0f);
 	}
 
 	//-------------------------------------------------------
