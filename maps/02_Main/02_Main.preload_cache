@@ -1,8 +1,5 @@
 <PreloadCache>
     <Materials>
-        <Material Path="entities/character/ghoul/ghoul_body_v2.mat" DebugPos="39.749756 : 122.282669 : -9.735857" />
-        <Material Path="entities/character/ghoul/ghoul_face_v2.mat" DebugPos="39.749756 : 122.282669 : -9.735857" />
-        <Material Path="entities/character/ghoul/ghoul_hair_v2.mat" DebugPos="39.749756 : 122.282669 : -9.735857" />
         <Material Path="entities/desert/organic/tree_acacia/tree_acacia_bark.mat" DebugPos="7.434464 : 146.224426 : 30.732456" />
         <Material Path="entities/desert/organic/tree_acacia/tree_acacia_bark_sway.mat" DebugPos="5.852768 : 157.568604 : 31.590605" />
         <Material Path="entities/desert/organic/tree_acacia/tree_acacia_leaves.mat" DebugPos="5.852768 : 149.746109 : 31.590605" />
