@@ -3,11 +3,12 @@
         <Material Path="entities/desert/organic/tree_acacia/tree_acacia_bark.mat" DebugPos="7.434464 : 146.224426 : 30.732456" />
         <Material Path="entities/desert/organic/tree_acacia/tree_acacia_bark_sway.mat" DebugPos="5.852768 : 157.568604 : 31.590605" />
         <Material Path="entities/desert/organic/tree_acacia/tree_acacia_leaves.mat" DebugPos="5.852768 : 149.746109 : 31.590605" />
-        <Material Path="entities/paris_ending/trees/paris_tree_bark.mat" DebugPos="1.580725 : 120.924301 : 438.079803" />
+        <Material Path="entities/paris_ending/trees/paris_tree_bark.mat" DebugPos="1.580725 : 146.924301 : 6.579812" />
         <Material Path="entities/paris_ending/trees/paris_tree_leaf.mat" DebugPos="1.466875 : 129.938446 : 436.953918" />
         <Material Path="static_objects/caves/cave_modules/cave_erosion_holes/environment/cave_erosion_holes/cave_erosion_holes.mat" DebugPos="-23.250000 : 133.000000 : 16.999998" />
         <Material Path="static_objects/caves/cave_modules/cave_form03/cave_form03.mat" DebugPos="-16.278191 : 134.228119 : 18.710121" />
-        <Material Path="static_objects/caves/cave_modules/caves_ground_blend.mat" DebugPos="-30.213402 : 133.477692 : 41.134956" />
+        <Material Path="static_objects/caves/cave_modules/caves_ground.mat" DebugPos="-25.462608 : 131.115631 : 38.945206" />
+        <Material Path="static_objects/caves/cave_modules/caves_ground_blend.mat" DebugPos="-36.036598 : 133.477692 : 41.365116" />
         <Material Path="static_objects/caves/cave_ravine/cave_form01/cave_form01.mat" DebugPos="-20.500000 : 133.000000 : 16.750000" />
         <Material Path="static_objects/caves/cave_ravine/cave_form02/cave_form02.mat" DebugPos="-18.750000 : 133.000000 : 18.250000" />
         <Material Path="static_objects/caves/cave_ravine/cave_ravine_wall.mat" DebugPos="-17.342682 : 124.179214 : 62.871010" />

@@ -1,5 +1,5 @@
 <HPLMapTrack_Terrain ID="15939D64EAA16726337A2001EA6C25CD8D7C6804" MajorVersion="1" MinorVersion="1">
-    <Terrain Active="true" GeometryPatchSize="512" TexturePatchSize="512" HeightMapSize="1024" MaxHeight="300" UnitSize="1" UndergrowthGridSize="10" UndergrowthFadeStart="18" UndergrowthFadeEnd="50" BaseMaterialFile="mods/TBDName/textures/terrain/soil/grass_tiling05.mat" BaseMaterialTileAmount="0.15" BaseMaterialStartFadeValue="0" BaseMaterialDetailTextureAmount="1 0 0" BaseMaterialHeightMapScale="0" MaterialSpecularPower="0.3" MaterialTextureLayerNum="8" MaterialTextureFalloff="3" CliffTextureDiffuse="mods/TBDName/textures/terrain/rock/rockwall_forest.dds" CliffTextureNMap="mods/TBDName/textures/terrain/rock/rockwall_forest_nrm.dds" CliffTextureSize="0.01" CliffTextureFadeAngleMul="0.35">
+    <Terrain Active="true" GeometryPatchSize="512" TexturePatchSize="512" HeightMapSize="1024" MaxHeight="300" UnitSize="1" UndergrowthGridSize="10" UndergrowthFadeStart="80" UndergrowthFadeEnd="100" BaseMaterialFile="mods/TBDName/textures/terrain/soil/grass_tiling05.mat" BaseMaterialTileAmount="0.15" BaseMaterialStartFadeValue="0" BaseMaterialDetailTextureAmount="1 0 0" BaseMaterialHeightMapScale="0" MaterialSpecularPower="0.3" MaterialTextureLayerNum="8" MaterialTextureFalloff="3" CliffTextureDiffuse="mods/TBDName/textures/terrain/rock/rockwall_forest.dds" CliffTextureNMap="mods/TBDName/textures/terrain/rock/rockwall_forest_nrm.dds" CliffTextureSize="0.01" CliffTextureFadeAngleMul="0.35">
         <DetailTextures DetailFadeStart="10" DetailFadeEnd="20">
             <DetailTexture ID="0" File="mods/TBDName/textures/terrain/soil/grass_tiling.dds" Scale="1" />
             <DetailTexture ID="1" File="" Scale="1" />
@@ -29,7 +29,13 @@
             <Section Name="13733002251564882997">
                 <FileIndex_TerrainDecals NumOfFiles="0" />
                 <Decals />
-                <FileIndex_UndergrowthMaterials NumOfFiles="0" />
+                <FileIndex_UndergrowthMaterials NumOfFiles="5">
+                    <File Id="0" Path="undergrowth/rocks/rocks_round_dense.tum" />
+                    <File Id="1" Path="undergrowth/rocks/rocks_ruins_blackstone_tiny01.tum" />
+                    <File Id="2" Path="undergrowth/flower/helianthemum.tum" />
+                    <File Id="3" Path="undergrowth/flower/gymnarrhena_micrantha.tum" />
+                    <File Id="4" Path="undergrowth/grass/phragmites_australis.tum" />
+                </FileIndex_UndergrowthMaterials>
                 <Undergrowth />
             </Section>
         </Sections>
