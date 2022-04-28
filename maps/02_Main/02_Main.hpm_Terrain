@@ -29,12 +29,8 @@
             <Section Name="13733002251564882997">
                 <FileIndex_TerrainDecals NumOfFiles="0" />
                 <Decals />
-                <FileIndex_UndergrowthMaterials NumOfFiles="5">
-                    <File Id="0" Path="undergrowth/rocks/rocks_round_dense.tum" />
-                    <File Id="1" Path="undergrowth/rocks/rocks_ruins_blackstone_tiny01.tum" />
-                    <File Id="2" Path="undergrowth/flower/helianthemum.tum" />
-                    <File Id="3" Path="undergrowth/flower/gymnarrhena_micrantha.tum" />
-                    <File Id="4" Path="undergrowth/grass/phragmites_australis.tum" />
+                <FileIndex_UndergrowthMaterials NumOfFiles="1">
+                    <File Id="0" Path="undergrowth/grass/phragmites_australis.tum" />
                 </FileIndex_UndergrowthMaterials>
                 <Undergrowth />
             </Section>

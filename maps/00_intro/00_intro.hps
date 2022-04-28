@@ -107,7 +107,7 @@ class cScrMap : iScrMap
 		Player_SetCrouchDisabled(true);
 		
 		//Default Camera Settings
-		Player_SetPitchLimits(-50.0f, 15.0f);	
+		Player_SetPitchLimits(-50.0f, 15.0f);
 		
 		//iLuxEntity@ pPlayer = Map_GetEntity("player");
 		

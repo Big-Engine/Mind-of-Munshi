@@ -1,78 +1,78 @@
 <PreloadCache>
     <Materials>
-        <Material Path="d:/projects/depth/redist/billboards/halo/lampglow_cone01.mat" DebugPos="2.482600 : 2.750000 : -14.000000" />
-        <Material Path="d:/projects/depth/redist/billboards/halo/lampglow_generic.mat" DebugPos="0.027200 : 3.855220 : -3.500000" />
+        <Material Path="d:/projects/depth/redist/billboards/halo/lampglow_cone01.mat" DebugPos="7.776760 : 1.494730 : -28.633900" />
+        <Material Path="d:/projects/depth/redist/billboards/halo/lampglow_generic.mat" DebugPos="2.527200 : 3.855220 : -14.250000" />
         <Material Path="d:/projects/depth/redist/lights/lensflare/flare_star_simple.mat" DebugPos="679.059021 : 520.692017 : 117.000000" />
-        <Material Path="d:/svn/depth_trunk/redist/billboards/halo/lampglow_generic_no_depth.mat" DebugPos="-1.620167 : 3.229301 : 4.271032" />
+        <Material Path="d:/svn/depth_trunk/redist/billboards/halo/lampglow_generic_no_depth.mat" DebugPos="-5.499320 : 3.855271 : -7.527507" />
         <Material Path="d:/work/studio/frictional games/depth/redist/billboards/halo/lampglow_cone02.mat" DebugPos="-0.003099 : 1.312440 : 7.393540" />
-        <Material Path="d:/work/studio/frictional games/depth/redist/billboards/halo/lampglow_generic_square.mat" DebugPos="-7.749150 : 1.505840 : -7.798820" />
-        <Material Path="e:/depth/redist/billboards/halo/lampglow_curie.mat" DebugPos="175.442993 : 51.182098 : 80.229599" />
+        <Material Path="d:/work/studio/frictional games/depth/redist/billboards/halo/lampglow_generic_square.mat" DebugPos="1.070816 : 1.884487 : 7.022871" />
+        <Material Path="e:/depth/redist/billboards/halo/lampglow_curie.mat" DebugPos="84.250000 : 13.000000 : -21.250000" />
         <Material Path="e:/depth/redist/textures/decals/signs/warning_sign_explosive.mat" DebugPos="1.951702 : 1.941330 : -8.089910" />
         <Material Path="entities/nonexclusive/gameplay/lantern_new/lantern_new.mat" DebugPos="0.750000 : 0.180041 : -9.250000" />
         <Material Path="entities/nonexclusive/gameplay/oil_flask_tin_hinan/oil_flask_tin_hinan.mat" DebugPos="0.500000 : 0.115444 : -9.250000" />
-        <Material Path="entities/station/lamp/lamp_wall_flat_small/lamp_wall_flat_small.mat" DebugPos="7.750000 : -15.115772 : -37.191525" />
+        <Material Path="entities/station/lamp/lamp_wall_flat_small/lamp_wall_flat_small.mat" DebugPos="7.750000 : -15.115772 : -28.941525" />
         <Material Path="entities/station/utility/air_vent/door_hatch_slide_ventilation_white.mat" DebugPos="-1.489672 : 3.250107 : -32.030975" />
-        <Material Path="entities/technical/block_box/block_box.mat" DebugPos="4.630770 : 1.547720 : -18.022301" />
+        <Material Path="entities/technical/block_box/block_box.mat" DebugPos="0.000000 : 1.547720 : 10.153200" />
         <Material Path="entities/urban/clothes/jeans_hanging/jeans_hanging.mat" DebugPos="15.589128 : 3.125270 : -41.817402" />
         <Material Path="entities/urban/desk/desk_paper_crumbled/desk_paper_crumbled.mat" DebugPos="-7.630346 : 0.361328 : -6.179587" />
-        <Material Path="entities/urban/desk/desk_paper_text/desk_paper_text.mat" DebugPos="2.571120 : -0.000996 : 2.548990" />
+        <Material Path="entities/urban/desk/desk_paper_text/desk_paper_text.mat" DebugPos="-4.992800 : 0.054257 : -4.983320" />
         <Material Path="entities/urban/desk/note_internet_notice/note_internet_notice.mat" DebugPos="2.205920 : 2.068468 : 0.011049" />
-        <Material Path="entities/urban/desk/paper_text_pile/paper_text_pile.mat" DebugPos="-4.769360 : 2.679286 : -0.939938" />
-        <Material Path="entities/urban/door/exit_waitroom_02/exit_waitroom_02.mat" DebugPos="5.047500 : 1.290065 : -40.261826" />
+        <Material Path="entities/urban/desk/paper_text_pile/paper_text_pile.mat" DebugPos="-3.773618 : 1.270938 : 1.371150" />
+        <Material Path="entities/urban/door/exit_waitroom_02/exit_waitroom_02.mat" DebugPos="3.047490 : 1.297651 : -24.261826" />
         <Material Path="entities/urban/door/swingdoor_scanroom_corridor/scanroom_door_numbers_364.mat" DebugPos="0.529333 : 2.587600 : -0.323587" />
-        <Material Path="entities/urban/door/swingdoor_scanroom_corridor/swingdoor_scanroom_corridor.mat" DebugPos="-0.501534 : 1.281429 : -0.261524" />
-        <Material Path="entities/urban/furniture/bench_waitroom/bench_waitroom.mat" DebugPos="1.178625 : 0.648889 : -34.440514" />
-        <Material Path="entities/urban/furniture/chair_work/chair_work.mat" DebugPos="-4.493652 : 0.858660 : -9.066079" />
+        <Material Path="entities/urban/door/swingdoor_scanroom_corridor/swingdoor_scanroom_corridor.mat" DebugPos="0.010885 : 1.396809 : -0.253561" />
+        <Material Path="entities/urban/furniture/bench_waitroom/bench_waitroom.mat" DebugPos="7.081334 : 1.121976 : -38.763176" />
+        <Material Path="entities/urban/furniture/chair_work/chair_work.mat" DebugPos="-6.451246 : 0.858660 : -8.397967" />
         <Material Path="entities/urban/furniture/chest_of_drawers_bedside/chest_of_drawers_bedside.mat" DebugPos="-7.562449 : 0.399731 : -9.272907" />
-        <Material Path="entities/urban/furniture/desk_reception/desk_reception02.mat" DebugPos="6.835758 : 0.623245 : -29.922512" />
-        <Material Path="entities/urban/furniture/paper_basket/paper_basket.mat" DebugPos="0.872490 : 0.281051 : -27.476400" />
+        <Material Path="entities/urban/furniture/desk_reception/desk_reception02.mat" DebugPos="6.012020 : 0.194741 : -28.657499" />
+        <Material Path="entities/urban/furniture/paper_basket/paper_basket.mat" DebugPos="-7.550450 : 0.224841 : -6.258170" />
         <Material Path="entities/urban/furniture/shelf_wood/shelf_wood.mat" DebugPos="-2.621974 : 1.352357 : -8.627060" />
         <Material Path="entities/urban/furniture/stepladder/stepladder.mat" DebugPos="6.533066 : 0.729394 : -32.467709" />
-        <Material Path="entities/urban/furniture/table_scanroom_large/table_scanroom_large.mat" DebugPos="-7.605660 : 0.579215 : -7.691340" />
+        <Material Path="entities/urban/furniture/table_scanroom_large/table_scanroom_large.mat" DebugPos="-8.036499 : 3.080728 : -5.381017" />
         <Material Path="entities/urban/furniture/table_scanroom_small/table_scanroom_small.mat" DebugPos="-4.055272 : 0.579216 : -1.394421" />
-        <Material Path="entities/urban/furniture/table_waitroom/table_waitroom.mat" DebugPos="-1.096427 : 0.681998 : -37.097000" />
-        <Material Path="entities/urban/grocery/botte_of_juice/botte_of_juice_empty.mat" DebugPos="-7.422695 : 1.293947 : -7.971130" />
+        <Material Path="entities/urban/furniture/table_waitroom/table_waitroom.mat" DebugPos="6.369680 : 0.346427 : -35.366402" />
+        <Material Path="entities/urban/grocery/botte_of_juice/botte_of_juice_empty.mat" DebugPos="-7.453443 : 1.293947 : -7.858547" />
         <Material Path="entities/urban/grocery/botte_of_juice/botte_of_juice_empty_cap.mat" DebugPos="-7.808384 : 0.952684 : -9.491777" />
-        <Material Path="entities/urban/grocery/fastfood_pizza/fastfood_pizza.mat" DebugPos="-7.627046 : 0.368276 : -6.280418" />
-        <Material Path="entities/urban/kitchen/mug_coffee/mug_coffee.mat" DebugPos="-7.299299 : 1.228356 : -6.026170" />
-        <Material Path="entities/urban/lamp/desklamp_scanroom/desklamp_scanroom.mat" DebugPos="3.347789 : 1.498104 : 2.836272" />
+        <Material Path="entities/urban/grocery/fastfood_pizza/fastfood_pizza.mat" DebugPos="-7.519660 : 0.370082 : -6.313042" />
+        <Material Path="entities/urban/kitchen/mug_coffee/mug_coffee.mat" DebugPos="6.546309 : 0.943719 : -30.540161" />
+        <Material Path="entities/urban/lamp/desklamp_scanroom/desklamp_scanroom.mat" DebugPos="-7.619353 : 1.396494 : -8.464803" />
         <Material Path="entities/urban/lamp/flourescent_ceiling_large/flourescent_ceiling_large.mat" DebugPos="-5.499374 : 3.937652 : -3.475385" />
         <Material Path="entities/urban/lamp/spotlight_freestanding/00_04_scan_screen.mat" DebugPos="1.368260 : 1.001310 : 7.109913" />
-        <Material Path="entities/urban/lamp/waitingroom_boards_lamp/waitingroom_boards_lamp.mat" DebugPos="2.664220 : 3.994800 : -36.110298" />
+        <Material Path="entities/urban/lamp/waitingroom_boards_lamp/waitingroom_boards_lamp.mat" DebugPos="6.002770 : 4.001180 : -36.110298" />
         <Material Path="entities/urban/ornament/book_notebook_erins/book_notebook_erins.mat" DebugPos="6.165232 : 0.666654 : -28.746672" />
-        <Material Path="entities/urban/ornament/book_pile_unnamed/book_pile_unnamed.mat" DebugPos="-2.757100 : 0.920579 : -8.432450" />
+        <Material Path="entities/urban/ornament/book_pile_unnamed/book_pile_unnamed.mat" DebugPos="-2.741550 : 1.500434 : -8.420540" />
         <Material Path="entities/urban/ornament/book_row_course_litterature/book_row_course_litterature01.mat" DebugPos="-2.775230 : 1.037830 : -9.148655" />
         <Material Path="entities/urban/ornament/book_row_course_litterature/book_row_course_litterature02.mat" DebugPos="-2.767087 : 1.599483 : -9.157141" />
         <Material Path="entities/urban/ornament/book_row_unnamed/book_row_unnamed01.mat" DebugPos="-2.780209 : 0.995033 : -8.822480" />
         <Material Path="entities/urban/ornament/book_row_unnamed/book_row_unnamed02.mat" DebugPos="-2.746689 : 1.577954 : -8.863460" />
-        <Material Path="entities/urban/ornament/book_row_unnamed/book_row_unnamed03.mat" DebugPos="-3.509150 : 1.524470 : 5.270110" />
-        <Material Path="entities/urban/ornament/cardboard_box/cardboard_box.mat" DebugPos="8.906130 : 0.254075 : -30.202200" />
-        <Material Path="entities/urban/ornament/carpet_roll/carpet_roll.mat" DebugPos="5.441700 : 0.293854 : -35.358200" />
-        <Material Path="entities/urban/ornament/dvd_case/dvd_case.mat" DebugPos="-2.743105 : 0.195881 : -9.108780" />
+        <Material Path="entities/urban/ornament/book_row_unnamed/book_row_unnamed03.mat" DebugPos="-2.749999 : 1.001424 : -8.115990" />
+        <Material Path="entities/urban/ornament/cardboard_box/cardboard_box.mat" DebugPos="8.946140 : 0.746805 : -30.482901" />
+        <Material Path="entities/urban/ornament/carpet_roll/carpet_roll.mat" DebugPos="5.338260 : 0.116931 : -35.358200" />
+        <Material Path="entities/urban/ornament/dvd_case/dvd_case.mat" DebugPos="-7.452240 : 0.504789 : -9.352990" />
         <Material Path="entities/urban/ornament/laboratory_floor_sheet/laboratory_floor_sheet.mat" DebugPos="-5.561553 : 0.032742 : -4.804202" />
         <Material Path="entities/urban/ornament/magazine_pile/magazine_pile.mat" DebugPos="-4.374560 : 2.248088 : -0.985131" />
-        <Material Path="entities/urban/ornament/magazine_stand/magazine_stand.mat" DebugPos="7.875408 : 1.441604 : -31.043915" />
+        <Material Path="entities/urban/ornament/magazine_stand/magazine_stand.mat" DebugPos="7.862748 : 1.401424 : -31.058615" />
         <Material Path="entities/urban/ornament/magazine_uni/magazine_uni.mat" DebugPos="6.250033 : 0.053041 : -31.000000" />
-        <Material Path="entities/urban/ornament/objective02/objective02.mat" DebugPos="-2.084959 : 0.753599 : 7.739704" />
-        <Material Path="entities/urban/ornament/paintbrush/paintbrush.mat" DebugPos="7.428320 : 0.408933 : -32.099499" />
-        <Material Path="entities/urban/ornament/paintbucket/paintbucket_orange.mat" DebugPos="8.291410 : 0.224404 : -38.475510" />
+        <Material Path="entities/urban/ornament/objective02/objective02.mat" DebugPos="-7.687270 : 0.219607 : -9.298220" />
+        <Material Path="entities/urban/ornament/paintbrush/paintbrush.mat" DebugPos="8.315620 : 0.740397 : -38.372700" />
+        <Material Path="entities/urban/ornament/paintbucket/paintbucket_orange.mat" DebugPos="7.393160 : 0.276955 : -32.239502" />
         <Material Path="entities/urban/ornament/paintbucket/paintbucket_white.mat" DebugPos="8.310159 : 0.566622 : -38.454845" />
         <Material Path="entities/urban/ornament/penettui/penettui.mat" DebugPos="5.784559 : 0.685147 : -28.802265" />
-        <Material Path="entities/urban/ornament/planet_ficus/plant_ficus.mat" DebugPos="16.211855 : 3.938597 : -42.793915" />
+        <Material Path="entities/urban/ornament/planet_ficus/plant_ficus.mat" DebugPos="2.970734 : 1.522406 : -13.167109" />
         <Material Path="entities/urban/ornament/plant_dracaena01/plant_dracaena01.mat" DebugPos="-0.715255 : 0.756175 : -39.683357" />
-        <Material Path="entities/urban/ornament/plant_dracaena02/plant_dracaena02.mat" DebugPos="6.491590 : 2.409248 : -27.133699" />
-        <Material Path="entities/urban/ornament/usbstick/usbstick.mat" DebugPos="-7.422576 : 0.152256 : -9.122807" />
-        <Material Path="entities/urban/ornament/wallpaper_roll/wallpaper_roll.mat" DebugPos="0.500000 : 0.168764 : -36.062599" />
-        <Material Path="entities/urban/ornament_wall/bulletin_board/bulletin_board.mat" DebugPos="2.352400 : 2.010850 : -0.000756" />
+        <Material Path="entities/urban/ornament/plant_dracaena02/plant_dracaena02.mat" DebugPos="6.456451 : 2.616944 : -27.174055" />
+        <Material Path="entities/urban/ornament/usbstick/usbstick.mat" DebugPos="6.126936 : 0.412388 : -28.910219" />
+        <Material Path="entities/urban/ornament/wallpaper_roll/wallpaper_roll.mat" DebugPos="0.500000 : 0.168764 : -35.750000" />
+        <Material Path="entities/urban/ornament_wall/bulletin_board/bulletin_board.mat" DebugPos="-8.205236 : 2.267730 : -7.648570" />
         <Material Path="entities/urban/ornament_wall/bulletin_board/lab_wall_pictures.mat" DebugPos="-8.205504 : 2.271588 : -7.648293" />
-        <Material Path="entities/urban/ornament_wall/drapes_waitroom/drapes_waitroom_bar.mat" DebugPos="1.630434 : -0.241080 : 7.176957" />
-        <Material Path="entities/urban/ornament_wall/drapes_waitroom/drapes_waitroom_cloth.mat" DebugPos="8.620234 : 2.180620 : -33.376110" />
-        <Material Path="entities/urban/ornament_wall/painting_kitsch_xx/painting_kitsch_xx.mat" DebugPos="1.409738 : 0.596824 : -40.038357" />
+        <Material Path="entities/urban/ornament_wall/drapes_waitroom/drapes_waitroom_bar.mat" DebugPos="9.241101 : 3.022385 : -28.860952" />
+        <Material Path="entities/urban/ornament_wall/drapes_waitroom/drapes_waitroom_cloth.mat" DebugPos="8.619654 : 2.180910 : -37.348808" />
+        <Material Path="entities/urban/ornament_wall/painting_kitsch_xx/painting_kitsch_xx.mat" DebugPos="-1.243044 : 0.677698 : -37.321098" />
         <Material Path="entities/urban/ornament_wall/painting_kitsch_xx/panting_back.mat" DebugPos="1.409738 : 0.592183 : -40.075214" />
         <Material Path="entities/urban/ornament_wall/painting_kitsch_xx/panting_back_dark.mat" DebugPos="-1.269063 : 0.673867 : -37.321098" />
         <Material Path="entities/urban/ornament_wall/poster_nerve_system/poster_nerve_system.mat" DebugPos="-8.221936 : 1.674316 : -3.504033" />
         <Material Path="entities/urban/ornament_wall/poster_science/poster_science.mat" DebugPos="1.932855 : 1.918250 : -4.236880" />
-        <Material Path="entities/urban/ornament_wall/poster_science/poster_science02.mat" DebugPos="1.933693 : 1.918278 : -4.236880" />
+        <Material Path="entities/urban/ornament_wall/poster_science/poster_science02.mat" DebugPos="0.562475 : 1.969326 : -19.750000" />
         <Material Path="entities/urban/ornament_wall/schedule/schedule_board.mat" DebugPos="4.448259 : 1.547720 : -16.978600" />
         <Material Path="entities/urban/ornament_wall/sign_scanroom/sign_scanroom.mat" DebugPos="2.499390 : 3.429782 : -24.414108" />
         <Material Path="entities/urban/ornament_wall/wall_clock/wall_clock.mat" DebugPos="-8.241560 : 2.856770 : -3.514520" />
@@ -80,9 +80,9 @@
         <Material Path="entities/urban/ornament_wall/wall_clock/wall_clock_minute.mat" DebugPos="-8.228665 : 2.902900 : -3.592451" />
         <Material Path="entities/urban/ornament_wall/wall_clock/wall_clock_second.mat" DebugPos="-8.234777 : 2.937618 : -3.515273" />
         <Material Path="entities/urban/special/00_03_munchi_article/00_03_munchi_article.mat" DebugPos="5.985754 : 0.396498 : -28.580433" />
-        <Material Path="entities/urban/special/00_03_syringe_needle/00_03_syringe_needle.mat" DebugPos="-7.410408 : 1.193227 : -7.699032" />
+        <Material Path="entities/urban/special/00_03_syringe_needle/00_03_syringe_needle.mat" DebugPos="-7.275398 : 1.193227 : -7.564021" />
         <Material Path="entities/urban/special/00_03_syringe_needle/00_03_syringe_needle_translucent.mat" DebugPos="-7.337356 : 1.193227 : -7.625978" />
-        <Material Path="entities/urban/special/00_04_computer_scanroom/computer_scanroom.mat" DebugPos="-5.773752 : 0.703406 : -1.247761" />
+        <Material Path="entities/urban/special/00_04_computer_scanroom/computer_scanroom.mat" DebugPos="-2.072710 : 0.616345 : 8.054755" />
         <Material Path="entities/urban/special/00_04_door_number/scanroom_door_numbers_361.mat" DebugPos="4.451330 : 2.617620 : -18.921000" />
         <Material Path="entities/urban/special/00_04_door_number/scanroom_door_numbers_362.mat" DebugPos="1.950030 : 2.617620 : -8.638100" />
         <Material Path="entities/urban/special/00_04_door_number/scanroom_door_numbers_363.mat" DebugPos="-1.964940 : 2.617620 : -5.796250" />
@@ -91,88 +91,88 @@
         <Material Path="entities/urban/tech/cellphone/cellphone.mat" DebugPos="3.685112 : 1.401314 : 3.293596" />
         <Material Path="entities/urban/tech/computer_chassi/computer_chassi.mat" DebugPos="-3.096171 : 0.323362 : 0.830177" />
         <Material Path="entities/urban/tech/computer_laptop/computer_laptop.mat" DebugPos="-2.109874 : 1.379094 : 7.955994" />
-        <Material Path="entities/urban/tech/computer_laptop/laptop_touchscreen.mat" DebugPos="-4.843681 : 0.173917 : -4.379505" />
+        <Material Path="entities/urban/tech/computer_laptop/laptop_touchscreen.mat" DebugPos="-8.008519 : 1.321435 : -8.425920" />
         <Material Path="entities/urban/tech/computer_laptop/laptop_touchscreen_screen.mat" DebugPos="5.930772 : 1.054163 : -30.749962" />
         <Material Path="entities/urban/tech/computer_laptop/terminal_waitroom_screen.mat" DebugPos="-2.207261 : 1.384223 : 8.074413" />
-        <Material Path="entities/urban/tech/computer_large/server_scanroom.mat" DebugPos="3.232208 : 1.355160 : 6.894865" />
-        <Material Path="entities/urban/tech/computer_mouse/computer_mouse.mat" DebugPos="6.283359 : 0.903070 : -30.465105" />
+        <Material Path="entities/urban/tech/computer_large/server_scanroom.mat" DebugPos="-2.893314 : 1.355160 : -2.207903" />
+        <Material Path="entities/urban/tech/computer_mouse/computer_mouse.mat" DebugPos="-7.373390 : 0.168010 : -9.302501" />
         <Material Path="entities/urban/tech/cord_server_plug/cord_server_plug.mat" DebugPos="-5.729667 : 0.021180 : -5.577514" />
-        <Material Path="entities/urban/tech/cord_server_socket/cord_server_socket.mat" DebugPos="-2.133902 : 0.397543 : 0.878803" />
-        <Material Path="entities/urban/tech/keyboard/keyboard.mat" DebugPos="-7.380756 : 1.183457 : -7.177732" />
-        <Material Path="entities/urban/tech/modem_cable/modem_cable.mat" DebugPos="-5.454000 : 0.264938 : -4.449567" />
+        <Material Path="entities/urban/tech/cord_server_socket/cord_server_socket.mat" DebugPos="2.093689 : 1.732210 : 8.757925" />
+        <Material Path="entities/urban/tech/keyboard/keyboard.mat" DebugPos="-2.969116 : 0.667306 : 0.988427" />
+        <Material Path="entities/urban/tech/modem_cable/modem_cable.mat" DebugPos="3.826258 : 1.402077 : 3.959075" />
         <Material Path="entities/urban/tech/monitor/computer_screen_scrolling_text.mat" DebugPos="-7.744070 : 1.480240 : -7.829998" />
         <Material Path="entities/urban/tech/monitor/monitor.mat" DebugPos="3.746021 : 0.343006 : 1.417518" />
-        <Material Path="entities/urban/tech/monitor/monitor_screen.mat" DebugPos="-7.964129 : 2.370558 : -6.177246" />
+        <Material Path="entities/urban/tech/monitor/monitor_screen.mat" DebugPos="3.645500 : 1.693723 : 2.865459" />
         <Material Path="entities/urban/tech/monitor/monitor_screen_animated001.mat" DebugPos="-7.731750 : 1.501217 : -7.156960" />
         <Material Path="entities/urban/tech/monitor/monitor_screen_animatedv2.mat" DebugPos="-7.754129 : 1.501052 : -7.801624" />
         <Material Path="entities/urban/tech/security_keypad/security_keypad.mat" DebugPos="3.625930 : 1.500000 : -24.386469" />
         <Material Path="entities/urban/tech/security_keypad/security_keypad_gui.mat" DebugPos="3.625930 : 1.500000 : -24.416769" />
         <Material Path="entities/urban/tech/tablet_reader/tablet_reader.mat" DebugPos="3.076410 : 1.285458 : 4.283810" />
         <Material Path="entities/urban/tech/televison_small/television_small_gui.mat" DebugPos="-1.280897 : 0.575394 : -34.948811" />
-        <Material Path="entities/urban/tech/televison_small/televison_small.mat" DebugPos="-7.782598 : 1.511921 : -5.417705" />
-        <Material Path="entities/urban/utility/air_vent/air_vent.mat" DebugPos="-1.921728 : 3.631186 : -13.842237" />
-        <Material Path="entities/urban/utility/fan_wall/fan_wall.mat" DebugPos="18.145935 : -1.045986 : -41.614956" />
-        <Material Path="entities/urban/utility/fan_wall/fan_wall_fan.mat" DebugPos="8.962296 : 3.589875 : -38.137016" />
-        <Material Path="entities/urban/utility/fire_alarm/fire_alarm.mat" DebugPos="4.304101 : 3.963214 : -33.571426" />
-        <Material Path="entities/urban/utility/fire_hose_box/fire_hose_box.mat" DebugPos="4.332428 : 1.250000 : -14.234700" />
-        <Material Path="entities/urban/utility/fire_sprinkler/fire_sprinkler.mat" DebugPos="0.000000 : 3.963110 : -2.250000" />
-        <Material Path="entities/urban/utility/first_aid_kit_box/first_aid_kit_box.mat" DebugPos="-0.627673 : 1.440614 : -16.102102" />
-        <Material Path="entities/urban/utility/fuse_box/fuse_box.mat" DebugPos="-3.882318 : 1.544144 : 7.328249" />
-        <Material Path="entities/urban/utility/light_switch/light_switch.mat" DebugPos="5.250000 : 1.538077 : -26.864595" />
-        <Material Path="entities/urban/utility/power_outlet/power_outlet.mat" DebugPos="3.995304 : 0.233164 : 4.916760" />
-        <Material Path="entities/urban/utility/radiator/radiator.mat" DebugPos="9.298100 : 0.605883 : -37.368599" />
+        <Material Path="entities/urban/tech/televison_small/televison_small.mat" DebugPos="-1.424871 : 0.531381 : -34.350597" />
+        <Material Path="entities/urban/utility/air_vent/air_vent.mat" DebugPos="-2.271691 : 3.631186 : -4.672774" />
+        <Material Path="entities/urban/utility/fan_wall/fan_wall.mat" DebugPos="9.108164 : 3.594696 : -38.284435" />
+        <Material Path="entities/urban/utility/fan_wall/fan_wall_fan.mat" DebugPos="-7.668684 : 3.397985 : -9.624587" />
+        <Material Path="entities/urban/utility/fire_alarm/fire_alarm.mat" DebugPos="2.451801 : 3.963214 : -26.954128" />
+        <Material Path="entities/urban/utility/fire_hose_box/fire_hose_box.mat" DebugPos="4.201183 : 1.254865 : -14.234879" />
+        <Material Path="entities/urban/utility/fire_sprinkler/fire_sprinkler.mat" DebugPos="0.000000 : 3.963110 : -11.750000" />
+        <Material Path="entities/urban/utility/first_aid_kit_box/first_aid_kit_box.mat" DebugPos="-0.627673 : 1.437705 : -16.005993" />
+        <Material Path="entities/urban/utility/fuse_box/fuse_box.mat" DebugPos="-3.919233 : 1.750000 : 7.506250" />
+        <Material Path="entities/urban/utility/light_switch/light_switch.mat" DebugPos="2.750000 : 1.536000 : -40.177025" />
+        <Material Path="entities/urban/utility/power_outlet/power_outlet.mat" DebugPos="9.397314 : 0.237042 : -30.500000" />
+        <Material Path="entities/urban/utility/radiator/radiator.mat" DebugPos="9.298100 : 0.605883 : -28.886698" />
         <Material Path="entities/urban/utility/water_cooler/water_cooler.mat" DebugPos="0.250000 : 0.750000 : -27.758255" />
         <Material Path="entities/urban/utility/water_cooler/water_cooler_water.mat" DebugPos="0.250000 : 1.735335 : -27.698999" />
         <Material Path="mods/tbdname/static_objects/soma/station/floor/floor_theta02.mat" DebugPos="3.870541 : -0.000500 : -32.353920" />
         <Material Path="mods/tbdname/static_objects/soma/station/floor/lab_linoleum_plain.mat" DebugPos="-5.249989 : -0.000500 : -5.375008" />
-        <Material Path="mods/tbdname/static_objects/soma/urban/floor/scanningroom_floor_marble.mat" DebugPos="1.250010 : -0.000500 : -18.250006" />
-        <Material Path="mods/tbdname/static_objects/soma/urban/floor/waitingroom_linoleum.mat" DebugPos="4.000000 : -0.115062 : -32.353912" />
+        <Material Path="mods/tbdname/static_objects/soma/urban/floor/scanningroom_floor_marble.mat" DebugPos="0.000015 : -0.000500 : -6.125005" />
+        <Material Path="mods/tbdname/static_objects/soma/urban/floor/waitingroom_linoleum.mat" DebugPos="4.370482 : 0.032831 : -35.123264" />
         <Material Path="mods/tbdname/static_objects/soma/urban/roof/scanningroom_plates.mat" DebugPos="0.000000 : 3.373520 : 5.000000" />
-        <Material Path="mods/tbdname/static_objects/soma/urban/roof/waitingroom_boards.mat" DebugPos="-0.099015 : 2.071738 : -29.405800" />
+        <Material Path="mods/tbdname/static_objects/soma/urban/roof/waitingroom_boards.mat" DebugPos="3.803328 : 3.999488 : -26.264250" />
         <Material Path="mods/tbdname/static_objects/soma/urban/walls/waitingroom_white.mat" DebugPos="-1.502641 : 3.000000 : -33.318600" />
-        <Material Path="mods/tbdname/textures/decals/decals/dirt/dirt_stain01-04.mat" DebugPos="2.778000 : 1.999500 : -28.030500" />
+        <Material Path="mods/tbdname/textures/decals/decals/dirt/dirt_stain01-04.mat" DebugPos="9.379000 : 2.000000 : -30.865501" />
         <Material Path="mods/tbdname/textures/decals/decals/dirt/dirt_stain01-04_gray.mat" DebugPos="5.924000 : 2.999000 : -26.837500" />
         <Material Path="mods/tbdname/textures/decals/decals/dirt/dustcoat_dust.mat" DebugPos="8.906000 : 2.033000 : -26.846001" />
         <Material Path="mods/tbdname/textures/decals/decals/dirt/explosion_dirt.mat" DebugPos="4.985000 : 0.001500 : -30.348999" />
         <Material Path="mods/tbdname/textures/decals/decals/dirt/wall_worn_marking1-2.mat" DebugPos="-5.693500 : 0.004500 : -4.846000" />
-        <Material Path="mods/tbdname/textures/decals/decals/marble_floor_border.mat" DebugPos="1.784500 : 0.005500 : -2.035000" />
-        <Material Path="mods/tbdname/textures/decals/decals/marble_floor_border_corner.mat" DebugPos="3.670500 : 0.005500 : -12.466000" />
+        <Material Path="mods/tbdname/textures/decals/decals/marble_floor_border.mat" DebugPos="0.716500 : 0.005500 : -22.497501" />
+        <Material Path="mods/tbdname/textures/decals/decals/marble_floor_border_corner.mat" DebugPos="4.271500 : 0.005500 : -13.071000" />
         <Material Path="mods/tbdname/textures/decals/decals/marble_floor_concave.mat" DebugPos="1.255500 : 0.008500 : -14.242001" />
         <Material Path="mods/tbdname/textures/decals/decals/signs/emergency_exit_arrow.mat" DebugPos="4.434500 : 2.932000 : -14.000000" />
         <Material Path="mods/tbdname/textures/decals/decals/signs/floor_stripes01-04_solid.mat" DebugPos="-4.708500 : -0.118500 : 1.003000" />
-        <Material Path="mods/tbdname/textures/decals/decals/terrain/algae.mat" DebugPos="8.629499 : 0.249500 : -30.262501" />
+        <Material Path="mods/tbdname/textures/decals/decals/terrain/algae.mat" DebugPos="1.075000 : 0.761000 : -38.997002" />
         <Material Path="mods/tbdname/textures/decals/decals/urban/paint_edges.mat" DebugPos="1.549000 : 2.176000 : -24.364000" />
         <Material Path="mods/tbdname/textures/decals/decals/urban/paint_roller.mat" DebugPos="9.389000 : 2.034500 : -35.578499" />
         <Material Path="mods/tbdname/textures/decals/decals/urban/paint_splatter.mat" DebugPos="8.684500 : 0.835500 : -35.697998" />
-        <Material Path="static_objects/urban/cables/cable.mat" DebugPos="1.034586 : 2.015319 : 4.876413" />
-        <Material Path="static_objects/urban/cables/cable_accessories.mat" DebugPos="-0.229542 : 2.003003 : -31.679916" />
+        <Material Path="static_objects/urban/cables/cable.mat" DebugPos="3.727862 : 2.207742 : -31.070641" />
+        <Material Path="static_objects/urban/cables/cable_accessories.mat" DebugPos="-0.627288 : 4.267330 : -31.285851" />
         <Material Path="static_objects/urban/cables/urban_thick_cable.mat" DebugPos="19.380726 : 6.750000 : -41.742500" />
-        <Material Path="static_objects/urban/pipes/pipe_toilet/sink_toilet.mat" DebugPos="9.195045 : 3.803409 : -38.866814" />
+        <Material Path="static_objects/urban/pipes/pipe_toilet/sink_toilet.mat" DebugPos="-5.076792 : 4.113935 : -8.843760" />
         <Material Path="static_objects/urban/roof/waitingroom_boards_damaged.mat" DebugPos="-0.106107 : 2.094529 : -29.407150" />
         <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_01_outside_simon_bushes.mat" DebugPos="69.776543 : -14.967623 : -39.200043" />
         <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_01_outside_simon_decals.mat" DebugPos="54.917046 : -17.039907 : -32.205406" />
         <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_01_outside_simon_props.mat" DebugPos="36.570358 : -15.184820 : -31.573143" />
-        <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_01_outside_simon_streetlamp.mat" DebugPos="41.674919 : -12.820674 : -55.021240" />
+        <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_01_outside_simon_streetlamp.mat" DebugPos="109.011597 : -10.943416 : -15.269239" />
         <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_01_outside_simon_tree.mat" DebugPos="99.714417 : -9.510136 : -100.654266" />
         <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_grass_exterior.mat" DebugPos="219.090210 : -15.053859 : -133.477844" />
         <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_outside_asphalt.mat" DebugPos="118.690598 : -14.737275 : -122.295403" />
         <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_outside_building01.mat" DebugPos="14.750000 : 10.089273 : -45.249981" />
         <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_outside_canadian_flag.mat" DebugPos="15.978252 : 2.946388 : -39.468632" />
-        <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_outside_curtain.mat" DebugPos="17.163301 : -24.446526 : -41.861042" />
-        <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_outside_detail01.mat" DebugPos="36.253265 : -15.150222 : -29.245945" />
+        <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_outside_curtain.mat" DebugPos="17.163301 : 9.678473 : -41.861042" />
+        <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_outside_detail01.mat" DebugPos="50.610214 : -15.150222 : -29.220154" />
         <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_outside_groundassets.mat" DebugPos="15.991185 : 3.732784 : -40.415863" />
         <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_outside_street_brick.mat" DebugPos="218.606979 : -15.434712 : -116.404953" />
         <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_outside_toronto_flag.mat" DebugPos="72.153214 : -3.252404 : -44.933464" />
-        <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_outside_waitroom_building2.mat" DebugPos="415.139038 : 39.284222 : -306.727173" />
+        <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_outside_waitroom_building2.mat" DebugPos="205.500015 : 8.418274 : -239.485992" />
         <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_outside_waitroom_building4.mat" DebugPos="63.656517 : -13.098566 : -29.064198" />
         <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_outside_waitroom_building_foreground01.mat" DebugPos="156.579895 : 5.789063 : -96.292595" />
-        <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_roofdetails.mat" DebugPos="144.236053 : 18.937000 : -82.018250" />
+        <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_roofdetails.mat" DebugPos="138.114838 : 20.851498 : -36.891666" />
         <Material Path="static_objects/urban/special/00_03_outside_waitroom/00_03_toronto_tower_atlas.mat" DebugPos="380.701904 : 114.657288 : 148.816467" />
-        <Material Path="static_objects/urban/walls/urban_scanningroom.mat" DebugPos="-6.249996 : 2.000000 : -5.374994" />
+        <Material Path="static_objects/urban/walls/urban_scanningroom.mat" DebugPos="-5.249998 : 2.000000 : -5.375002" />
         <Material Path="static_objects/urban/walls/urban_scanroom_corridor_wall.mat" DebugPos="1.431361 : 2.002276 : -17.248447" />
-        <Material Path="static_objects/urban/walls/urban_waitingroom.mat" DebugPos="9.660727 : 2.000000 : -32.853001" />
-        <Material Path="static_objects/urban/walls/urban_waitingroom02.mat" DebugPos="2.496859 : 2.036383 : -29.998129" />
-        <Material Path="textures/technical/advanced_black.mat" DebugPos="2.517801 : 3.027632 : -20.894951" />
+        <Material Path="static_objects/urban/walls/urban_waitingroom.mat" DebugPos="3.351167 : 2.000001 : -29.996887" />
+        <Material Path="static_objects/urban/walls/urban_waitingroom02.mat" DebugPos="3.995570 : 2.036383 : -37.908928" />
+        <Material Path="textures/technical/advanced_black.mat" DebugPos="4.499993 : 2.000025 : -50.500000" />
         <Material Path="waterplane_cistern_reflect.mat" DebugPos="-278.250000 : 0.249500 : -200.000000" />
         <Material Path="waterplane_saltmine_cheap.mat" DebugPos="-278.250000 : 0.249500 : -200.000000" />
         <Material Path="water_splash_screen.mat" DebugPos="Script" />
